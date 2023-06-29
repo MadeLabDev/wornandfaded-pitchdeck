@@ -18,7 +18,7 @@ const IndexPage = () => {
       {/* https://swiperjs.com/demos */}
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide className="slider slider_1">
-          <div className="container my-auto p-5 mx-auto">
+          <div className="container my-auto px-10 py-20 mx-auto">
             <StaticImage
               src="../assets/logo.png"
               alt="Worn and Faded"
@@ -28,14 +28,39 @@ const IndexPage = () => {
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide className="slider slider_2">
+          <div className="container my-auto px-10 py-20 sm:px-15 lg:px-20 mx-auto">
+            <div className="overflow-scroll max-h-[calc(100vh-10rem)] space-y-3">
+              <div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl">
+                This is the story of how a throw-away promotional item became an indispensable form of exposure for bands and a tool of self-expression and rebellion for generations of youth.
+              </div>
+              <div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl">
+                The band tee remains economically and culturally relevant, holding a special place in people’s hearts and wardrobes. We aim to explore and discover why. 
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slider slider_3">
+          Slide 3
+        </SwiperSlide>
+        <SwiperSlide className="slider slider_4">
+          Slide 4
+        </SwiperSlide>
+        <SwiperSlide className="slider slider_5">
+          Slide 5
+        </SwiperSlide>
+        <SwiperSlide className="slider slider_6">
+          Slide 6
+        </SwiperSlide>
+        <SwiperSlide className="slider slider_7">
+          Slide 7
+        </SwiperSlide>
+        <SwiperSlide className="slider slider_8">
+          Slide 8
+        </SwiperSlide>
+        <SwiperSlide className="slider slider_9">
+          Slide 9
+        </SwiperSlide>
       </Swiper>
 
     </Layout>

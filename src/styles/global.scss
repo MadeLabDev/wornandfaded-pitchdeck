@@ -27,9 +27,14 @@
     src: url("../webfonts/746f4e58-430f-45ee-ac2e-90a2bb8f5c9d.woff2") format("woff2"), 
     url("../webfonts/7c736433-916b-4f83-b1bb-a45beeb5c757.woff") format("woff");
 }
+// @font-face {
+//     font-family: "Neue Kabel";
+//     src: url("../webfonts/NeueKabel-Black.woff2") format("woff2"),
+//     url("../webfonts/NeueKabel-Black.woff") format("woff");
+// }
 
 html, body {
-    font-family: 'Neue Kabel Book', 'Poppins', sans-serif;
+    font-family: 'Neue Kabel', 'Poppins', sans-serif;
     background-color: #1c1b16;
     color: #ffffff;
     main {
@@ -44,6 +49,9 @@ html, body {
             }
             .slider_1 {
                 background-image: url('../assets/bg/img-04.jpg');
+            }
+            .slider_2 {
+                background-image: url('../assets/bg/img-02.jpg');
             }
         }
     }
