@@ -25,7 +25,7 @@ const IndexPage = () => {
               alt="A dinosaur"
               placeholder="blurred"
               layout="fullWidth"
-              className="max-w-xs md:max-w-lg 6xl:max-w-2xl mx-auto"
+              className="max-w-xs md:max-w-2xl 3xl:max-w-4xl 10xl:max-w-6xl mx-auto"
             />
           </div>
         </SwiperSlide>
