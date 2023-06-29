@@ -1,10 +1,7 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 const Header = ({ siteTitle }: any) => (
-	<header>
-		HEADER
-	</header>
+	<header className="header" data-header={siteTitle}></header>
 )
 
 export default Header

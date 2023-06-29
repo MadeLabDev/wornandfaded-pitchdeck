@@ -1,10 +1,10 @@
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 
 function Seo({ description, title, children }: any) {
 
 	const metaDescription = description
 	const defaultTitle = title
+
 	return (
 		<>
 			<title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>

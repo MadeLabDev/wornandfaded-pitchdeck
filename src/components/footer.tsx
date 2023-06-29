@@ -1,11 +1,10 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
-const Footer = ({ siteTitle }: any) => (
+const Footer = ({ siteTitle, siteLink }: any) => (
 	<footer>
 		© {new Date().getFullYear()} &middot; Built with
 		{` `}
-		<a href="https://www.gatsbyjs.com">Gatsby</a>
+		<a href={siteLink}>{siteTitle}</a>
 	</footer>
 )
 
