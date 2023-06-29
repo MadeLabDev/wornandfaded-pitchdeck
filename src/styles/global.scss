@@ -55,6 +55,9 @@ html, body {
             .slider_2 {
                 background-image: url('../assets/bg/img-02.jpg');
             }
+            .slider_3 {
+                background-image: url('../assets/bg/img-07.jpg');
+            }
         }
     }
     header {
@@ -155,6 +158,13 @@ html, body {
         .liner {
             .liner__inner {
                 min-height: 10px;
+            }
+        }
+    }
+    @media screen and (min-width: 2000px) {
+        .liner {
+            .liner__inner {
+                min-height: 14px;
             }
         }
     }
