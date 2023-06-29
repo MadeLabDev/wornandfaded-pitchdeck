@@ -1,30 +1,24 @@
 import * as React from "react"
-import Helmet from "react-helmet"
-import type { HeadFC, PageProps } from "gatsby"
-import { Modal } from 'antd';
-import { useState } from "react";
+// import type { HeadFC, PageProps } from "gatsby"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
-import logo from "../images/logo.png"
-import banner from "../images/banner.png"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
 
-const IndexPage: React.FC<PageProps> = () => {
-  const [isModalOpen, setIsModalOpen] = useState('');
+const IndexPage = () => {
 
   return (
 
-    <main>
+    <Layout>
 
-      <Helmet>
-        <meta property="og:image" content={banner} />
-        <meta property="og:title" content="WORN AND FADED" />
-        <meta property="og:description" content="lessGAP is a professional web/app design and marketing/brands company based in the United States. We provide web design and development services for small and medium businesses." />
-      </Helmet>
+     sdfdsfs
 
-    </main>
+    </Layout>
 
   )
 }
 
-export default IndexPage
+export const Head = () => <Seo title="Home" />
 
-export const Head: HeadFC = () => <title>WORN AND FADED</title>
+export default IndexPage
