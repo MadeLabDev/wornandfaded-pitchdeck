@@ -1,11 +1,7 @@
 import * as React from "react"
 
 const Footer = ({ siteTitle, siteLink }: any) => (
-	<footer>
-		© {new Date().getFullYear()} &middot; Built with
-		{` `}
-		<a href={siteLink}>{siteTitle}</a>
-	</footer>
+	<footer data-title={siteTitle} data-link={siteLink}></footer>
 )
 
 export default Footer

@@ -1,11 +1,10 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
@@ -22,10 +21,10 @@ const IndexPage = () => {
           <div className="container my-auto p-5 mx-auto">
             <StaticImage
               src="../assets/logo.png"
-              alt="A dinosaur"
+              alt="Worn and Faded"
               placeholder="blurred"
               layout="fullWidth"
-              className="max-w-xs md:max-w-2xl 3xl:max-w-4xl 10xl:max-w-6xl mx-auto"
+              className="max-w-xs md:max-w-md 3xl:max-w-xl 10xl:max-w-2xl 13xl:max-w-4xl mx-auto"
             />
           </div>
         </SwiperSlide>

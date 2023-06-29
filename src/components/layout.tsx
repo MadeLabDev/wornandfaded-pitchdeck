@@ -1,6 +1,6 @@
 import * as React from "react"
 import Header from "./header"
-// import Footer from "./footer"
+import Footer from "./footer"
 
 const Layout = ({ children }: any) => {
 
@@ -8,7 +8,7 @@ const Layout = ({ children }: any) => {
 		<>
 			<Header siteTitle = {`Worn And Faded`} />
 			<main>{children}</main>
-			{/* <Footer siteTitle = {`Worn And Faded`} siteLink = {`https://www.gatsbyjs.com`} /> */}
+			<Footer siteTitle = {`Worn And Faded`} siteLink = {`https://www.gatsbyjs.com`} />
 		</>
 	)
 }
