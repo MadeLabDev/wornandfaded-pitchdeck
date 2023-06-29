@@ -10,8 +10,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "sh app.sh",
-    "dev": "gatsby develop && sh copy.sh",
-    "build": "rm -rf public && gatsby build && sh copy.sh",
+    "dev": "gatsby develop",
+    "build": "rm -rf public && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"

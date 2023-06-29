@@ -15,11 +15,10 @@ const IndexPage: React.FC<PageProps> = () => {
     <main>
 
       <Helmet>
-      <meta property="og:image" content={banner} />
+        <meta property="og:image" content={banner} />
         <meta property="og:title" content="WORN AND FADED" />
         <meta property="og:description" content="lessGAP is a professional web/app design and marketing/brands company based in the United States. We provide web design and development services for small and medium businesses." />
       </Helmet>
-
 
     </main>
 
