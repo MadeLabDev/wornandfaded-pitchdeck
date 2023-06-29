@@ -18,7 +18,17 @@ const IndexPage = () => {
 
       {/* https://swiperjs.com/demos */}
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide className="slider slider_1"></SwiperSlide>
+        <SwiperSlide className="slider slider_1">
+          <div className="container my-auto">
+            <StaticImage
+              src="../assets/logo.png"
+              alt="A dinosaur"
+              placeholder="blurred"
+              layout="fullWidth"
+              className="max-w-lg 6xl:max-w-2xl mx-auto"
+            />
+          </div>
+        </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
