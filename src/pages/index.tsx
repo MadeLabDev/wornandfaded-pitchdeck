@@ -1,5 +1,4 @@
 import * as React from "react"
-// import type { HeadFC, PageProps } from "gatsby"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -12,7 +11,7 @@ const IndexPage = () => {
 
     <Layout>
 
-     sdfdsfs
+      sdfdsfs
 
     </Layout>
 
