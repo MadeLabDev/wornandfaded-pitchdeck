@@ -27,5 +27,19 @@ html, body {
     font-family: 'Neue Kabel Book', 'Poppins', sans-serif;
     background-color: #000000;
     color: #ffffff;
+    main {
+        height: 100vh;
+        .swiper {
+            height: 100%;
+            .slider {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .slider_1 {
+                background-image: url('../assets/bg/img-02.jpg');
+            }
+        }
+    }
 }
 

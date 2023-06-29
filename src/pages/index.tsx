@@ -16,8 +16,9 @@ const IndexPage = () => {
 
     <Layout>
 
-<Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide>Slide 1</SwiperSlide>
+      {/* https://swiperjs.com/demos */}
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <SwiperSlide className="slider slider_1"></SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
