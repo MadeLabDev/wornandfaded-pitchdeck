@@ -42,6 +42,11 @@ module.exports = {
       "11xl": "9rem",
       "12xl": "10rem"
     },
+    colors: {
+      main: {
+        100: "#ab192d",
+      },
+    },
     extend: {
       spacing: {
         '9': '2.25rem',

@@ -37,6 +37,7 @@ html, body {
     font-family: 'Neue Kabel', 'Poppins', sans-serif;
     background-color: #1c1b16;
     color: #ffffff;
+    
     main {
         height: 100vh;
         .swiper {
@@ -46,6 +47,7 @@ html, body {
                 background-repeat: no-repeat;
                 background-size: cover;
                 display: flex;
+                flex-direction: column;
             }
             .slider_1 {
                 background-image: url('../assets/bg/img-04.jpg');
@@ -111,6 +113,16 @@ html, body {
             transform: rotate(-2deg);
         }
     }
+    .liner {
+        position: relative;
+        .liner__inner {
+            background: url('../assets/line.png');
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            min-height: 7px;
+        }
+    }
     @media screen and (min-width: 992px) {
         header {
             top: -2vh;
@@ -130,10 +142,20 @@ html, body {
                 width: 40%;
             }
         }
+        .liner {
+            .liner__inner {
+                min-height: 10px;
+            }
+        }
     }
     @media screen and (min-width: 1366px) {
         header {
             top: -3vh;
+        }
+        .liner {
+            .liner__inner {
+                min-height: 10px;
+            }
         }
     }
 }
