@@ -27,17 +27,33 @@
     src: url("../webfonts/746f4e58-430f-45ee-ac2e-90a2bb8f5c9d.woff2") format("woff2"), 
     url("../webfonts/7c736433-916b-4f83-b1bb-a45beeb5c757.woff") format("woff");
 }
-// @font-face {
-//     font-family: "Neue Kabel";
-//     src: url("../webfonts/NeueKabel-Black.woff2") format("woff2"),
-//     url("../webfonts/NeueKabel-Black.woff") format("woff");
-// }
+@font-face {
+    font-family: "Neue Kabel Regular";
+    src: 
+    url("../webfonts/NeueKabel-Book.woff2") format("woff2"),
+    url("../webfonts/NeueKabel-Book.woff") format("woff");
+}
 
 html, body {
     font-family: 'Neue Kabel', 'Poppins', sans-serif;
     background-color: #1c1b16;
     color: #ffffff;
-    
+    .font-a {
+        font-family: 'Neue Kabel Regular', 'Poppins', sans-serif;
+    }
+    .text-stroke-main {
+        -webkit-text-stroke: 1px #ab192d;
+        text-stroke: 1px #ab192d;
+        color: transparent;
+        @media screen and (min-width:768px) {
+            -webkit-text-stroke: 2px #ab192d;
+            text-stroke: 2px #ab192d;
+        }
+        @media screen and (min-width:2000px) {
+            -webkit-text-stroke: 3px #ab192d;
+            text-stroke: 3px #ab192d;
+        }
+    }
     main {
         height: 100vh;
         .swiper {
@@ -52,11 +68,25 @@ html, body {
             .slider_1 {
                 background-image: url('../assets/bg/img-04.jpg');
             }
+            .slider_7,
             .slider_2 {
                 background-image: url('../assets/bg/img-02.jpg');
             }
+            .slider_8,
             .slider_3 {
                 background-image: url('../assets/bg/img-07.jpg');
+            }
+            .slider_9,
+            .slider_4 {
+                background-image: url('../assets/bg/img-08.jpg');
+            }
+            .slider_10,
+            .slider_5 {
+                background-image: url('../assets/bg/img-06.jpg');
+            }
+            .slider_11,
+            .slider_6 {
+                background-image: url('../assets/bg/img-09.jpg');
             }
         }
     }
