@@ -40,7 +40,15 @@ module.exports = {
       "9xl": "7rem",
       "10xl": "8rem",
       "11xl": "9rem",
-      "12xl": "10rem"
+      "12xl": "10rem",
+      "13xl": "11rem",
+      "14xl": "12rem",
+      "15xl": "13rem",
+      "16xl": "14rem",
+      "17xl": "15rem",
+      "18xl": "16rem",
+      "19xl": "17rem",
+      "20xl": "18rem",
     },
     colors: {
       main: {

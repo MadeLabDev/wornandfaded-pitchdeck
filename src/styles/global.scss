@@ -41,6 +41,9 @@ html, body {
     .font-a {
         font-family: 'Neue Kabel Regular', 'Poppins', sans-serif;
     }
+    .font-b {
+        font-family: "ITC Serif Gothic Std";
+    }
     .text-stroke-main {
         -webkit-text-stroke: 1px #ab192d;
         text-stroke: 1px #ab192d;
@@ -52,6 +55,19 @@ html, body {
         @media screen and (min-width:2000px) {
             -webkit-text-stroke: 3px #ab192d;
             text-stroke: 3px #ab192d;
+        }
+    }
+    .text-stroke-main-2 {
+        -webkit-text-stroke: 2px #ab192d;
+        text-stroke: 2px #ab192d;
+        color: transparent;
+        @media screen and (min-width:768px) {
+            -webkit-text-stroke: 3px #ab192d;
+            text-stroke: 3px #ab192d;
+        }
+        @media screen and (min-width:2000px) {
+            -webkit-text-stroke: 4px #ab192d;
+            text-stroke: 4px #ab192d;
         }
     }
     main {
@@ -69,22 +85,32 @@ html, body {
                 background-image: url('../assets/bg/img-04.jpg');
             }
             .slider_7,
+            .slider_12,
+            .slider_17,
             .slider_2 {
                 background-image: url('../assets/bg/img-02.jpg');
             }
             .slider_8,
+            .slider_13,
+            .slider_18,
             .slider_3 {
                 background-image: url('../assets/bg/img-07.jpg');
             }
             .slider_9,
+            .slider_14,
+            .slider_19,
             .slider_4 {
                 background-image: url('../assets/bg/img-08.jpg');
             }
             .slider_10,
+            .slider_15,
+            .slider_20,
             .slider_5 {
                 background-image: url('../assets/bg/img-06.jpg');
             }
             .slider_11,
+            .slider_16,
+            .slider_21,
             .slider_6 {
                 background-image: url('../assets/bg/img-09.jpg');
             }
