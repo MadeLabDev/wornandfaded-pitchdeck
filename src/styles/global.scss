@@ -133,6 +133,10 @@ body {
                 display: flex;
                 flex-direction: column;
 
+                &.slider_29,
+                &.slider_30,
+                &.slider_31,
+                &.slider_32,
                 &.slider_10 {
                     img {
                         max-height: 60vh;
@@ -151,6 +155,7 @@ body {
             .slider_17,
             .slider_22,
             .slider_27,
+            .slider_32,
             .slider_2 {
                 background-image: url('../assets/bg/img-02.jpg');
             }

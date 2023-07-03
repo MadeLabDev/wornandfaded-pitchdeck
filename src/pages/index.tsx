@@ -67,12 +67,119 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
+
+
+				<SwiperSlide className="slider slider_29">
+					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+								<div className="xl:col-span-1 xl:pr-10">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
+										Wearing a shirt from a favorite band can bring back memories of concerts attended, songs that resonated with us during certain times, and the emotions tied to those experiences.
+									</div>
+								</div>
+								<div className="xl:col-span-2 xl:pl-10">
+									<StaticImage
+										src="../assets/tshirt5.png"
+										alt="Worn and Faded"
+										placeholder="blurred"
+										layout="fullWidth"
+										className="w-full mx-auto max-h-[calc(60vh)]"
+									/>
+								</div>
+							</div>
+							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner__inner"></div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 3</div>
+							</div>
+						</div>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide className="slider slider_30">
+					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+								<div className="xl:col-span-1 xl:pr-10">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
+										When we put on a band shirt, we want to represent the artists, the music, and the movements that have had a profound impact on our lives.									</div>
+								</div>
+								<div className="xl:col-span-2 xl:pl-10">
+									<StaticImage
+										src="../assets/tshirt8.png"
+										alt="Worn and Faded"
+										placeholder="blurred"
+										layout="fullWidth"
+										className="w-full mx-auto max-h-[calc(60vh)]"
+									/>
+								</div>
+							</div>
+							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner__inner"></div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 4</div>
+							</div>
+						</div>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide className="slider slider_31">
+					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+								<div className="xl:col-span-1 xl:pr-10">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
+										It says something to the world about our personal history and individuality.
+									</div>
+								</div>
+								<div className="xl:col-span-2 xl:pl-10">
+									<StaticImage
+										src="../assets/tshirt6.png"
+										alt="Worn and Faded"
+										placeholder="blurred"
+										layout="fullWidth"
+										className="w-full mx-auto max-h-[calc(60vh)]"
+									/>
+								</div>
+							</div>
+							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner__inner"></div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 5</div>
+							</div>
+						</div>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide className="slider slider_32">
+					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+								<div className="xl:col-span-1 xl:pr-10">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
+										The cultural relevance of the band tee lies in its ability to capture the essence of music, evoke nostalgia, and serve as a testament to the power of music in shaping our identities.
+									</div>
+								</div>
+								<div className="xl:col-span-2 xl:pl-10">
+									<StaticImage
+										src="../assets/tshirt7.png"
+										alt="Worn and Faded"
+										placeholder="blurred"
+										layout="fullWidth"
+										className="w-full mx-auto max-h-[calc(60vh)]"
+									/>
+								</div>
+							</div>
+							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner__inner"></div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 6</div>
+							</div>
+						</div>
+					</div>
+				</SwiperSlide>
+
+
 				<SwiperSlide className="slider slider_4">
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										What is the meaning of your average teenager proudly wearing a replica of a t-shirt for a concert twenty-five years before their birth?
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -91,7 +198,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 3</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 7</div>
 							</div>
 						</div>
 					</div>
@@ -101,7 +208,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										Initially, the band tee faced an uphill battle to gain acceptance as many bands felt that selling them was proof that they had “sold out.”
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -130,7 +237,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										By the mid 1970s, the band shirt had become a fashion icon worn by the likes of David Bowie, Iggy Pop, and John Lennon.
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -159,7 +266,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										In the 1980s, the band tee had become an essential tool of identity and rebellion for young people in their quest to individuate themselves.
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -188,7 +295,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										As the new century dawned, vintage band shirts became some of the most desirable and collectible items in fashion.
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -217,7 +324,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										The “faux vintage” band tee is a common sight at H&M, Target, and other retailers nowadays.
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -246,7 +353,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										In 2021, this Grateful Dead tee from 1967 sold for over $17K at a Sotheby’s auction, making it the most expensive tee ever sold.
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -366,7 +473,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										Visual Style
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -395,7 +502,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										Archival Material
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -424,7 +531,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										Soundtrack
 									</div>
 									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
@@ -467,7 +574,7 @@ const IndexPage = () => {
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
 									<div className="xl:col-span-1">
-										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Setup
 										</div>
 										<StaticImage
@@ -479,7 +586,7 @@ const IndexPage = () => {
 										/>
 									</div>
 									<div className="xl:col-span-1">
-										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Inciting Incident
 										</div>
 										<StaticImage
@@ -491,7 +598,7 @@ const IndexPage = () => {
 										/>
 									</div>
 									<div className="xl:col-span-1">
-										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Big Event
 										</div>
 										<StaticImage
@@ -654,7 +761,7 @@ const IndexPage = () => {
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
 									<div className="xl:col-span-1">
-										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Crisis
 										</div>
 										<StaticImage
@@ -666,7 +773,7 @@ const IndexPage = () => {
 										/>
 									</div>
 									<div className="xl:col-span-1">
-										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Climax
 										</div>
 										<StaticImage
@@ -678,7 +785,7 @@ const IndexPage = () => {
 										/>
 									</div>
 									<div className="xl:col-span-1">
-										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
+										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Wrap
 										</div>
 										<StaticImage
