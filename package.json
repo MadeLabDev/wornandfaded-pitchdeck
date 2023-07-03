@@ -21,7 +21,6 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "antd": "^5.6.3",
     "gatsby": "^5.11.0",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.11.0",
@@ -36,10 +35,10 @@
     "react-helmet": "^6.1.0",
     "sass": "^1.63.6",
     "lightgallery": "^2.7.1",
-    "swiper": "^9.4.1"
+    "swiper": "^10.0.3"
   },
   "devDependencies": {
-    "@types/node": "^20.3.2",
+    "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "autoprefixer": "^10.4.14",
