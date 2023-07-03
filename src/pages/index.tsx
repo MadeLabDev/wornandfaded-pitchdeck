@@ -1,7 +1,5 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { faPlay } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,7 +7,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper";
+import { Keyboard, Navigation, Mousewheel, Parallax } from 'swiper';
+
+import BlockVideo from "../components/block-videos";
 
 const IndexPage = () => {
 
@@ -17,8 +17,17 @@ const IndexPage = () => {
 
 		<Layout>
 
-			{/* https://swiperjs.com/demos */}
-			<Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+			<Swiper
+				modules={[Parallax, Keyboard, Mousewheel, Navigation]}
+				loop={true}
+				navigation={true}
+				keyboard={{
+					enabled: true,
+				}}
+				mousewheel={true}
+				speed={600}
+				parallax={true}
+				className="mySwiper">
 				<SwiperSlide className="slider slider_1">
 					<div className="my-auto px-10 py-20 w-full mx-auto">
 						<StaticImage
@@ -902,63 +911,7 @@ const IndexPage = () => {
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Videos</div>
-								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10 3xl:my-20">
-
-									<div className="xl:col-span-1">
-										<div className="relative">
-
-											<StaticImage
-												src="../assets/img-03.jpg"
-												alt="Worn and Faded"
-												placeholder="blurred"
-												layout="fullWidth"
-												className="w-full mx-auto border-[10px] border-[#e6e5d9]"
-											/>
-											<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" >
-												<FontAwesomeIcon icon={faPlay} className="text-5xl" />
-											</div>
-										</div>
-										<div className="mt-5 text-center leading-[1.2] font-bold text-2xl 2xl:text-3xl mb-5">
-											TEASER
-										</div>
-									</div>
-									<div className="xl:col-span-1">
-										<div className="relative">
-
-											<StaticImage
-												src="../assets/img-10.jpg"
-												alt="Worn and Faded"
-												placeholder="blurred"
-												layout="fullWidth"
-												className="w-full mx-auto border-[10px] border-[#e6e5d9]"
-											/>
-											<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" >
-												<FontAwesomeIcon icon={faPlay} className="text-5xl" />
-											</div>
-										</div>
-										<div className="mt-5 text-center leading-[1.2] font-bold text-2xl 2xl:text-3xl mb-5">
-											EXCERPT: FRANK VACANTI OF WINTERLAND PRODUCTIONS
-										</div>
-									</div>
-									<div className="xl:col-span-1">
-										<div className="relative">
-
-											<StaticImage
-												src="../assets/img-05.png"
-												alt="Worn and Faded"
-												placeholder="blurred"
-												layout="fullWidth"
-												className="w-full mx-auto border-[10px] border-[#e6e5d9]"
-											/>
-											<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" >
-												<FontAwesomeIcon icon={faPlay} className="text-5xl" />
-											</div>
-										</div>
-										<div className="mt-5 text-center leading-[1.2] font-bold text-2xl 2xl:text-3xl mb-5">
-											A BRIEF HISTORY OF THE BAND SHIRT
-										</div>
-									</div>
-								</div>
+								<BlockVideo />
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
