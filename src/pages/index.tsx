@@ -1009,7 +1009,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_27">
+				<SwiperSlide className="slider slider_28">
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
