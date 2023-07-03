@@ -1,79 +1,92 @@
 @font-face {
     font-family: "Neue Kabel Book";
-    src: url("../webfonts/d27b5a52-5146-429c-9e0d-1f4c08266f3d.woff2") format("woff2"), 
-    url("../webfonts/a3ca3efa-bd2f-42c1-a590-e7ac56f71088.woff") format("woff");
+    src: url("../webfonts/d27b5a52-5146-429c-9e0d-1f4c08266f3d.woff2") format("woff2"),
+        url("../webfonts/a3ca3efa-bd2f-42c1-a590-e7ac56f71088.woff") format("woff");
 }
 
 @font-face {
     font-family: "Neue Kabel W05 Medium Italic";
-    src: url("../webfonts/0ca27ac4-0585-44a3-a093-68fe63b8747a.woff2") format("woff2"), 
-    url("../webfonts/edc5e109-0f46-45e9-b7e6-f117a7747bc6.woff") format("woff");
+    src: url("../webfonts/0ca27ac4-0585-44a3-a093-68fe63b8747a.woff2") format("woff2"),
+        url("../webfonts/edc5e109-0f46-45e9-b7e6-f117a7747bc6.woff") format("woff");
 }
 
 @font-face {
     font-family: "Neue Kabel";
-    src: url("../webfonts/bf49b70e-906b-40c3-bd00-aae63ae2a55b.woff2") format("woff2"), 
-    url("../webfonts/c904605a-490f-475e-8bda-3d64711907d2.woff") format("woff");
+    src: url("../webfonts/bf49b70e-906b-40c3-bd00-aae63ae2a55b.woff2") format("woff2"),
+        url("../webfonts/c904605a-490f-475e-8bda-3d64711907d2.woff") format("woff");
 }
 
 @font-face {
     font-family: "Neue Kabel W05 Black Italic";
-    src: url("../webfonts/f5d818a7-2d87-43dc-8f3d-ea39fd5ce193.woff2") format("woff2"), 
-    url("../webfonts/9a2ec82e-280d-407c-bfdc-869ac1edd08a.woff") format("woff");
+    src: url("../webfonts/f5d818a7-2d87-43dc-8f3d-ea39fd5ce193.woff2") format("woff2"),
+        url("../webfonts/9a2ec82e-280d-407c-bfdc-869ac1edd08a.woff") format("woff");
 }
 
 @font-face {
     font-family: "ITC Serif Gothic Std";
-    src: url("../webfonts/746f4e58-430f-45ee-ac2e-90a2bb8f5c9d.woff2") format("woff2"), 
-    url("../webfonts/7c736433-916b-4f83-b1bb-a45beeb5c757.woff") format("woff");
-}
-@font-face {
-    font-family: "Neue Kabel Regular";
-    src: 
-    url("../webfonts/NeueKabel-Book.woff2") format("woff2"),
-    url("../webfonts/NeueKabel-Book.woff") format("woff");
+    src: url("../webfonts/746f4e58-430f-45ee-ac2e-90a2bb8f5c9d.woff2") format("woff2"),
+        url("../webfonts/7c736433-916b-4f83-b1bb-a45beeb5c757.woff") format("woff");
 }
 
-html, body {
+@font-face {
+    font-family: "Neue Kabel Regular";
+    src:
+        url("../webfonts/NeueKabel-Book.woff2") format("woff2"),
+        url("../webfonts/NeueKabel-Book.woff") format("woff");
+}
+
+html,
+body {
     font-family: 'Neue Kabel', 'Poppins', sans-serif;
     background-color: #1c1b16;
     color: #ffffff;
+
     .font-a {
         font-family: 'Neue Kabel Regular', 'Poppins', sans-serif;
     }
+
     .font-b {
         font-family: "ITC Serif Gothic Std";
     }
+
     .text-stroke-main {
         -webkit-text-stroke: 1px #ab192d;
         text-stroke: 1px #ab192d;
         color: transparent;
+
         @media screen and (min-width:768px) {
             -webkit-text-stroke: 2px #ab192d;
             text-stroke: 2px #ab192d;
         }
+
         @media screen and (min-width:2000px) {
             -webkit-text-stroke: 3px #ab192d;
             text-stroke: 3px #ab192d;
         }
     }
+
     .text-stroke-main-2 {
         -webkit-text-stroke: 2px #ab192d;
         text-stroke: 2px #ab192d;
         color: transparent;
+
         @media screen and (min-width:768px) {
             -webkit-text-stroke: 3px #ab192d;
             text-stroke: 3px #ab192d;
         }
+
         @media screen and (min-width:2000px) {
             -webkit-text-stroke: 4px #ab192d;
             text-stroke: 4px #ab192d;
         }
     }
+
     main {
         height: 100vh;
+
         .swiper {
             height: 100%;
+
             .slider {
                 background-position: center;
                 background-repeat: no-repeat;
@@ -81,47 +94,65 @@ html, body {
                 display: flex;
                 flex-direction: column;
             }
+
             .slider_1 {
                 background-image: url('../assets/bg/img-04.jpg');
             }
+
             .slider_7,
             .slider_12,
             .slider_17,
+            .slider_22,
+            .slider_27,
             .slider_2 {
                 background-image: url('../assets/bg/img-02.jpg');
             }
+
             .slider_8,
             .slider_13,
             .slider_18,
+            .slider_23,
+            .slider_28,
             .slider_3 {
                 background-image: url('../assets/bg/img-07.jpg');
             }
+
             .slider_9,
             .slider_14,
             .slider_19,
+            .slider_24,
+            .slider_29,
             .slider_4 {
                 background-image: url('../assets/bg/img-08.jpg');
             }
+
             .slider_10,
             .slider_15,
             .slider_20,
+            .slider_25,
+            .slider_30,
             .slider_5 {
                 background-image: url('../assets/bg/img-06.jpg');
             }
+
             .slider_11,
             .slider_16,
             .slider_21,
+            .slider_26,
+            .slider_31,
             .slider_6 {
                 background-image: url('../assets/bg/img-09.jpg');
             }
         }
     }
+
     header {
         position: fixed;
         top: -1vh;
         left: 0;
         width: 100%;
         z-index: 9999999;
+
         &:after {
             content: '';
             position: absolute;
@@ -136,6 +167,7 @@ html, body {
             z-index: 8888;
             transform: rotate(-2deg);
         }
+
         &:before {
             content: '';
             position: absolute;
@@ -151,13 +183,15 @@ html, body {
             transform: rotate(-2deg);
         }
     }
+
     footer {
         position: fixed;
         width: 100%;
         z-index: 9999999;
         bottom: -1vh;
         left: 0;
-        &:before{
+
+        &:before {
             content: '';
             position: absolute;
             bottom: 0;
@@ -172,8 +206,10 @@ html, body {
             transform: rotate(-2deg);
         }
     }
+
     .liner {
         position: relative;
+
         .liner__inner {
             background: url('../assets/line.png');
             background-position: center top;
@@ -182,41 +218,50 @@ html, body {
             min-height: 7px;
         }
     }
+
     @media screen and (min-width: 992px) {
         header {
             top: -2vh;
+
             &:after {
                 left: 70%;
                 min-height: 7vh;
             }
+
             &:before {
                 width: 70%;
                 min-height: 7vh;
             }
         }
+
         footer {
             bottom: -2vh;
+
             &:before {
                 min-height: 7vh;
                 width: 40%;
             }
         }
+
         .liner {
             .liner__inner {
                 min-height: 10px;
             }
         }
     }
+
     @media screen and (min-width: 1366px) {
         header {
             top: -3vh;
         }
+
         .liner {
             .liner__inner {
                 min-height: 10px;
             }
         }
     }
+
     @media screen and (min-width: 2000px) {
         .liner {
             .liner__inner {
@@ -225,4 +270,3 @@ html, body {
         }
     }
 }
-
