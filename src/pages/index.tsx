@@ -257,7 +257,7 @@ const IndexPage = () => {
 										alt="Worn and Faded"
 										placeholder="blurred"
 										layout="fullWidth"
-										className="w-full mx-auto"
+										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
 								</div>
 							</div>

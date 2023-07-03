@@ -93,6 +93,12 @@ body {
                 background-size: cover;
                 display: flex;
                 flex-direction: column;
+
+                img {
+                    max-height: 60vh;
+                    width: auto;
+                    margin: auto;
+                }
             }
 
             .slider_1 {
