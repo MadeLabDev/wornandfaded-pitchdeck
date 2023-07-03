@@ -523,5 +523,13 @@ body {
 
     }
 
+    .lg-outer {
+        z-index: 99999999999;
+    }
+
+    .lg-backdrop {
+        z-index: 9999999;
+    }
+
 
 }
