@@ -40,8 +40,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_2">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-20">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-20">
 							<div className="3xl:my-20">
 								<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl mt-20 mb-4">
 									This is the story of how a throw-away promotional item became an indispensable form of exposure for bands and a tool of self-expression and rebellion for generations of youth.
@@ -58,8 +58,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_3">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<StaticImage
 									src="../assets/tshirt.png"
@@ -79,8 +79,8 @@ const IndexPage = () => {
 
 
 				<SwiperSlide className="slider slider_29">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -105,8 +105,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_30">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -130,8 +130,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_31">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -156,8 +156,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_32">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -184,8 +184,8 @@ const IndexPage = () => {
 
 
 				<SwiperSlide className="slider slider_4">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -213,8 +213,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_5">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -242,8 +242,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_6">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -271,8 +271,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_7">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -300,8 +300,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_8">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -329,8 +329,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_9">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -358,8 +358,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_10">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -387,8 +387,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_11">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Interview</div>
 								<div className="my-auto w-full mx-auto mt-20 xl:grid xl:grid-cols-3 xl:gap-10">
@@ -478,8 +478,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_12">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -507,8 +507,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_13">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -536,8 +536,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_14">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -565,8 +565,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_15">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b">ACT I</div>
 							</div>
@@ -578,8 +578,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_16">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
 									<div className="xl:col-span-1">
@@ -628,8 +628,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_17">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b">ACT II</div>
 							</div>
@@ -641,8 +641,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_18">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:flex xl:flex-row xl:gap-10">
 									<div className="xl:w-[30%]">
@@ -752,8 +752,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_19">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b">ACT III</div>
 							</div>
@@ -765,8 +765,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_20">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
 									<div className="xl:col-span-1">
@@ -815,8 +815,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_21">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-4xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Background articles</div>
 								<ul className="space-y-10 text-center xl:mt-20 uppercase text-xl md:text-2xl 6xl:text-4xl">
@@ -836,8 +836,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_22">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 3xl:grid-cols-6 xl:gap-10 3xl:my-20">
@@ -907,8 +907,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_23">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Videos</div>
 								<BlockVideo />
@@ -921,8 +921,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_24">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Budget</div>
 								<div className="w-full mx-auto xl:grid xl:gap-10 3xl:my-20">
@@ -943,8 +943,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_25">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Timeline</div>
 								<div className="w-full mx-auto my-5 xl:grid xl:gap-10 3xl:my-20">
@@ -1012,8 +1012,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_26">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7 items-center">
 								<div className="xl:col-span-3 xl:pr-10 3xl:my-20">
 									<div className="leading-[1.2] font-bold text-3xl xl:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl mb-5">
@@ -1038,8 +1038,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_27">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
 								<div className="space-y-10 3xl:my-20">
@@ -1071,8 +1071,8 @@ const IndexPage = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="slider slider_28">
-					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Contact</div>
 								<ul className="space-y-10 text-center text-xl md:text-4xl 6xl:text-6xl 3xl:my-20">
