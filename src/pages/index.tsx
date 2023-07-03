@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import { Keyboard, Navigation, Mousewheel, Parallax } from 'swiper';
+import { Keyboard, Navigation, Mousewheel, Parallax } from 'swiper/modules';
 
 import BlockVideo from "../components/block-videos";
 
