@@ -33,11 +33,13 @@ const IndexPage = () => {
 				<SwiperSlide className="slider slider_2">
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-20">
-							<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl mt-20 mb-4">
-								This is the story of how a throw-away promotional item became an indispensable form of exposure for bands and a tool of self-expression and rebellion for generations of youth.
-							</div>
-							<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl">
-								The band tee remains economically and culturally relevant, holding a special place in people’s hearts and wardrobes. We aim to explore and discover why.
+							<div className="3xl:my-20">
+								<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl mt-20 mb-4">
+									This is the story of how a throw-away promotional item became an indispensable form of exposure for bands and a tool of self-expression and rebellion for generations of youth.
+								</div>
+								<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl">
+									The band tee remains economically and culturally relevant, holding a special place in people’s hearts and wardrobes. We aim to explore and discover why.
+								</div>
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
@@ -73,7 +75,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										What is the meaning of your average teenager proudly wearing a replica of a t-shirt for a concert twenty-five years before their birth?
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										For nearly 60 years, the band tee has been an essential form of self-expression for young people. This film will track not only the birth and evolution of the band tee and how it became a ubiquitous part of fashion but how and why it became the ultimate symbol of nonconformity.
 									</div>
 								</div>
@@ -102,7 +104,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										Initially, the band tee faced an uphill battle to gain acceptance as many bands felt that selling them was proof that they had “sold out.”
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Bill Graham was a legendary concert promoter and manager in the Bay Area who worked with bands such as the Grateful Dead, Santana, and Jefferson Airplane.  He changed their perceptions about the band tee and convinced them that they were an essential tool for promotion and income. He founded the first music merchandising company Winterland Productions, in 1973.
 									</div>
 								</div>
@@ -131,7 +133,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										By the mid 1970s, the band shirt had become a fashion icon worn by the likes of David Bowie, Iggy Pop, and John Lennon.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Fans began using the tee as a tool of self-expression as timeless designs by the likes of the Ramones, Motorhead, the Rolling Stones, and Joy Division were created. At the end of the decade, the sight of a mech table at a concert was not uncommon.
 									</div>
 								</div>
@@ -160,7 +162,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										In the 1980s, the band tee had become an essential tool of identity and rebellion for young people in their quest to individuate themselves.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										The golden age of the band tee was ushered in with over-the-top Heavy Metal and Punk tees taking center stage in high school hallways and shopping malls everywhere.  Iconic designs by Metallica, Run DMC, Black Flag, and Iron Maiden became like uniforms to many young people.
 									</div>
 								</div>
@@ -189,7 +191,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										As the new century dawned, vintage band shirts became some of the most desirable and collectible items in fashion.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Celebrities such as the Kardashians, Justin Bieber, and Miley Cyrus sported tees from heavy metal bands they likely had never listened to and sent prices soaring. This inspired metal-inspired designs by the likes of Chanel and Balenciaga and even appeared on catwalks in Paris and London.
 									</div>
 								</div>
@@ -218,7 +220,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										The “faux vintage” band tee is a common sight at H&M, Target, and other retailers nowadays.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Not everyone can afford to shell out hundreds or thousands of dollars for an authentic vintage band tee. To satiate the public’s demand for these tees, which has never been higher, bands and retailers made their own vintage-style tees.
 									</div>
 								</div>
@@ -247,7 +249,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										In 2021, this Grateful Dead tee from 1967 sold for over $17K at a Sotheby’s auction, making it the most expensive tee ever sold.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Passionate collectors still hunt for rare originals at flea markets, garage sales, and thrift stores across the globe. With music sales revenue decreasing over the last decade, sales of tees have become economically essential to both independent and mainstream artists.
 									</div>
 								</div>
@@ -272,82 +274,82 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Interview</div>
+								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Interview</div>
 								<div className="my-auto w-full mx-auto mt-20 xl:grid xl:grid-cols-3 xl:gap-10">
 									<div className="xl:col-span-1">
-										<h2 className="uppercase">Mick Jagger</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">The Rolling Stones</p>
+										<h2 className="uppercase 6xl:text-3xl">Mick Jagger</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">The Rolling Stones</p>
 
-										<h2 className="uppercase">Chuck D</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Founder of Public Enemy, author and activist</p>
+										<h2 className="uppercase 6xl:text-3xl">Chuck D</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Founder of Public Enemy, author and activist</p>
 
-										<h2 className="uppercase">Jack White</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Guitarist, The White Stripes, Solo Artist</p>
+										<h2 className="uppercase 6xl:text-3xl">Jack White</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Guitarist, The White Stripes, Solo Artist</p>
 
-										<h2 className="uppercase">Derek Riggs</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
+										<h2 className="uppercase 6xl:text-3xl">Derek Riggs</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
 
-										<h2 className="uppercase">Brian “Pushead” Schroader</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Artist and creator of hundred of Metallica and Misfits tees</p>
+										<h2 className="uppercase 6xl:text-3xl">Brian “Pushead” Schroader</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of hundred of Metallica and Misfits tees</p>
 
-										<h2 className="uppercase">Raymond Pettibon</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Artist and creator of the Black Flag logo</p>
+										<h2 className="uppercase 6xl:text-3xl">Raymond Pettibon</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of the Black Flag logo</p>
 
-										<h2 className="uppercase">Penelope Spheeris</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Film director, producer, and screenwriter</p>
+										<h2 className="uppercase 6xl:text-3xl">Penelope Spheeris</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Film director, producer, and screenwriter</p>
 
-										<h2 className="uppercase">Malcom Gladwell</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Journalist, author, podcaster, public speaker </p>
+										<h2 className="uppercase 6xl:text-3xl">Malcom Gladwell</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Journalist, author, podcaster, public speaker </p>
 									</div>
 									<div className="xl:col-span-1">
-										<h2 className="uppercase">QuestLove</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Musician, record producer, DJ, filmmaker</p>
+										<h2 className="uppercase 6xl:text-3xl">QuestLove</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Musician, record producer, DJ, filmmaker</p>
 
-										<h2 className="uppercase">Taylor Swift</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Singer & Songwriter, Fashion Icon</p>
+										<h2 className="uppercase 6xl:text-3xl">Taylor Swift</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer & Songwriter, Fashion Icon</p>
 
-										<h2 className="uppercase">Tom Morello</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Guitarist, Rage Against the Machine</p>
+										<h2 className="uppercase 6xl:text-3xl">Tom Morello</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Guitarist, Rage Against the Machine</p>
 
-										<h2 className="uppercase">Joan Jett</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Singer, guitarist, record producer and actress</p>
+										<h2 className="uppercase 6xl:text-3xl">Joan Jett</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer, guitarist, record producer and actress</p>
 
-										<h2 className="uppercase">Henry Rollins</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Singer, Black Flag/Rollins Band</p>
+										<h2 className="uppercase 6xl:text-3xl">Henry Rollins</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer, Black Flag/Rollins Band</p>
 
-										<h2 className="uppercase">Alex & David Graham</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Sons of Promoter Bill Graham</p>
+										<h2 className="uppercase 6xl:text-3xl">Alex & David Graham</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Sons of Promoter Bill Graham</p>
 
-										<h2 className="uppercase">Frank Vacanti</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Production Manager for Winterland Productions</p>
+										<h2 className="uppercase 6xl:text-3xl">Frank Vacanti</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Production Manager for Winterland Productions</p>
 
-										<h2 className="uppercase">Peter Patagno</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Graphic Designer for world renowned Hipgnosis Designs</p>
+										<h2 className="uppercase 6xl:text-3xl">Peter Patagno</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Graphic Designer for world renowned Hipgnosis Designs</p>
 									</div>
 									<div className="xl:col-span-1">
-										<h2 className="uppercase">Dave Grohl</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Foo Fighters/Nirvana</p>
+										<h2 className="uppercase 6xl:text-3xl">Dave Grohl</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Foo Fighters/Nirvana</p>
 
-										<h2 className="uppercase">Billie Eilish</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Singer & Songwriter, Fashion Icon</p>
+										<h2 className="uppercase 6xl:text-3xl">Billie Eilish</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer & Songwriter, Fashion Icon</p>
 
-										<h2 className="uppercase">Nicky Panicci</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Vintage tee collector and historian</p>
+										<h2 className="uppercase 6xl:text-3xl">Nicky Panicci</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Vintage tee collector and historian</p>
 
-										<h2 className="uppercase">Slash</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Musician and guitarist, Guns N' Roses</p>
+										<h2 className="uppercase 6xl:text-3xl">Slash</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Musician and guitarist, Guns N' Roses</p>
 
-										<h2 className="uppercase">Avigail Collins</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Stylist to celebs  including Kim  Kardashian</p>
+										<h2 className="uppercase 6xl:text-3xl">Avigail Collins</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Stylist to celebs  including Kim  Kardashian</p>
 
-										<h2 className="uppercase">Patrick Klima</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
+										<h2 className="uppercase 6xl:text-3xl">Patrick Klima</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
 
-										<h2 className="uppercase">Dean Delray</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Comedian, podcaster and vintage tee enthusiast</p>
+										<h2 className="uppercase 6xl:text-3xl">Dean Delray</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Comedian, podcaster and vintage tee enthusiast</p>
 
-										<h2 className="uppercase">Chuck Klosterman</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg">Author and Social Commentator</p>
+										<h2 className="uppercase 6xl:text-3xl">Chuck Klosterman</h2>
+										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Author and Social Commentator</p>
 									</div>
 
 								</div>
@@ -367,7 +369,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										Visual Style
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Like the tees themselves, Worn & Faded brings a clean yet abraded aesthetic to the film that will keep viewers engaged throughout. The interviews have a unified visual style, using similar lighting techniques and thoughtful background imagery. Animation sequences will be created by Alchemy Studio known for their cutting edge work.
 									</div>
 								</div>
@@ -396,7 +398,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										Archival Material
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										A large part of the film incorporates archival b-roll and stills from the past to tell the story. Whether it be fans at concerts, vintage adverts, or the pressing of tees, there is a wealth of material to draw upon.
 									</div>
 								</div>
@@ -425,7 +427,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5">
 										Soundtrack
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										The film is propelled by a fast-paced energetic soundtrack featuring rock, metal, punk, and hip-hop classics, spanning the past sixty years.
 									</div>
 								</div>
@@ -700,8 +702,8 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Background articles</div>
-								<ul className="space-y-10 text-center uppercase text-xl md:text-2xl">
+								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-4xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Background articles</div>
+								<ul className="space-y-10 text-center xl:mt-20 uppercase text-xl md:text-2xl 6xl:text-4xl">
 									<li><a className="underline" href="https://www.ft.com/content/8486c243-cbd9-4445-8659-fcf4f6e40763">Financial Times: Why vintage band T-shirts are still a hit</a></li>
 									<li><a className="underline" href="https://rockerteeshirts.com/blogs/rockers-blog/how-band-t-shirts-can-be-important-tools-for-individual-representati">Rocker Tee: HOW BAND T-SHIRTS CAN BE IMPORTANT TOOLS FOR INDIVIDUAL REPRESENTATION</a></li>
 									<li><a className="underline" href="https://www.thenationalstudent.com/Opinion/2017-07-28/what_the_band_t_shirt_debate_really_says_about_our_culture.html">The National Student: What the band t-shirt debate really says about our culture</a></li>
@@ -721,8 +723,8 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
-								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 3xl:grid-cols-6 xl:gap-10">
+								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
+								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 3xl:grid-cols-6 xl:gap-10 3xl:my-20">
 
 									<div className="xl:col-span-1">
 										<StaticImage
@@ -792,8 +794,8 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Videos</div>
-								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
+								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Videos</div>
+								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10 3xl:my-20">
 
 									<div className="xl:col-span-1">
 										<div className="relative">
@@ -862,8 +864,8 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Budget</div>
-								<div className="w-full mx-auto xl:grid xl:gap-10">
+								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Budget</div>
+								<div className="w-full mx-auto xl:grid xl:gap-10 3xl:my-20">
 
 									<div className="xl:col-span-1">
 										<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl my-20">
@@ -884,58 +886,57 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Timeline</div>
-								<div className="w-full mx-auto my-5 xl:grid xl:gap-10">
+								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Timeline</div>
+								<div className="w-full mx-auto my-5 xl:grid xl:gap-10 3xl:my-20">
 
 									<div className="grid md:grid-cols-2 gap-10">
-										<div className="item mb-5">
+										{/* <div className="item mb-5">
 											<div className="flex flex-row">
 												<div className="uppercase text-main-100 leading-none font-bold text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">01</div>
 												<div className="block font-a pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">FUNDRAISING</h3>
 													<div className="mb-2 date opacity-50">6 Weeks</div>
-													<p className="text-xl">Lining up interviews, locations, travel itineraries and crew</p>
+													<p className="text-xl 6xl:text-2xl">Lining up interviews, locations, travel itineraries and crew</p>
 												</div>
 											</div>
-										</div>
+										</div> */}
 										<div className="item mb-5">
 											<div className="flex flex-row">
-												<div className="uppercase text-main-100 leading-none font-bold text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">02</div>
+												<div className="uppercase text-main-100 leading-none font-bold text-6xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">01</div>
 												<div className="block font-a pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">PRE-PRODUCTION</h3>
-													<div className="mb-2 date opacity-50">6 Weeks</div>
-													<p className="text-xl">Lining up interviews, locations, travel itineraries and crew.</p>
+													<div className="mb-2 date opacity-50">6-8 Weeks</div>
+													<p className="text-xl 6xl:text-2xl 9xl:text-3xl">Lining up interviews, locations, travel itineraries and crew.</p>
 												</div>
 											</div>
 										</div>
 										<div className="item mb-5">
 											<div className="flex flex-row">
-												<div className="uppercase text-main-100 leading-none font-bold text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">03</div>
+												<div className="uppercase text-main-100 leading-none font-bold text-6xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">02</div>
 												<div className="block font-a pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">PRODUCTION</h3>
-													<div className="mb-2 date opacity-50">25 Weeks</div>
-													<p className="text-xl">Interviewing subjects and starting stock image and video research and licensing.</p>
+													<div className="mb-2 date opacity-50">22-Weeks</div>
+													<p className="text-xl 6xl:text-2xl 9xl:text-3xl">Interviewing subjects and starting stock image and video research and licensing.</p>
 												</div>
 											</div>
 										</div>
 										<div className="item mb-5">
 											<div className="flex flex-row">
-												<div className="uppercase text-main-100 leading-none font-bold text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">04</div>
+												<div className="uppercase text-main-100 leading-none font-bold text-6xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">03</div>
 												<div className="block font-a pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">POST-PRODUCTION</h3>
-													<div className="mb-2 date opacity-50">25 Weeks</div>
-													<p className="text-xl">Editing, graphics, animation, and sound and music design.</p>
-													<p>Music supervisor begins licensing music.</p>
+													<div className="mb-2 date opacity-50">22-Weeks</div>
+													<p className="text-xl 6xl:text-2xl 9xl:text-3xl">Editing, graphics, animation, and sound and music design. Music supervisor begins licensing music.</p>
 												</div>
 											</div>
 										</div>
 										<div className="item mb-5">
 											<div className="flex flex-row">
-												<div className="uppercase text-main-100 leading-none font-bold text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">05</div>
+												<div className="uppercase text-main-100 leading-none font-bold text-6xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">04</div>
 												<div className="block font-a pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">SUBMISSION TO FILM FESTIVAL</h3>
-													<div className="mb-2 date opacity-50">4 Weeks</div>
-													<p className="text-xl">We would like we to premier the film at an appropriate film festival such as SXSW.</p>
+													<div className="mb-2 date opacity-50">4-Weeks</div>
+													<p className="text-xl 6xl:text-2xl 9xl:text-3xl">We would like we to premier the film at an appropriate film festival such as SXSW.</p>
 												</div>
 											</div>
 										</div>
@@ -954,17 +955,17 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7 items-center">
-								<div className="xl:col-span-3 xl:pr-10">
+								<div className="xl:col-span-3 xl:pr-10 3xl:my-20">
 									<div className="leading-[1.2] font-bold text-3xl xl:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl mb-5">
 										“My wardrobe of rock and metal tees helped me feel like I was a part of something larger than myself, a tribe.”
 									</div>
-									<div className="text-white p-3 font-normal font-a xl:text-lg">
+									<div className="text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										- Benjamin Jones, Director
 									</div>
 								</div>
 								<div className="xl:col-span-4 xl:pl-10">
 
-									<div className="bg-main-100 text-white p-3 font-normal font-a xl:text-lg">
+									<div className="bg-main-100 text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										I still remember how cool I felt when I slipped my first band tee over my head at age eleven. I wore that “Guns N Roses Was Here” tee until threadbare. I kept it and have collected hundreds more in the years since, captivated not only by the designs but also by their historical and cultural relevance. Having worn, pressed, and sold band tees for nearly thirty years, Tom shares this passion. Unlike the concert poster or hip-hop fashion, the band tee has never been explored on film. Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
 									</div>
 								</div>
@@ -980,23 +981,23 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
-								<div className="space-y-10">
+								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
+								<div className="space-y-10 3xl:my-20">
 									<div className="item">
-										<div className="space-y-10 text-center uppercase text-xl md:text-2xl">BENJAMIN JONES</div>
-										<div className="text-center text-white p-3 font-normal font-a xl:text-lg">
+										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">BENJAMIN JONES</div>
+										<div className="text-center text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 											I still remember how cool I felt when I slipped my first band tee over my head at age eleven. I wore that “Guns N Roses Was Here” tee until threadbare. I kept it and have collected hundreds more in the years since, captivated not only by the designs but also by their historical and cultural relevance. Having worn, pressed, and sold band tees for nearly thirty years, Tom shares this passion. Unlike the concert poster or hip-hop fashion, the band tee has never been explored on film. Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
 										</div>
 									</div>
 									<div className="item">
-										<div className="space-y-10 text-center uppercase text-xl md:text-2xl">TOM DAVENPORT </div>
-										<div className="text-center text-white p-3 font-normal font-a xl:text-lg">
+										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">TOM DAVENPORT </div>
+										<div className="text-center text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 											Co-Producer Tom Davenport is an entrepreneur in the branded apparel space. Starting in his garage over twenty years ago with the bootlegging of garage, glam, and punk band tees, he eventually legitimized his California-based operation to produce millions of units annually for bands and brands alike.
 										</div>
 									</div>
 									<div className="item">
-										<div className="space-y-10 text-center uppercase text-xl md:text-2xl">team 713 entertainment</div>
-										<div className="text-center text-white p-3 font-normal font-a xl:text-lg">
+										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">team 713 entertainment</div>
+										<div className="text-center text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 											In 2019, producers Tani Cohen and Bobby Rock partnered to form team 713 Entertainment, a management and production company.  They produced client Isabel Sandoval’s Shangri-la under the Miu Miu Women’s Tale series. Currently, they are in production on Waterkeeper, an environmental documentary profiling activist Diane Wilson.  As Executive Producers, they are in pre-production on Matt Fantaci’s screenplay, Scandalous! Band’s documentary history includes Hearts of Darkness and A Brief History of Time.  Cohen produced the Emmy-nominated HBO documentary Mr. Conservative: Goldwater on Goldwater.
 										</div>
 									</div>
@@ -1013,8 +1014,8 @@ const IndexPage = () => {
 					<div className="my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="overflow-scroll max-h-screen py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Contact</div>
-								<ul className="space-y-10 text-center text-xl md:text-4xl">
+								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Contact</div>
+								<ul className="space-y-10 text-center text-xl md:text-4xl 6xl:text-6xl 3xl:my-20">
 									<li><a className="underline font-a" href="mailto:info@wornandfaded.com">info@wornandfaded.com</a></li>
 									<li><a className="underline font-a" href="https://wornandfaded.com/">https://wornandfaded.com</a></li>
 									<li><a className="underline font-a" href="https://www.instagram.com/wornandfadeddoc/">#wornandfadeddoc</a></li>
