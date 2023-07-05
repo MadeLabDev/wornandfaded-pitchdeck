@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import { Keyboard, Navigation, Mousewheel, Parallax } from 'swiper/modules';
+import { Keyboard, Navigation, Parallax } from 'swiper/modules';
 
 import BlockVideo from "../components/block-videos";
 
@@ -18,7 +18,7 @@ const IndexPage = () => {
 		<Layout>
 
 			<Swiper
-				modules={[Parallax, Keyboard, Mousewheel, Navigation]}
+				modules={[Parallax, Keyboard, Navigation]}
 				loop={true}
 				navigation={true}
 				keyboard={{
@@ -391,7 +391,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Interview</div>
-								<div className="my-auto w-full mx-auto mt-20 xl:grid xl:grid-cols-3 xl:gap-10">
+								<div className="my-auto w-full mx-auto mt-10 xl:mt-20 xl:grid xl:grid-cols-3 xl:gap-10">
 									<div className="xl:col-span-1">
 										<h2 className="uppercase 6xl:text-3xl">Mick Jagger</h2>
 										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">The Rolling Stones</p>
@@ -582,7 +582,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
-									<div className="xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:col-span-1">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Setup
 										</div>
@@ -594,7 +594,7 @@ const IndexPage = () => {
 											className="w-full mx-auto"
 										/>
 									</div>
-									<div className="xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:col-span-1">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Inciting Incident
 										</div>
@@ -606,7 +606,7 @@ const IndexPage = () => {
 											className="w-full mx-auto"
 										/>
 									</div>
-									<div className="xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:col-span-1">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Big Event
 										</div>
@@ -769,7 +769,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
-									<div className="xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:col-span-1">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Crisis
 										</div>
@@ -781,7 +781,7 @@ const IndexPage = () => {
 											className="w-full mx-auto"
 										/>
 									</div>
-									<div className="xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:col-span-1">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Climax
 										</div>
@@ -793,7 +793,7 @@ const IndexPage = () => {
 											className="w-full mx-auto"
 										/>
 									</div>
-									<div className="xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:col-span-1">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 											Wrap
 										</div>
@@ -819,7 +819,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-4xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Background articles</div>
-								<ul className="space-y-10 text-center xl:mt-20 uppercase text-xl md:text-2xl 6xl:text-4xl">
+								<ul className="space-y-10 text-center mt-10 xl:mt-20 uppercase text-xl md:text-2xl 6xl:text-4xl">
 									<li><a className="underline" href="https://www.ft.com/content/8486c243-cbd9-4445-8659-fcf4f6e40763">Financial Times: Why vintage band T-shirts are still a hit</a></li>
 									<li><a className="underline" href="https://rockerteeshirts.com/blogs/rockers-blog/how-band-t-shirts-can-be-important-tools-for-individual-representati">Rocker Tee: HOW BAND T-SHIRTS CAN BE IMPORTANT TOOLS FOR INDIVIDUAL REPRESENTATION</a></li>
 									<li><a className="underline" href="https://www.thenationalstudent.com/Opinion/2017-07-28/what_the_band_t_shirt_debate_really_says_about_our_culture.html">The National Student: What the band t-shirt debate really says about our culture</a></li>
@@ -840,7 +840,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
-								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 3xl:grid-cols-6 xl:gap-10 3xl:my-20">
+								<div className="my-auto w-full mx-auto grid xl:grid-cols-3 3xl:grid-cols-6 gap-10 3xl:my-20">
 
 									<div className="xl:col-span-1">
 										<StaticImage

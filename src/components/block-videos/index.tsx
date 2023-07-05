@@ -56,9 +56,11 @@ function BlockVideo() {
 						</LightGallery>
 
 
-						<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" >
+						<a className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" data-lg-size="3840-2160"
+							data-src={`https://vimeo.com/657660189`}
+							data-poster={img_3}>
 							<FontAwesomeIcon icon={faPlay} className="text-5xl" />
-						</div>
+						</a>
 					</div>
 					<div className="mt-5 text-center leading-[1.2] font-bold text-2xl 2xl:text-3xl mb-5">
 						TEASER
@@ -91,9 +93,11 @@ function BlockVideo() {
 								/>
 							</a>
 						</LightGallery>
-						<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" >
+						<a className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" data-lg-size="3840-2160"
+							data-src={`https://vimeo.com/759639919`}
+							data-poster={img_2}>
 							<FontAwesomeIcon icon={faPlay} className="text-5xl" />
-						</div>
+						</a>
 					</div>
 					<div className="mt-5 text-center leading-[1.2] font-bold text-2xl 2xl:text-3xl mb-5">
 						EXCERPT: FRANK VACANTI OF WINTERLAND PRODUCTIONS
@@ -126,9 +130,11 @@ function BlockVideo() {
 								/>
 							</a>
 						</LightGallery>
-						<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" >
+						<a className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" data-lg-size="3840-2160"
+							data-src={`https://vimeo.com/657659506`}
+							data-poster={img_1}>
 							<FontAwesomeIcon icon={faPlay} className="text-5xl" />
-						</div>
+						</a>
 					</div>
 					<div className="mt-5 text-center leading-[1.2] font-bold text-2xl 2xl:text-3xl mb-5">
 						A BRIEF HISTORY OF THE BAND SHIRT
