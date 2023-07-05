@@ -33,7 +33,7 @@ const IndexPage = () => {
 						<StaticImage
 							src="../assets/logo.png"
 							alt="Worn and Faded"
-							placeholder="blurred"
+							placeholder="none"
 							layout="fullWidth"
 							className="max-w-xs w-full md:max-w-md 3xl:max-w-xl 10xl:max-w-2xl 13xl:max-w-4xl mx-auto"
 						/>
@@ -64,7 +64,7 @@ const IndexPage = () => {
 								<StaticImage
 									src="../assets/tshirt.png"
 									alt="Worn and Faded"
-									placeholder="blurred"
+									placeholder="none"
 									layout="fullWidth"
 									className="w-full mx-auto"
 								/>
@@ -91,7 +91,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/tshirt5.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
@@ -116,7 +116,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/tshirt8.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
@@ -142,7 +142,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/tshirt6.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
@@ -168,7 +168,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/tshirt7.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
@@ -199,7 +199,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/teen.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -228,7 +228,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/guy.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -257,7 +257,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/art.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -286,7 +286,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/sport.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -315,7 +315,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/young.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -344,7 +344,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/tshirt2.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -373,7 +373,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/tshirt3.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
@@ -534,7 +534,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/team.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -563,7 +563,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/beer.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -592,7 +592,7 @@ const IndexPage = () => {
 									<StaticImage
 										src="../assets/tshirt4.png"
 										alt="Worn and Faded"
-										placeholder="blurred"
+										placeholder="none"
 										layout="fullWidth"
 										className="w-full mx-auto"
 									/>
@@ -630,7 +630,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/004.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -642,7 +642,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/005.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -654,7 +654,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/006.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -690,7 +690,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/007.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -700,7 +700,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/008.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -709,7 +709,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/009.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -720,7 +720,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/010.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -730,7 +730,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/011.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -739,7 +739,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/012.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -748,7 +748,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/013.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -759,7 +759,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/014.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -769,7 +769,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/015.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -778,7 +778,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/016.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -817,7 +817,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/001.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -829,7 +829,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/002.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -841,7 +841,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/003.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -881,13 +881,13 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
-								<div className="my-auto w-full mx-auto grid xl:grid-cols-3 3xl:grid-cols-6 gap-10 3xl:my-20">
+								<div className="w-full mx-auto grid md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-6 gap-10 my-10 3xl:my-20">
 
 									<div className="xl:col-span-1">
 										<StaticImage
 											src="../assets/bg1.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -896,7 +896,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/bg2.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -905,7 +905,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/bg3.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -914,7 +914,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/bg4.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -923,7 +923,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/bg5.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
@@ -932,7 +932,7 @@ const IndexPage = () => {
 										<StaticImage
 											src="../assets/bg6.png"
 											alt="Worn and Faded"
-											placeholder="blurred"
+											placeholder="none"
 											layout="fullWidth"
 											className="w-full mx-auto"
 										/>
