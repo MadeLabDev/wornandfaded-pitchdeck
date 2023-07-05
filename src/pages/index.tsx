@@ -340,7 +340,7 @@ const IndexPage = () => {
 										Not everyone can afford to shell out hundreds or thousands of dollars for an authentic vintage band tee. To satiate the public’s demand for these tees, which has never been higher, bands and retailers made their own vintage-style tees.
 									</div>
 								</div>
-								<div className="xl:col-span-2 xl:pl-10">
+								<div className="xl:col-span-2 my-10 xl:pl-10">
 									<StaticImage
 										src="../assets/tshirt2.png"
 										alt="Worn and Faded"
@@ -369,7 +369,7 @@ const IndexPage = () => {
 										Passionate collectors still hunt for rare originals at flea markets, garage sales, and thrift stores across the globe. With music sales revenue decreasing over the last decade, sales of tees have become economically essential to both independent and mainstream artists.
 									</div>
 								</div>
-								<div className="xl:col-span-2 xl:pl-10">
+								<div className="xl:col-span-2 my-10 xl:pl-10">
 									<StaticImage
 										src="../assets/tshirt3.png"
 										alt="Worn and Faded"
@@ -391,81 +391,122 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Interview</div>
-								<div className="my-auto w-full mx-auto mt-10 xl:mt-20 xl:grid xl:grid-cols-3 xl:gap-10">
-									<div className="xl:col-span-1">
+								<div className="my-auto w-full mx-auto mt-10 xl:mt-20 grid md:grid-cols-2 xl:grid-cols-3 gap-10">
+									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-3xl">Mick Jagger</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">The Rolling Stones</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">The Rolling Stones</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Chuck D</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Founder of Public Enemy, author and activist</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Founder of Public Enemy, author and activist</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Jack White</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Guitarist, The White Stripes, Solo Artist</p>
-
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Guitarist, The White Stripes, Solo Artist</p>
+									</div>
+									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-3xl">Derek Riggs</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Brian “Pushead” Schroader</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of hundred of Metallica and Misfits tees</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of hundred of Metallica and Misfits tees</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Raymond Pettibon</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of the Black Flag logo</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of the Black Flag logo</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Penelope Spheeris</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Film director, producer, and screenwriter</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Film director, producer, and screenwriter</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Malcom Gladwell</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Journalist, author, podcaster, public speaker </p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Journalist, author, podcaster, public speaker </p>
 									</div>
-									<div className="xl:col-span-1">
+									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-3xl">QuestLove</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Musician, record producer, DJ, filmmaker</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Musician, record producer, DJ, filmmaker</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Taylor Swift</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer & Songwriter, Fashion Icon</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer & Songwriter, Fashion Icon</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Tom Morello</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Guitarist, Rage Against the Machine</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Guitarist, Rage Against the Machine</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Joan Jett</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer, guitarist, record producer and actress</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer, guitarist, record producer and actress</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Henry Rollins</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer, Black Flag/Rollins Band</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer, Black Flag/Rollins Band</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Alex & David Graham</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Sons of Promoter Bill Graham</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Sons of Promoter Bill Graham</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Frank Vacanti</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Production Manager for Winterland Productions</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Production Manager for Winterland Productions</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Peter Patagno</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Graphic Designer for world renowned Hipgnosis Designs</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Graphic Designer for world renowned Hipgnosis Designs</p>
 									</div>
-									<div className="xl:col-span-1">
+									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-3xl">Dave Grohl</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Foo Fighters/Nirvana</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Foo Fighters/Nirvana</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Billie Eilish</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer & Songwriter, Fashion Icon</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer & Songwriter, Fashion Icon</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Nicky Panicci</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Vintage tee collector and historian</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Vintage tee collector and historian</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Slash</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Musician and guitarist, Guns N' Roses</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Musician and guitarist, Guns N' Roses</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Avigail Collins</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Stylist to celebs  including Kim  Kardashian</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Stylist to celebs  including Kim  Kardashian</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Patrick Klima</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Dean Delray</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Comedian, podcaster and vintage tee enthusiast</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Comedian, podcaster and vintage tee enthusiast</p>
+									</div>
+									<div className="col-span-1">
 
 										<h2 className="uppercase 6xl:text-3xl">Chuck Klosterman</h2>
-										<p className="mb-6 xl:mb-8 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Author and Social Commentator</p>
+										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Author and Social Commentator</p>
 									</div>
 
 								</div>
@@ -547,7 +588,7 @@ const IndexPage = () => {
 										The film is propelled by a fast-paced energetic soundtrack featuring rock, metal, punk, and hip-hop classics, spanning the past sixty years.
 									</div>
 								</div>
-								<div className="xl:col-span-2 xl:pl-10">
+								<div className="xl:col-span-2 my-10 xl:pl-10">
 									<StaticImage
 										src="../assets/tshirt4.png"
 										alt="Worn and Faded"
@@ -949,7 +990,7 @@ const IndexPage = () => {
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Timeline</div>
 								<div className="w-full mx-auto my-5 xl:grid xl:gap-10 3xl:my-20">
 
-									<div className="grid md:grid-cols-2 gap-10">
+									<div className="grid lg:grid-cols-2 gap-10">
 										{/* <div className="item mb-5">
 											<div className="flex flex-row">
 												<div className="uppercase text-main-100 leading-none font-bold text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">01</div>
@@ -961,9 +1002,9 @@ const IndexPage = () => {
 											</div>
 										</div> */}
 										<div className="item mb-5">
-											<div className="flex flex-row">
+											<div className="flex flex-col md:flex-row">
 												<div className="uppercase text-main-100 leading-none font-bold text-6xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">01</div>
-												<div className="block font-a pl-10">
+												<div className="block font-a md:pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">PRE-PRODUCTION</h3>
 													<div className="mb-2 date opacity-50">6-8 Weeks</div>
 													<p className="text-xl 6xl:text-2xl 9xl:text-3xl">Lining up interviews, locations, travel itineraries and crew.</p>
@@ -971,9 +1012,9 @@ const IndexPage = () => {
 											</div>
 										</div>
 										<div className="item mb-5">
-											<div className="flex flex-row">
+											<div className="flex flex-col md:flex-row">
 												<div className="uppercase text-main-100 leading-none font-bold text-6xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">02</div>
-												<div className="block font-a pl-10">
+												<div className="block font-a md:pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">PRODUCTION</h3>
 													<div className="mb-2 date opacity-50">22-Weeks</div>
 													<p className="text-xl 6xl:text-2xl 9xl:text-3xl">Interviewing subjects and starting stock image and video research and licensing.</p>
@@ -981,9 +1022,9 @@ const IndexPage = () => {
 											</div>
 										</div>
 										<div className="item mb-5">
-											<div className="flex flex-row">
+											<div className="flex flex-col md:flex-row">
 												<div className="uppercase text-main-100 leading-none font-bold text-6xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">03</div>
-												<div className="block font-a pl-10">
+												<div className="block font-a md:pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">POST-PRODUCTION</h3>
 													<div className="mb-2 date opacity-50">22-Weeks</div>
 													<p className="text-xl 6xl:text-2xl 9xl:text-3xl">Editing, graphics, animation, and sound and music design. Music supervisor begins licensing music.</p>
@@ -991,9 +1032,9 @@ const IndexPage = () => {
 											</div>
 										</div>
 										<div className="item mb-5">
-											<div className="flex flex-row">
+											<div className="flex flex-col md:flex-row">
 												<div className="uppercase text-main-100 leading-none font-bold text-6xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">04</div>
-												<div className="block font-a pl-10">
+												<div className="block font-a md:pl-10">
 													<h3 className="mt-2 font-bold font-b text-xl sm:text-3xl leading-none">SUBMISSION TO FILM FESTIVAL</h3>
 													<div className="mb-2 date opacity-50">4-Weeks</div>
 													<p className="text-xl 6xl:text-2xl 9xl:text-3xl">We would like we to premier the film at an appropriate film festival such as SXSW.</p>
