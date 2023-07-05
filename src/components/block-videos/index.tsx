@@ -48,7 +48,7 @@ function BlockVideo() {
 								<StaticImage
 									src="../../assets/img-03.jpg"
 									alt="Worn and Faded"
-									placeholder="blurred"
+									placeholder="none"
 									layout="fullWidth"
 									className="w-full mx-auto border-[10px] border-[#e6e5d9]"
 								/>
@@ -87,7 +87,7 @@ function BlockVideo() {
 								<StaticImage
 									src="../../assets/img-10.jpg"
 									alt="Worn and Faded"
-									placeholder="blurred"
+									placeholder="none"
 									layout="fullWidth"
 									className="w-full mx-auto border-[10px] border-[#e6e5d9]"
 								/>
@@ -124,7 +124,7 @@ function BlockVideo() {
 								<StaticImage
 									src="../../assets/img-05.png"
 									alt="Worn and Faded"
-									placeholder="blurred"
+									placeholder="none"
 									layout="fullWidth"
 									className="w-full mx-auto border-[10px] border-[#e6e5d9]"
 								/>
