@@ -1042,7 +1042,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
-								<div className="space-y-10 3xl:my-20">
+								<div className="space-y-10 mt-10 3xl:my-20">
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">BENJAMIN JONES</div>
 										<div className="text-center text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
