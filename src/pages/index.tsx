@@ -76,9 +76,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-
-
-				<SwiperSlide className="slider slider_29">
+				<SwiperSlide className="slider slider_4 fixedsize">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
@@ -104,13 +102,14 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_30">
+				<SwiperSlide className="slider slider_5 fixedsize">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
-										When we put on a band shirt, we want to represent the artists, the music, and the movements that have had a profound impact on our lives.									</div>
+										When we put on a band shirt, we want to represent the artists, the music, and the movements that have had a profound impact on our lives.
+									</div>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
 									<StaticImage
@@ -129,7 +128,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_31">
+				<SwiperSlide className="slider slider_6 fixedsize">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
@@ -155,7 +154,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_32">
+				<SwiperSlide className="slider slider_7 fixedsize">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
@@ -181,9 +180,33 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-
-
-				<SwiperSlide className="slider slider_4">
+				<SwiperSlide className="slider slider_8">
+					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
+							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+								<div className="xl:col-span-1 xl:pr-10">
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
+										Vivienne Westwood transformed tees into powerful statements of rebellion and individuality, leaving a lasting impact on fashion, music, and culture.
+									</div>
+								</div>
+								<div className="xl:col-span-2 xl:pl-10">
+									<StaticImage
+										src="../assets/lady.png"
+										alt="Worn and Faded"
+										placeholder="none"
+										layout="fullWidth"
+										className="w-full mx-auto"
+									/>
+								</div>
+							</div>
+							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner__inner"></div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 7</div>
+							</div>
+						</div>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide className="slider slider_9">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -212,7 +235,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_5">
+				<SwiperSlide className="slider slider_10">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -241,7 +264,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_6">
+				<SwiperSlide className="slider slider_11">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -270,7 +293,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_7">
+				<SwiperSlide className="slider slider_12">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -299,7 +322,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_8">
+				<SwiperSlide className="slider slider_13">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -328,7 +351,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_9">
+				<SwiperSlide className="slider slider_14">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -357,7 +380,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_10">
+				<SwiperSlide className="slider slider_15 fixedsize">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -386,7 +409,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_11">
+				<SwiperSlide className="slider slider_16">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -518,7 +541,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_12">
+				<SwiperSlide className="slider slider_17">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -547,7 +570,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_13">
+				<SwiperSlide className="slider slider_18">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -576,7 +599,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_14">
+				<SwiperSlide className="slider slider_19">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -605,7 +628,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_15">
+				<SwiperSlide className="slider slider_20">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -618,7 +641,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_16">
+				<SwiperSlide className="slider slider_21">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -668,7 +691,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_17">
+				<SwiperSlide className="slider slider_22">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -681,7 +704,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_18">
+				<SwiperSlide className="slider slider_23">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -792,7 +815,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_19">
+				<SwiperSlide className="slider slider_24">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -805,7 +828,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_20">
+				<SwiperSlide className="slider slider_25">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -855,7 +878,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_21">
+				<SwiperSlide className="slider slider_26">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -876,7 +899,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_22">
+				<SwiperSlide className="slider slider_27">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -947,7 +970,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_23">
+				<SwiperSlide className="slider slider_28">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -961,7 +984,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_24">
+				<SwiperSlide className="slider slider_29">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -983,7 +1006,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_25">
+				<SwiperSlide className="slider slider_30">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1052,7 +1075,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_26">
+				<SwiperSlide className="slider slider_31">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7 items-center">
@@ -1078,7 +1101,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_27">
+				<SwiperSlide className="slider slider_32">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1111,7 +1134,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="slider slider_28">
+				<SwiperSlide className="slider slider_33">
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">

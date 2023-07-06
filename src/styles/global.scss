@@ -162,11 +162,7 @@ body {
                 display: flex;
                 flex-direction: column;
 
-                &.slider_29,
-                &.slider_30,
-                &.slider_31,
-                &.slider_32,
-                &.slider_10 {
+                &.fixedsize {
                     img {
                         max-height: 60vh;
                         width: auto;
