@@ -30,9 +30,10 @@
     "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-source-filesystem": "^5.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
-    "react": "^18.2.0",
-    "sass": "^1.63.6",
     "lightgallery": "^2.7.1",
+    "react": "^18.2.0",
+    "react-contexify": "^6.0.0",
+    "sass": "^1.63.6",
     "swiper": "^10.0.3"
   },
   "devDependencies": {
