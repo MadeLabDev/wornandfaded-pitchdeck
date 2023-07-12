@@ -1,7 +1,5 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-// import { Menu, Item, Separator, Submenu, useContextMenu } from 'react-contexify';
-// import 'react-contexify/ReactContexify.css';
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -13,57 +11,11 @@ import { Keyboard, Navigation, Parallax } from 'swiper/modules';
 
 import BlockVideo from "../components/block-videos";
 
-// const MENU_ID = 'nguyenapp';
-
 const IndexPage = () => {
-
-	// const slideTo = (index: any) => {
-	// 	console.log(index);
-	// 	// Go to Slide with key of 'slide_2'
-
-	// };
-
-	// const { show } = useContextMenu({
-	// 	id: MENU_ID,
-	// });
-
-	// function handleContextMenu(event: any) {
-	// 	show({
-	// 		event,
-	// 		props: {
-	// 			key: 'value'
-	// 		}
-	// 	})
-	// }
-
-	// function handleItemClick({ id, event, props }: any) {
-	// 	switch (id) {
-	// 		case "copy":
-	// 			console.log(event, props);
-	// 			break;
-	// 		case "cut":
-	// 			console.log(event, props);
-	// 			break;
-	// 	}
-	// }
 
 	return (
 
-		// <div onContextMenu={handleContextMenu}>
-
 		<Layout>
-
-			{/* <Menu id={MENU_ID}>
-				<Item id="copy" onClick={handleItemClick}>Copy</Item>
-				<Item id="sdfsdf" onClick={() => slideTo('slider_2')}>Copy</Item>
-				<Separator />
-					<Item disabled>Disabled</Item>
-					<Separator />
-				<Submenu label="Foobar">
-						<Item id="reload" onClick={handleItemClick}>Reload</Item>
-						<Item id="something" onClick={handleItemClick}>Do something else</Item>
-					</Submenu>
-			</Menu> */}
 
 			<Swiper
 				modules={[Parallax, Keyboard, Navigation]}
@@ -77,12 +29,12 @@ const IndexPage = () => {
 				parallax={true}
 				className="mySwiper">
 				<SwiperSlide className="slider slider_1">
-					<div className="my-auto px-10 py-20 w-full mx-auto">
+					<div className="my-auto px-10 py-20 w-full mx-auto justify-center flex">
 						<StaticImage
 							src="../assets/logo.png"
 							alt="Worn and Faded"
 							placeholder="none"
-							layout="fullWidth"
+							// layout="fullWidth"
 							className="max-w-xs w-full md:max-w-md 3xl:max-w-xl 10xl:max-w-2xl 13xl:max-w-4xl mx-auto"
 						/>
 					</div>
@@ -113,7 +65,7 @@ const IndexPage = () => {
 									src="../assets/tshirt.png"
 									alt="Worn and Faded"
 									placeholder="none"
-									layout="fullWidth"
+									// layout="fullWidth"
 									className="w-full mx-auto"
 								/>
 							</div>
@@ -138,7 +90,7 @@ const IndexPage = () => {
 										src="../assets/tshirt5.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
 								</div>
@@ -164,7 +116,7 @@ const IndexPage = () => {
 										src="../assets/tshirt8.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
 								</div>
@@ -190,7 +142,7 @@ const IndexPage = () => {
 										src="../assets/tshirt6.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
 								</div>
@@ -216,7 +168,7 @@ const IndexPage = () => {
 										src="../assets/tshirt7.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
 								</div>
@@ -242,7 +194,7 @@ const IndexPage = () => {
 										src="../assets/lady.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -262,7 +214,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										What is the meaning of your average teenager proudly wearing a replica of a t-shirt for a concert twenty-five years before their birth?
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										For nearly 60 years, the band tee has been an essential form of self-expression for young people. This film will track not only the birth and evolution of the band tee and how it became a ubiquitous part of fashion but how and why it became the ultimate symbol of nonconformity.
 									</div>
 								</div>
@@ -271,7 +223,7 @@ const IndexPage = () => {
 										src="../assets/teen.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -291,7 +243,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										Initially, the band tee faced an uphill battle to gain acceptance as many bands felt that selling them was proof that they had “sold out.”
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Bill Graham was a legendary concert promoter and manager in the Bay Area who worked with bands such as the Grateful Dead, Santana, and Jefferson Airplane.  He changed their perceptions about the band tee and convinced them that they were an essential tool for promotion and income. He founded the first music merchandising company Winterland Productions, in 1973.
 									</div>
 								</div>
@@ -300,7 +252,7 @@ const IndexPage = () => {
 										src="../assets/guy.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -320,7 +272,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										By the mid 1970s, the band shirt had become a fashion icon worn by the likes of David Bowie, Iggy Pop, and John Lennon.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Fans began using the tee as a tool of self-expression as timeless designs by the likes of the Ramones, Motorhead, the Rolling Stones, and Joy Division were created. At the end of the decade, the sight of a mech table at a concert was not uncommon.
 									</div>
 								</div>
@@ -329,7 +281,7 @@ const IndexPage = () => {
 										src="../assets/art.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -349,7 +301,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										In the 1980s, the band tee had become an essential tool of identity and rebellion for young people in their quest to individuate themselves.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										The golden age of the band tee was ushered in with over-the-top Heavy Metal and Punk tees taking center stage in high school hallways and shopping malls everywhere.  Iconic designs by Metallica, Run DMC, Black Flag, and Iron Maiden became like uniforms to many young people.
 									</div>
 								</div>
@@ -358,7 +310,7 @@ const IndexPage = () => {
 										src="../assets/sport.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -378,7 +330,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										As the new century dawned, vintage band shirts became some of the most desirable and collectible items in fashion.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Celebrities such as the Kardashians, Justin Bieber, and Miley Cyrus sported tees from heavy metal bands they likely had never listened to and sent prices soaring. This inspired metal-inspired designs by the likes of Chanel and Balenciaga and even appeared on catwalks in Paris and London.
 									</div>
 								</div>
@@ -387,7 +339,7 @@ const IndexPage = () => {
 										src="../assets/young.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -407,7 +359,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										The “faux vintage” band tee is a common sight at H&M, Target, and other retailers nowadays.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Not everyone can afford to shell out hundreds or thousands of dollars for an authentic vintage band tee. To satiate the public’s demand for these tees, which has never been higher, bands and retailers made their own vintage-style tees.
 									</div>
 								</div>
@@ -416,7 +368,7 @@ const IndexPage = () => {
 										src="../assets/tshirt2.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -436,7 +388,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										In 2021, this Grateful Dead tee from 1967 sold for over $17K at a Sotheby’s auction, making it the most expensive tee ever sold.
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Passionate collectors still hunt for rare originals at flea markets, garage sales, and thrift stores across the globe. With music sales revenue decreasing over the last decade, sales of tees have become economically essential to both independent and mainstream artists.
 									</div>
 								</div>
@@ -445,7 +397,7 @@ const IndexPage = () => {
 										src="../assets/tshirt3.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto max-h-[calc(60vh)]"
 									/>
 								</div>
@@ -461,125 +413,104 @@ const IndexPage = () => {
 					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Interview</div>
-								<div className="my-auto w-full mx-auto mt-10 xl:mt-20 grid md:grid-cols-2 xl:grid-cols-3 gap-10">
+								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Interviews</div>
+								<div className="my-auto w-full mx-auto mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
 									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-3xl">Mick Jagger</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">The Rolling Stones</p>
+										<h2 className="uppercase 6xl:text-2xl">Mick Jagger</h2>
+										<p className="font-normal font-a xl:text-xl">The Rolling Stones</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Chuck D</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Founder of Public Enemy, author and activist</p>
+										<h2 className="uppercase 6xl:text-2xl">Chuck D</h2>
+										<p className="font-normal font-a xl:text-xl">Founder of Public Enemy, author and activist</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Jack White</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Guitarist, The White Stripes, Solo Artist</p>
+										<h2 className="uppercase 6xl:text-2xl">Jack White</h2>
+										<p className="font-normal font-a xl:text-xl">Guitarist, The White Stripes, Solo Artist</p>
 									</div>
 									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-3xl">Derek Riggs</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
+										<h2 className="uppercase 6xl:text-2xl">Derek Riggs</h2>
+										<p className="font-normal font-a xl:text-xl">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Brian “Pushead” Schroader</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of hundred of Metallica and Misfits tees</p>
+										<h2 className="uppercase 6xl:text-2xl">Brian “Pushead” Schroader</h2>
+										<p className="font-normal font-a xl:text-xl">Artist and creator of hundred of Metallica and Misfits tees</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Raymond Pettibon</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Artist and creator of the Black Flag logo</p>
+										<h2 className="uppercase 6xl:text-2xl">Raymond Pettibon</h2>
+										<p className="font-normal font-a xl:text-xl">Artist and creator of the Black Flag logo</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Penelope Spheeris</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Film director, producer, and screenwriter</p>
+										<h2 className="uppercase 6xl:text-2xl">Penelope Spheeris</h2>
+										<p className="font-normal font-a xl:text-xl">Film director, producer, and screenwriter</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Malcom Gladwell</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Journalist, author, podcaster, public speaker </p>
+										<h2 className="uppercase 6xl:text-2xl">Malcom Gladwell</h2>
+										<p className="font-normal font-a xl:text-xl">Journalist, author, podcaster, public speaker </p>
 									</div>
 									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-3xl">QuestLove</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Musician, record producer, DJ, filmmaker</p>
+										<h2 className="uppercase 6xl:text-2xl">QuestLove</h2>
+										<p className="font-normal font-a xl:text-xl">Musician, record producer, DJ, filmmaker</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Taylor Swift</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer & Songwriter, Fashion Icon</p>
+										<h2 className="uppercase 6xl:text-2xl">Taylor Swift</h2>
+										<p className="font-normal font-a xl:text-xl">Singer & Songwriter, Fashion Icon</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Tom Morello</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Guitarist, Rage Against the Machine</p>
+										<h2 className="uppercase 6xl:text-2xl">Tom Morello</h2>
+										<p className="font-normal font-a xl:text-xl">Guitarist, Rage Against the Machine</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Joan Jett</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer, guitarist, record producer and actress</p>
+										<h2 className="uppercase 6xl:text-2xl">Joan Jett</h2>
+										<p className="font-normal font-a xl:text-xl">Singer, guitarist, record producer and actress</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Henry Rollins</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer, Black Flag/Rollins Band</p>
+										<h2 className="uppercase 6xl:text-2xl">Henry Rollins</h2>
+										<p className="font-normal font-a xl:text-xl">Singer, Black Flag/Rollins Band</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Alex & David Graham</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Sons of Promoter Bill Graham</p>
+										<h2 className="uppercase 6xl:text-2xl">Alex & David Graham</h2>
+										<p className="font-normal font-a xl:text-xl">Sons of Promoter Bill Graham</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Frank Vacanti</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Production Manager for Winterland Productions</p>
+										<h2 className="uppercase 6xl:text-2xl">Frank Vacanti</h2>
+										<p className="font-normal font-a xl:text-xl">Production Manager for Winterland Productions</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Peter Patagno</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Graphic Designer for world renowned Hipgnosis Designs</p>
+										<h2 className="uppercase 6xl:text-2xl">Peter Patagno</h2>
+										<p className="font-normal font-a xl:text-xl">Graphic Designer for world renowned Hipgnosis Designs</p>
 									</div>
 									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-3xl">Dave Grohl</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Foo Fighters/Nirvana</p>
+										<h2 className="uppercase 6xl:text-2xl">Dave Grohl</h2>
+										<p className="font-normal font-a xl:text-xl">Foo Fighters/Nirvana</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Billie Eilish</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Singer & Songwriter, Fashion Icon</p>
+										<h2 className="uppercase 6xl:text-2xl">Billie Eilish</h2>
+										<p className="font-normal font-a xl:text-xl">Singer & Songwriter, Fashion Icon</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Nicky Panicci</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Vintage tee collector and historian</p>
+										<h2 className="uppercase 6xl:text-2xl">Nicky Panicci</h2>
+										<p className="font-normal font-a xl:text-xl">Vintage tee collector and historian</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Slash</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Musician and guitarist, Guns N' Roses</p>
+										<h2 className="uppercase 6xl:text-2xl">Slash</h2>
+										<p className="font-normal font-a xl:text-xl">Musician and guitarist, Guns N' Roses</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Avigail Collins</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Stylist to celebs  including Kim  Kardashian</p>
+										<h2 className="uppercase 6xl:text-2xl">Avigail Collins</h2>
+										<p className="font-normal font-a xl:text-xl">Stylist to celebs  including Kim  Kardashian</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Patrick Klima</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
+										<h2 className="uppercase 6xl:text-2xl">Patrick Klima</h2>
+										<p className="font-normal font-a xl:text-xl">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Dean Delray</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Comedian, podcaster and vintage tee enthusiast</p>
+										<h2 className="uppercase 6xl:text-2xl">Dean Delray</h2>
+										<p className="font-normal font-a xl:text-xl">Comedian, podcaster and vintage tee enthusiast</p>
 									</div>
 									<div className="col-span-1">
-
-										<h2 className="uppercase 6xl:text-3xl">Chuck Klosterman</h2>
-										<p className="font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">Author and Social Commentator</p>
+										<h2 className="uppercase 6xl:text-2xl">Chuck Klosterman</h2>
+										<p className="font-normal font-a xl:text-xl">Author and Social Commentator</p>
 									</div>
-
 								</div>
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
@@ -597,7 +528,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										Visual Style
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										Like the tees themselves, Worn & Faded brings a clean yet abraded aesthetic to the film that will keep viewers engaged throughout. The interviews have a unified visual style, using similar lighting techniques and thoughtful background imagery. Animation sequences will be created by Alchemy Studio known for their cutting edge work.
 									</div>
 								</div>
@@ -606,7 +537,7 @@ const IndexPage = () => {
 										src="../assets/team.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -626,7 +557,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										Archival Material
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										A large part of the film incorporates archival b-roll and stills from the past to tell the story. Whether it be fans at concerts, vintage adverts, or the pressing of tees, there is a wealth of material to draw upon.
 									</div>
 								</div>
@@ -635,7 +566,7 @@ const IndexPage = () => {
 										src="../assets/beer.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -655,7 +586,7 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
 										Soundtrack
 									</div>
-									<div className="bg-main-100 text-white p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										The film is propelled by a fast-paced energetic soundtrack featuring rock, metal, punk, and hip-hop classics, spanning the past sixty years.
 									</div>
 								</div>
@@ -664,7 +595,7 @@ const IndexPage = () => {
 										src="../assets/tshirt4.png"
 										alt="Worn and Faded"
 										placeholder="none"
-										layout="fullWidth"
+										// layout="fullWidth"
 										className="w-full mx-auto"
 									/>
 								</div>
@@ -702,7 +633,7 @@ const IndexPage = () => {
 											src="../assets/004.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -714,7 +645,7 @@ const IndexPage = () => {
 											src="../assets/005.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -726,7 +657,7 @@ const IndexPage = () => {
 											src="../assets/006.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -762,7 +693,7 @@ const IndexPage = () => {
 											src="../assets/007.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 
@@ -772,7 +703,7 @@ const IndexPage = () => {
 											src="../assets/008.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -781,7 +712,7 @@ const IndexPage = () => {
 											src="../assets/009.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -792,7 +723,7 @@ const IndexPage = () => {
 											src="../assets/010.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 
@@ -802,7 +733,7 @@ const IndexPage = () => {
 											src="../assets/011.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -811,7 +742,7 @@ const IndexPage = () => {
 											src="../assets/012.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -820,7 +751,7 @@ const IndexPage = () => {
 											src="../assets/013.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -831,7 +762,7 @@ const IndexPage = () => {
 											src="../assets/014.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 
@@ -841,7 +772,7 @@ const IndexPage = () => {
 											src="../assets/015.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -850,7 +781,7 @@ const IndexPage = () => {
 											src="../assets/016.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -889,7 +820,7 @@ const IndexPage = () => {
 											src="../assets/001.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -901,7 +832,7 @@ const IndexPage = () => {
 											src="../assets/002.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -913,7 +844,7 @@ const IndexPage = () => {
 											src="../assets/003.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -959,7 +890,7 @@ const IndexPage = () => {
 											src="../assets/bg1.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -968,7 +899,7 @@ const IndexPage = () => {
 											src="../assets/bg2.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -977,7 +908,7 @@ const IndexPage = () => {
 											src="../assets/bg3.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -986,7 +917,7 @@ const IndexPage = () => {
 											src="../assets/bg4.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -995,7 +926,7 @@ const IndexPage = () => {
 											src="../assets/bg5.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -1004,7 +935,7 @@ const IndexPage = () => {
 											src="../assets/bg6.png"
 											alt="Worn and Faded"
 											placeholder="none"
-											layout="fullWidth"
+											// layout="fullWidth"
 											className="w-full mx-auto"
 										/>
 									</div>
@@ -1131,13 +1062,13 @@ const IndexPage = () => {
 									<div className="leading-[1.2] font-bold text-3xl xl:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl mb-5">
 										“My wardrobe of rock and metal tees helped me feel like I was a part of something larger than myself, a tribe.”
 									</div>
-									<div className="text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										- Benjamin Jones, Director
 									</div>
 								</div>
 								<div className="xl:col-span-4 xl:pl-10">
 
-									<div className="bg-main-100 text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+									<div className="bg-main-100 text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 										I still remember how cool I felt when I slipped my first band tee over my head at age eleven. I wore that “Guns N Roses Was Here” tee until threadbare. I kept it and have collected hundreds more in the years since, captivated not only by the designs but also by their historical and cultural relevance. Having worn, pressed, and sold band tees for nearly thirty years, Tom shares this passion. Unlike the concert poster or hip-hop fashion, the band tee has never been explored on film. Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
 									</div>
 								</div>
@@ -1157,19 +1088,19 @@ const IndexPage = () => {
 								<div className="space-y-10 mt-10 3xl:my-20">
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">BENJAMIN JONES</div>
-										<div className="text-center text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 											I still remember how cool I felt when I slipped my first band tee over my head at age eleven. I wore that “Guns N Roses Was Here” tee until threadbare. I kept it and have collected hundreds more in the years since, captivated not only by the designs but also by their historical and cultural relevance. Having worn, pressed, and sold band tees for nearly thirty years, Tom shares this passion. Unlike the concert poster or hip-hop fashion, the band tee has never been explored on film. Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
 										</div>
 									</div>
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">TOM DAVENPORT </div>
-										<div className="text-center text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 											Co-Producer Tom Davenport is an entrepreneur in the branded apparel space. Starting in his garage over twenty years ago with the bootlegging of garage, glam, and punk band tees, he eventually legitimized his California-based operation to produce millions of units annually for bands and brands alike.
 										</div>
 									</div>
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">team 713 entertainment</div>
-										<div className="text-center text-white p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
 											In 2019, producers Tani Cohen and Bobby Rock partnered to form team 713 Entertainment, a management and production company.  They produced client Isabel Sandoval’s Shangri-la under the Miu Miu Women’s Tale series. Currently, they are in production on Waterkeeper, an environmental documentary profiling activist Diane Wilson.  As Executive Producers, they are in pre-production on Matt Fantaci’s screenplay, Scandalous! Band’s documentary history includes Hearts of Darkness and A Brief History of Time.  Cohen produced the Emmy-nominated HBO documentary Mr. Conservative: Goldwater on Goldwater.
 										</div>
 									</div>

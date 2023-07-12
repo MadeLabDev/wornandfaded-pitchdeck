@@ -39,7 +39,7 @@ html,
 body {
     font-family: 'Neue Kabel', 'Poppins', sans-serif;
     background-color: #1c1b16;
-    color: #ffffff;
+    color: #e6e5d9;
 
     .font-a {
         font-family: 'Neue Kabel Regular', 'Poppins', sans-serif;
@@ -89,7 +89,7 @@ body {
 
             .swiper-button-prev,
             .swiper-button-next {
-                color: #ffffff;
+                color: #e6e5d9;
                 font-size: 1.5rem;
                 opacity: 0.5;
                 transition: all 0s ease-in-out !important;
@@ -161,6 +161,12 @@ body {
                 background-size: cover;
                 display: flex;
                 flex-direction: column;
+
+                img {
+                    max-height: 70vh;
+                    width: auto;
+                    margin: auto;
+                }
 
                 &.fixedsize {
                     img {
@@ -405,7 +411,7 @@ body {
         left: 50%;
         top: 50%;
         z-index: 10;
-        color: #fff;
+        color: #e6e5d9;
         font-size: 2em;
         transform: translate3d(-50%, -50%, 0);
         text-shadow: 0 0 10px rgba(0, 0, 0, .5);
