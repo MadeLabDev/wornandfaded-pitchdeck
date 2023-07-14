@@ -20,7 +20,7 @@ const IndexPage = () => {
 	React.useEffect(() => {
 		setTimeout(() => {
 			document.getElementById('loadingpage')?.classList.add('done');
-		}, 3000);
+		}, 1500);
 	}, []);
 
 	return (
