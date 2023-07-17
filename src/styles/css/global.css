@@ -164,6 +164,12 @@ body main .swiper .slider {
   flex-direction: column;
   min-width: 100vw;
   background-color: #1c1b16;
+  overflow-y: auto;
+}
+html main .swiper .slider .item,
+body main .swiper .slider .item {
+  max-height: 100vh;
+  overflow-y: auto;
 }
 html main .swiper .slider img,
 body main .swiper .slider img {

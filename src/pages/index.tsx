@@ -15,13 +15,16 @@ import imganimation from "../assets/ezgif-2-3e43d18e07.webp";
 const IndexPage = () => {
 
 	const settings = {
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: true,
+		swipeToSlide: true,
+		lazyLoad: 'ondemand',
 		fade: true,
+		adaptiveHeight: true,
 	};
 
 	React.useEffect(() => {
@@ -39,17 +42,17 @@ const IndexPage = () => {
 			}} />
 			<Slider className="swiper" {...settings}>
 				<div className="min-h-screen slider slider_1">
-					<div className="my-auto px-10 py-20 w-full mx-auto justify-center flex" data-swiper-parallax="300">
+					<div className="item my-auto px-10 py-20 w-full mx-auto justify-center flex" data-swiper-parallax="300">
 						<StaticImage
 							src="../assets/logo.png"
 							alt="Worn and Faded"
 							placeholder="none"
-							className="max-w-xs w-full md:max-w-md 3xl:max-w-xl 10xl:max-w-2xl 13xl:max-w-4xl mx-auto"
+							className="max-w-xs w-full md:max-w-md 3xl:max-w-lg 10xl:max-w-xl 13xl:max-w-2xl mx-auto"
 						/>
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_2">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-20">
 							<div className="3xl:my-20">
 								<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl mt-20 mb-4" data-swiper-parallax="1000">
@@ -67,7 +70,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_3">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<img src={imganimation} alt="" className="min-h-[70vh]" />
@@ -80,7 +83,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_4 fixedsize">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -105,7 +108,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_5 fixedsize">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -130,7 +133,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_6 fixedsize">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -155,7 +158,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_7 fixedsize">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -180,7 +183,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_8">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -205,7 +208,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_9">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -234,7 +237,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_10">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -263,7 +266,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_11">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -292,7 +295,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_12">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -321,7 +324,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_13">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -350,7 +353,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_14">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -379,7 +382,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_15">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -408,7 +411,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_16">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none" data-swiper-parallax="1000">Interviews</div>
@@ -519,7 +522,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_17">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -547,7 +550,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_18">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -575,7 +578,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_19">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
@@ -603,7 +606,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_20">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b" data-swiper-parallax="1000">ACT I</div>
@@ -616,7 +619,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_21">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
@@ -666,7 +669,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_22">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b" data-swiper-parallax="1000">ACT II</div>
@@ -679,7 +682,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_23">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:flex xl:flex-row xl:gap-10">
@@ -790,7 +793,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_24">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b" data-swiper-parallax="1000">ACT III</div>
@@ -803,7 +806,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_25">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
@@ -853,7 +856,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_26">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-4xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b" data-swiper-parallax="1000">Background articles</div>
@@ -874,7 +877,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_27">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
@@ -945,7 +948,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_28">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b" data-swiper-parallax="1000">Videos</div>
@@ -959,7 +962,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_29">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b" data-swiper-parallax="1000">Budget</div>
@@ -981,7 +984,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_30">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b" data-swiper-parallax="1000">Timeline</div>
@@ -1050,7 +1053,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_31">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7 items-center">
 								<div className="xl:col-span-3 xl:pr-10 3xl:my-20" data-swiper-parallax="1000">
@@ -1076,7 +1079,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_32">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
@@ -1109,7 +1112,7 @@ const IndexPage = () => {
 					</div>
 				</div>
 				<div className="min-h-screen slider slider_33">
-					<div className="overflow-scroll max-h-screen my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b" data-swiper-parallax="1000">Contact</div>

@@ -165,6 +165,12 @@ body {
                 flex-direction: column;
                 min-width: 100vw;
                 background-color: #1c1b16;
+                overflow-y: auto;
+
+                .item {
+                    max-height: 100vh;
+                    overflow-y: auto;
+                }
 
                 img {
                     max-height: 70vh;
