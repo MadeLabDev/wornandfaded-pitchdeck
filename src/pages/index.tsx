@@ -1,5 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import Slider from "react-slick";
 
@@ -14,6 +16,30 @@ import imganimation from "../assets/ezgif-2-3e43d18e07.webp";
 
 const IndexPage = () => {
 
+	function NextArrow(props: any) {
+		const { className, onClick } = props;
+		return (
+			<div
+				className={className}
+				onClick={onClick}
+			>
+				<FontAwesomeIcon icon={faChevronRight} />
+			</div>
+		);
+	}
+
+	function PrevArrow(props: any) {
+		const { className, onClick } = props;
+		return (
+			<div
+				className={className}
+				onClick={onClick}
+			>
+				<FontAwesomeIcon icon={faChevronLeft} />
+			</div>
+		);
+	}
+
 	const settings = {
 		dots: false,
 		infinite: true,
@@ -24,7 +50,8 @@ const IndexPage = () => {
 		swipeToSlide: true,
 		lazyLoad: 'ondemand',
 		fade: true,
-		adaptiveHeight: true,
+		nextArrow: <NextArrow />,
+		prevArrow: <PrevArrow />
 	};
 
 	React.useEffect(() => {
@@ -1086,19 +1113,19 @@ const IndexPage = () => {
 								<div className="space-y-10 mt-10 3xl:my-20">
 									<div className="item" data-swiper-parallax="1000">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">BENJAMIN JONES</div>
-										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
 											I still remember how cool I felt when I slipped my first band tee over my head at age eleven. I wore that “Guns N Roses Was Here” tee until threadbare. I kept it and have collected hundreds more in the years since, captivated not only by the designs but also by their historical and cultural relevance. Having worn, pressed, and sold band tees for nearly thirty years, Tom shares this passion. Unlike the concert poster or hip-hop fashion, the band tee has never been explored on film. Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
 										</div>
 									</div>
 									<div className="item" data-swiper-parallax="1000">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">TOM DAVENPORT </div>
-										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
 											Co-Producer Tom Davenport is an entrepreneur in the branded apparel space. Starting in his garage over twenty years ago with the bootlegging of garage, glam, and punk band tees, he eventually legitimized his California-based operation to produce millions of units annually for bands and brands alike.
 										</div>
 									</div>
 									<div className="item" data-swiper-parallax="1000">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">team 713 entertainment</div>
-										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
 											In 2019, producers Tani Cohen and Bobby Rock partnered to form team 713 Entertainment, a management and production company.  They produced client Isabel Sandoval’s Shangri-la under the Miu Miu Women’s Tale series. Currently, they are in production on Waterkeeper, an environmental documentary profiling activist Diane Wilson.  As Executive Producers, they are in pre-production on Matt Fantaci’s screenplay, Scandalous! Band’s documentary history includes Hearts of Darkness and A Brief History of Time.  Cohen produced the Emmy-nominated HBO documentary Mr. Conservative: Goldwater on Goldwater.
 										</div>
 									</div>
@@ -1131,6 +1158,7 @@ const IndexPage = () => {
 				</div>
 			</Slider>
 
+
 		</Layout >
 
 		// </div>
@@ -1145,3 +1173,11 @@ export const Head = () => <Seo
 />
 
 export default IndexPage
+function next() {
+	throw new Error("Function not implemented.");
+}
+
+function previous() {
+	throw new Error("Function not implemented.");
+}
+

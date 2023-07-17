@@ -157,15 +157,56 @@ body {
                 }
             }
 
+            .slick-arrow {
+                width: 3rem;
+                height: 3rem;
+
+                &::before {
+                    display: none;
+                }
+
+                svg {
+                    width: 2rem;
+                    height: 2rem;
+
+                    * {
+                        fill: #e6e5d9;
+                    }
+                }
+
+                &.slick-prev {
+                    position: fixed;
+                    bottom: 0;
+                    right: 3rem;
+                    z-index: 999;
+                    left: unset;
+                    top: unset;
+                    transition: all 1s ease-in-out 0.5s;
+                    transform: translateX(-100%);
+                    animation: showinL 1s ease-in-out forwards;
+                }
+
+                &.slick-next {
+                    position: fixed;
+                    bottom: 0;
+                    right: 0;
+                    z-index: 999;
+                    left: unset;
+                    top: unset;
+                    transition: all 1s ease-in-out 0.5s;
+                    transform: translateX(100%);
+                    animation: showinR 1s ease-in-out forwards;
+                }
+            }
+
             .slider {
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
                 display: flex !important;
                 flex-direction: column;
-                min-width: 100vw;
+                // min-width: 100vw;
                 background-color: #1c1b16;
-                overflow-y: auto;
 
                 .item {
                     max-height: 100vh;
