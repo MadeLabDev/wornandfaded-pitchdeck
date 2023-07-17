@@ -44,12 +44,15 @@ const IndexPage = () => {
 	const settings = {
 		dots: false,
 		infinite: true,
-		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: true,
 		swipeToSlide: true,
 		lazyLoad: 'ondemand',
+		speed: 500,
+		autoplaySpeed: 5000,
+		autoplay: true,
+		pauseOnHover: true,
 		fade: true,
 		nextArrow: <NextArrow />,
 		prevArrow: <PrevArrow />
