@@ -160,14 +160,18 @@ body {
             .slick-arrow {
                 width: 3rem;
                 height: 3rem;
+                background-color: #000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
                 &::before {
                     display: none;
                 }
 
                 svg {
-                    width: 2rem;
-                    height: 2rem;
+                    width: 1.5rem;
+                    height: 1.5rem;
 
                     * {
                         fill: #e6e5d9;
@@ -181,9 +185,10 @@ body {
                     z-index: 999;
                     left: unset;
                     top: unset;
-                    transition: all 1s ease-in-out 0.5s;
+                    transition: all .3 ease-in-out;
                     transform: translateX(-100%);
-                    animation: showinL 1s ease-in-out forwards;
+                    opacity: 0;
+                    animation: showinML 1s 3s ease-in-out forwards;
                 }
 
                 &.slick-next {
@@ -193,9 +198,39 @@ body {
                     z-index: 999;
                     left: unset;
                     top: unset;
-                    transition: all 1s ease-in-out 0.5s;
+                    transition: all .3 ease-in-out;
                     transform: translateX(100%);
-                    animation: showinR 1s ease-in-out forwards;
+                    opacity: 0;
+                    animation: showinMR 1s 3s ease-in-out forwards;
+                }
+
+                &:hover {
+                    background-color: #ab192d;
+                }
+            }
+
+
+            @keyframes showinML {
+                0% {
+                    transform: translateX(-100%);
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+
+            @keyframes showinMR {
+                0% {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translateX(0);
                 }
             }
 
