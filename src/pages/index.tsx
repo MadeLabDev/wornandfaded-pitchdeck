@@ -13,7 +13,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import BlockVideo from "../components/block-videos";
-import imganimation from "../assets/ezgif-2-3e43d18e07.webp";
+import tshirt1 from "../assets/tshirt1.webp";
+import young from "../assets/young.webp";
+import art from "../assets/art.webp";
+import lady from "../assets/lady.webp";
+import teen from "../assets/teen.webp";
+import guy from "../assets/guy.webp";
+import sport from "../assets/sport.webp";
 
 const IndexPage = () => {
 
@@ -112,7 +118,7 @@ const IndexPage = () => {
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<img src={imganimation} alt="" className="min-h-[70vh]" />
+								<img src={tshirt1} alt="" className="min-h-[70vh]" />
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
 								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
@@ -265,14 +271,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<Fade direction="right" duration={1000} delay={100}>
-										<StaticImage
-											src="../assets/lady.png"
-											alt="Worn and Faded"
-											placeholder="none"
-											className="w-full mx-auto"
-										/>
-									</Fade>
+									<img src={lady} alt="" className="min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -302,15 +301,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<Fade direction="right" duration={1000} delay={100}>
-										<StaticImage
-											src="../assets/teen.png"
-											alt="Worn and Faded"
-											placeholder="none"
-											// layout="fullWidth"
-											className="w-full mx-auto"
-										/>
-									</Fade>
+									<img src={teen} alt="" className="min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -340,15 +331,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<Fade direction="right" duration={1000} delay={100}>
-										<StaticImage
-											src="../assets/guy.png"
-											alt="Worn and Faded"
-											placeholder="none"
-											// layout="fullWidth"
-											className="w-full mx-auto"
-										/>
-									</Fade>
+									<img src={guy} alt="" className="min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -378,15 +361,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<Fade direction="right" duration={1000} delay={100}>
-										<StaticImage
-											src="../assets/art.png"
-											alt="Worn and Faded"
-											placeholder="none"
-											// layout="fullWidth"
-											className="w-full mx-auto"
-										/>
-									</Fade>
+									<img src={art} alt="" className="min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -416,15 +391,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<Fade direction="right" duration={1000} delay={100}>
-										<StaticImage
-											src="../assets/sport.png"
-											alt="Worn and Faded"
-											placeholder="none"
-											// layout="fullWidth"
-											className="w-full mx-auto"
-										/>
-									</Fade>
+									<img src={sport} alt="" className="min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -454,15 +421,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<Fade direction="right" duration={1000} delay={100}>
-										<StaticImage
-											src="../assets/young.png"
-											alt="Worn and Faded"
-											placeholder="none"
-											// layout="fullWidth"
-											className="w-full mx-auto"
-										/>
-									</Fade>
+									<img src={young} alt="" className="min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>

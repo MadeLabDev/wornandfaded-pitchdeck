@@ -13,7 +13,7 @@ import { Keyboard, EffectFade, Navigation, Parallax } from 'swiper/modules';
 
 import BlockVideo from "../components/block-videos";
 
-import imganimation from "../assets/ezgif-2-3e43d18e07.webp";
+import imganimation from "../assets/tshirt1.webp";
 
 const IndexPage = () => {
 
