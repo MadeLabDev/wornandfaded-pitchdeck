@@ -21,6 +21,7 @@ import teen from "../assets/teen.webp";
 import guy from "../assets/guy.webp";
 import sport from "../assets/sport.webp";
 import tshirt2 from "../assets/tshirt2.webp";
+import tshirt3 from "../assets/tshirt3.webp";
 
 const IndexPage = () => {
 
@@ -57,9 +58,9 @@ const IndexPage = () => {
 		swipeToSlide: true,
 		lazyLoad: 'ondemand',
 		speed: 500,
-		// autoplaySpeed: 5000,
-		// autoplay: true,
-		// pauseOnHover: true,
+		autoplaySpeed: 5000,
+		autoplay: true,
+		pauseOnHover: true,
 		fade: true,
 		nextArrow: <NextArrow />,
 		prevArrow: <PrevArrow />
@@ -127,7 +128,6 @@ const IndexPage = () => {
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 2</div>
 								</div>
 							</Fade>
-
 						</div>
 					</div>
 				</div>
@@ -711,14 +711,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<Fade direction="right" duration={1000} delay={100}>
-										<StaticImage
-											src="../assets/tshirt4.png"
-											alt="Worn and Faded"
-											placeholder="none"
-											className="w-full mx-auto"
-										/>
-									</Fade>
+									<img src={tshirt3} alt="" className="" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
