@@ -120,7 +120,7 @@ const IndexPage = () => {
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<img src={tshirt1} alt="" className="min-h-[70vh]" />
+								<img src={tshirt1} alt="" className="xl:min-h-[70vh]" />
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
 								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
@@ -272,7 +272,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<img src={lady} alt="" className="min-h-[70vh]" />
+									<img src={lady} alt="" className="xl:min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -302,7 +302,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<img src={teen} alt="" className="min-h-[70vh]" />
+									<img src={teen} alt="" className="xl:min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -332,7 +332,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<img src={guy} alt="" className="min-h-[70vh]" />
+									<img src={guy} alt="" className="xl:min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -362,7 +362,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<img src={art} alt="" className="min-h-[70vh]" />
+									<img src={art} alt="" className="xl:min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -392,7 +392,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<img src={sport} alt="" className="min-h-[70vh]" />
+									<img src={sport} alt="" className="xl:min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
@@ -422,7 +422,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<img src={young} alt="" className="min-h-[70vh]" />
+									<img src={young} alt="" className="xl:min-h-[70vh]" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
