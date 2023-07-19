@@ -20,6 +20,7 @@ import lady from "../assets/lady.webp";
 import teen from "../assets/teen.webp";
 import guy from "../assets/guy.webp";
 import sport from "../assets/sport.webp";
+import tshirt2 from "../assets/tshirt2.webp";
 
 const IndexPage = () => {
 
@@ -56,9 +57,9 @@ const IndexPage = () => {
 		swipeToSlide: true,
 		lazyLoad: 'ondemand',
 		speed: 500,
-		autoplaySpeed: 5000,
-		autoplay: true,
-		pauseOnHover: true,
+		// autoplaySpeed: 5000,
+		// autoplay: true,
+		// pauseOnHover: true,
 		fade: true,
 		nextArrow: <NextArrow />,
 		prevArrow: <PrevArrow />
@@ -451,15 +452,7 @@ const IndexPage = () => {
 									</Fade>
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
-									<Fade direction="right" duration={1000} delay={100}>
-										<StaticImage
-											src="../assets/tshirt2.png"
-											alt="Worn and Faded"
-											placeholder="none"
-											// layout="fullWidth"
-											className="w-full mx-auto"
-										/>
-									</Fade>
+									<img src={tshirt2} alt="" className="" />
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
