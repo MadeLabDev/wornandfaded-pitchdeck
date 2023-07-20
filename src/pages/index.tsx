@@ -58,9 +58,9 @@ const IndexPage = () => {
 		swipeToSlide: true,
 		lazyLoad: 'ondemand',
 		speed: 500,
-		autoplaySpeed: 5000,
-		autoplay: true,
-		pauseOnHover: true,
+		// autoplaySpeed: 5000,
+		// autoplay: true,
+		// pauseOnHover: true,
 		fade: true,
 		nextArrow: <NextArrow />,
 		prevArrow: <PrevArrow />
