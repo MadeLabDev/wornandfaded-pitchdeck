@@ -2,6 +2,8 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 import { Fade } from "react-awesome-reveal";
 
 import Slider from "react-slick";
@@ -13,14 +15,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import BlockVideo from "../components/block-videos";
-import tshirt1 from "../assets/tshirt1.webp";
-import young from "../assets/young.webp";
+import tshirt1 from "../assets/ezgif-5-e0ac9563ab.png";
+import young from "../assets/youngf.png";
 import art from "../assets/art.webp";
 import lady from "../assets/lady.webp";
-import teen from "../assets/teen.webp";
+import teen from "../assets/ezgif.com-apng-maker.png";
 import guy from "../assets/guy.webp";
 import sport from "../assets/sport.webp";
-import tshirt2 from "../assets/tshirt2.webp";
+import tshirt2 from "../assets/tsh2.png";
 import tshirt3 from "../assets/tshirt3.webp";
 
 const IndexPage = () => {
@@ -50,7 +52,7 @@ const IndexPage = () => {
 	}
 
 	const settings = {
-		dots: false,
+		dots: true,
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -63,7 +65,14 @@ const IndexPage = () => {
 		// pauseOnHover: true,
 		fade: true,
 		nextArrow: <NextArrow />,
-		prevArrow: <PrevArrow />
+		prevArrow: <PrevArrow />,
+		customPaging: function (i: any) {
+			return (
+				<a>
+					{`${i - 1}`}
+				</a>
+			);
+		},
 	};
 
 	React.useEffect(() => {
@@ -1303,7 +1312,8 @@ const IndexPage = () => {
 									<Fade direction="up" duration={1000} delay={100} cascade>
 										<li><a className="underline font-a" href="mailto:info@wornandfaded.com">info@wornandfaded.com</a></li>
 										<li><a className="underline font-a" href="https://wornandfaded.com/">https://wornandfaded.com</a></li>
-										<li><a className="underline font-a" href="https://www.instagram.com/wornandfadeddoc/">#wornandfadeddoc</a></li>
+										<li><a className="underline font-a inline-flex flex-row items-center" href="https://www.instagram.com/wornandfadeddoc/">
+											<FontAwesomeIcon icon={faInstagram} className="mr-2" /><span>wornandfadeddoc</span></a></li>
 									</Fade>
 								</ul>
 							</div>

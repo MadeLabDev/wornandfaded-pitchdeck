@@ -24,13 +24,12 @@ function BlockVideo() {
 
 	return (
 
-		<section className="relative w-full">
+		<section className="relative w-full z-[9999999]">
 
 			<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10 3xl:my-20">
 				<Fade direction="up" duration={1000} delay={100} cascade>
 					<div className="xl:col-span-1">
-						<div className="relative">
-
+						<div className="relative cursor-pointer">
 							<LightGallery
 								speed={500}
 								plugins={[lgZoom, lgVideo, lgRotate]}
@@ -55,8 +54,6 @@ function BlockVideo() {
 									/>
 								</a>
 							</LightGallery>
-
-
 							<a className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#000] py-4 px-6 rounded-lg bg-opacity-50" data-lg-size="3840-2160"
 								data-src={`https://vimeo.com/657660189`}
 								data-poster={img_3}>
@@ -68,7 +65,7 @@ function BlockVideo() {
 						</div>
 					</div>
 					<div className="xl:col-span-1">
-						<div className="relative">
+						<div className="relative cursor-pointer">
 
 							<LightGallery
 								speed={500}
@@ -105,7 +102,7 @@ function BlockVideo() {
 						</div>
 					</div>
 					<div className="xl:col-span-1">
-						<div className="relative">
+						<div className="relative cursor-pointer">
 
 							<LightGallery
 								speed={500}
