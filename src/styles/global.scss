@@ -789,3 +789,95 @@ body {
         right: 0;
     }
 }
+
+.toggleDot {
+    position: fixed;
+    bottom: 0;
+    right: 6rem;
+    z-index: 9999;
+    transition: all 0.3 ease-in-out;
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: showinML 1s 3s ease-in-out forwards;
+    width: 3rem;
+    height: 3rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-right: 1px solid #353535;
+    font-size: 1.5rem;
+
+    .pclose {
+        display: none;
+    }
+
+    .popen {
+        display: block;
+    }
+
+    &.active {
+        .pclose {
+            display: block;
+        }
+
+        .popen {
+            display: none;
+        }
+    }
+
+    &:hover {
+        background-color: #ab192d;
+    }
+}
+
+footer {
+    &.active {
+        display: none;
+    }
+}
+
+.slick-dots {
+    display: none !important;
+    bottom: 0 !important;
+    background-color: #000 !important;
+    width: auto !important;
+    margin: auto !important;
+    // transform: translateX(50%) !important;
+    position: fixed !important;
+    z-index: 99999;
+
+    li {
+        width: auto !important;
+        height: auto !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        cursor: pointer;
+        margin: 0 !important;
+
+        a {
+            background-color: #000;
+            font-weight: 400;
+            font-family: 'Neue Kabel Regular', 'Poppins', sans-serif;
+            line-height: 1;
+            padding: 10px 5px 8px 5px !important;
+            min-width: 2rem;
+
+            &:hover {
+                background-color: #ab192d;
+            }
+        }
+
+        &.slick-active {
+            a {
+                background-color: #ab192d;
+            }
+        }
+    }
+
+    &.active {
+        display: block !important;
+    }
+}
