@@ -88,7 +88,6 @@ const IndexPage = () => {
 			}
 		},
 		beforeChange: function (index: any) {
-			console.log(index);
 			if (index === 32 || index === 1) {
 				document.querySelector('.linerhome')?.classList.remove('active');
 			}
