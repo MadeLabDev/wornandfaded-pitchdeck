@@ -79,6 +79,25 @@ const IndexPage = () => {
 		fade: true,
 		nextArrow: <NextArrow />,
 		prevArrow: <PrevArrow />,
+		afterChange: function (index: any) {
+			document.getElementById('setnumber').innerHTML = `${index}`;
+			if (index !== 0) {
+				document.querySelector('.linerhome')?.classList.add('active');
+			} else {
+				document.querySelector('.linerhome')?.classList.remove('active');
+			}
+		},
+		beforeChange: function (index: any) {
+			console.log(index);
+			if (index === 32 || index === 1) {
+				document.querySelector('.linerhome')?.classList.remove('active');
+			}
+		},
+		onInit: function (index: any) {
+			if (index === 0) {
+				document.querySelector('.linerhome')?.classList.remove('active');
+			}
+		},
 		customPaging: function (i: any) {
 			return (
 				<a>
@@ -144,7 +163,7 @@ const IndexPage = () => {
 								</Fade>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 1</div>
 								</div>
@@ -155,11 +174,11 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_3">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<img src={tshirt1} alt="" className="xl:min-h-[70vh]" />
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 2</div>
 								</div>
@@ -170,7 +189,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_4 fixedsize">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -190,7 +209,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 3</div>
 
@@ -203,7 +222,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_5 fixedsize">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -223,7 +242,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 4</div>
 								</div>
@@ -235,7 +254,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_6 fixedsize">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -255,7 +274,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 5</div>
 								</div>
@@ -267,7 +286,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_7 fixedsize">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -287,7 +306,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 6</div>
 								</div>
@@ -299,7 +318,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_8">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -312,7 +331,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 7</div>
 								</div>
@@ -324,7 +343,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_9">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -342,7 +361,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 8</div>
 								</div>
@@ -354,7 +373,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_10">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -372,7 +391,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 9</div>
 								</div>
@@ -384,7 +403,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_11">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -402,7 +421,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 10</div>
 								</div>
@@ -414,7 +433,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_12">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -432,7 +451,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 11</div>
 								</div>
@@ -444,7 +463,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_13">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -462,7 +481,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 12</div>
 								</div>
@@ -474,7 +493,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_14">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -492,7 +511,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 13</div>
 								</div>
@@ -504,7 +523,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_15">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -530,7 +549,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 14</div>
 								</div>
@@ -542,7 +561,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_16">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100} cascade>
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Interviews</div>
 								</Fade>
@@ -648,7 +667,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 15</div>
 								</div>
@@ -659,7 +678,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_17">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -684,7 +703,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 16</div>
 								</div>
@@ -696,7 +715,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_18">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -721,7 +740,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 17</div>
 								</div>
@@ -733,7 +752,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_19">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
@@ -751,7 +770,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 18</div>
 								</div>
@@ -763,13 +782,13 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_20">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100}>
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b">ACT I</div>
 								</Fade>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 19</div>
 								</div>
@@ -781,7 +800,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_21">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
 									<Fade direction="up" duration={1000} delay={100} cascade>
 										<div className="mb-20 xl:mb-0 xl:col-span-1">
@@ -824,7 +843,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 20</div>
 								</div>
@@ -836,13 +855,13 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_22">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100}>
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b">ACT II</div>
 								</Fade>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 21</div>
 								</div>
@@ -854,7 +873,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_23">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100} cascade>
 									<div className="my-auto w-full mx-auto xl:flex xl:flex-row xl:gap-10">
 										<div className="xl:w-[30%]">
@@ -958,7 +977,7 @@ const IndexPage = () => {
 								</Fade>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 22</div>
 								</div>
@@ -969,13 +988,13 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_24">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100}>
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-7xl lg:text-9xl xl:text-11xl 3xl:text-13xl 6xl:text-15xl 9xl:text-18xl 12xl:text-20xl text-stroke-main-2 font-b">ACT III</div>
 								</Fade>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 23</div>
 								</div>
@@ -987,7 +1006,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_25">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
 									<Fade direction="up" duration={1000} delay={100} cascade>
 										<div className="mb-20 xl:mb-0 xl:col-span-1">
@@ -1030,7 +1049,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 24</div>
 								</div>
@@ -1042,7 +1061,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_26">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100}>
 									<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-4xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Background articles</div>
 								</Fade>
@@ -1058,7 +1077,7 @@ const IndexPage = () => {
 								</ul>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 25</div>
 								</div>
@@ -1070,12 +1089,12 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_27">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100}>
 									<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
 								</Fade>
 								<div className="w-full mx-auto grid md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-6 gap-10 my-10 3xl:my-20">
-									<Fade direction="up" duration={300} delay={100} cascade>
+									<Fade direction="up" duration={1000} delay={250} cascade>
 										<div className="xl:col-span-1">
 											<StaticImage
 												src="../assets/bg1.png"
@@ -1135,7 +1154,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 26</div>
 								</div>
@@ -1147,14 +1166,14 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_28">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100} cascade>
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Videos</div>
 								</Fade>
 								<BlockVideo />
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 27</div>
 								</div>
@@ -1166,7 +1185,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_29">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100} cascade>
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Budget</div>
 									<div className="w-full mx-auto xl:grid xl:gap-10 3xl:my-20">
@@ -1181,7 +1200,7 @@ const IndexPage = () => {
 								</Fade>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 28</div>
 								</div>
@@ -1193,7 +1212,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_30">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100}>
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Timeline</div>
 								</Fade>
@@ -1247,7 +1266,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 29</div>
 								</div>
@@ -1259,7 +1278,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_31">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7 items-center">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7 items-center">
 								<div className="xl:col-span-3 xl:pr-10 3xl:my-20">
 									<Fade direction="left" duration={1000} delay={100} cascade>
 										<div className="leading-[1.2] font-bold text-3xl xl:text-4xl 3xl:text-5xl 6xl:text-6xl 11xl:text-7xl mb-5">
@@ -1279,7 +1298,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 30</div>
 								</div>
@@ -1291,7 +1310,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_32">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100} cascade>
 									<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
 								</Fade>
@@ -1319,7 +1338,7 @@ const IndexPage = () => {
 								</div>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 31</div>
 								</div>
@@ -1331,7 +1350,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_33">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 								<Fade direction="up" duration={1000} delay={100} cascade>
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Contact</div>
 								</Fade>
@@ -1345,7 +1364,7 @@ const IndexPage = () => {
 								</ul>
 							</div>
 							<Fade direction="up" duration={1000} delay={500}>
-								<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 									<div className="liner__inner"></div>
 									<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 32</div>
 								</div>
@@ -1354,8 +1373,12 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-			</Slider >
+			</Slider>
 
+			<div className="liner linerhome mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] text-center">
+				<div className="liner__inner"></div>
+				<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • <span id="setnumber"></span></div>
+			</div>
 
 		</Layout >
 
