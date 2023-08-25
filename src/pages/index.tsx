@@ -141,7 +141,7 @@ const IndexPage = () => {
 								src="../assets/logo.png"
 								alt="Worn and Faded"
 								placeholder="none"
-								className="max-w-xs w-full md:max-w-md 3xl:max-w-lg 10xl:max-w-xl 13xl:max-w-2xl mx-auto"
+								className="max-w-xs w-full md:max-w-md 3xl:max-w-lg 10xl:max-w-xl 13xl:max-w-5xl mx-auto"
 							/>
 						</Fade>
 					</div>
@@ -565,7 +565,7 @@ const IndexPage = () => {
 									<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Interviews</div>
 								</Fade>
 								<div className="my-auto w-full mx-auto mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
-									<Fade direction="up" duration={500} delay={100} cascade>
+									<Fade direction="up" duration={150} delay={0} cascade>
 										<div className="col-span-1">
 											<h2 className="uppercase 6xl:text-2xl">Mick Jagger</h2>
 											<p className="font-normal font-a xl:text-xl">The Rolling Stones</p>
