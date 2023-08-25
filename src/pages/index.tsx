@@ -22,7 +22,7 @@ import lady from "../assets/lady.webp";
 import teen from "../assets/ezgif.com-apng-maker.png";
 import guy from "../assets/guy2.png";
 import sport from "../assets/sport2.png";
-import tshirt2 from "../assets/tsh2.png";
+import tshirt2 from "../assets/nghiml.png";
 import tshirt3 from "../assets/tshirt3.webp";
 
 const IndexPage = () => {
@@ -1093,7 +1093,7 @@ const IndexPage = () => {
 									<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
 								</Fade>
 								<div className="w-full mx-auto grid md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-6 gap-10 my-10 3xl:my-20">
-									<Fade direction="up" duration={1000} delay={250} cascade>
+									<Fade direction="up" duration={550} delay={50} cascade>
 										<div className="xl:col-span-1">
 											<StaticImage
 												src="../assets/bg1.png"
