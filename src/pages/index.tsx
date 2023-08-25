@@ -20,8 +20,8 @@ import young from "../assets/youngf.png";
 import art from "../assets/art.webp";
 import lady from "../assets/lady.webp";
 import teen from "../assets/ezgif.com-apng-maker.png";
-import guy from "../assets/guy.webp";
-import sport from "../assets/sport.webp";
+import guy from "../assets/guy2.png";
+import sport from "../assets/sport2.png";
 import tshirt2 from "../assets/tsh2.png";
 import tshirt3 from "../assets/tshirt3.webp";
 
