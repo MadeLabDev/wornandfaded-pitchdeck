@@ -285,7 +285,7 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_7 fixedsize">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3 items-center">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
 								<div className="xl:col-span-1 xl:pr-10">
 									<Fade direction="left" duration={1000} delay={100}>
 										<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 11xl:text-6xl mb-5 2xl:mb-12">
