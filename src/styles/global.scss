@@ -889,10 +889,11 @@ footer {
 }
 
 .liner-inline {
-    opacity: 0;
+    // opacity: 0;
 }
 
 .linerhome {
+    display: none;
     position: absolute !important;
     // width: calc(100% - 15rem);
     // left: 7.5rem;
