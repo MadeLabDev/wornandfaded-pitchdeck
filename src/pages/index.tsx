@@ -583,9 +583,10 @@ const IndexPage = () => {
 											<p className="font-normal font-a xl:text-xl">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
 										</div>
 										<div className="col-span-1">
-											<h2 className="uppercase 6xl:text-2xl">Brian “Pushead” Schroader</h2>
-											<p className="font-normal font-a xl:text-xl">Artist and creator of hundred of Metallica and Misfits tees</p>
+											<h2 className="uppercase 6xl:text-2xl">Dave Grohl</h2>
+											<p className="font-normal font-a xl:text-xl">Foo Fighters/Nirvana</p>
 										</div>
+
 										<div className="col-span-1">
 											<h2 className="uppercase 6xl:text-2xl">Raymond Pettibon</h2>
 											<p className="font-normal font-a xl:text-xl">Artist and creator of the Black Flag logo</p>
@@ -630,9 +631,10 @@ const IndexPage = () => {
 											<h2 className="uppercase 6xl:text-2xl">Peter Patagno</h2>
 											<p className="font-normal font-a xl:text-xl">Graphic Designer for world renowned Hipgnosis Designs</p>
 										</div>
+
 										<div className="col-span-1">
-											<h2 className="uppercase 6xl:text-2xl">Dave Grohl</h2>
-											<p className="font-normal font-a xl:text-xl">Foo Fighters/Nirvana</p>
+											<h2 className="uppercase 6xl:text-2xl">Brian “Pushead” Schroader</h2>
+											<p className="font-normal font-a xl:text-xl">Artist and creator of hundred of Metallica and Misfits tees</p>
 										</div>
 										<div className="col-span-1">
 											<h2 className="uppercase 6xl:text-2xl">Billie Eilish</h2>
