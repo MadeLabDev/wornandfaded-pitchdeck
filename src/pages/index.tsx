@@ -24,6 +24,7 @@ import guy from "../assets/guy.png";
 import sport from "../assets/sport.png";
 import tshirt2 from "../assets/hinh5.png";
 import tshirt3 from "../assets/hinh6.png";
+import DogVideo from "../assets/vm.mp4"
 
 const IndexPage = () => {
 
@@ -562,7 +563,7 @@ const IndexPage = () => {
 
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Interviews</div>
 
-								<div className="my-auto w-full mx-auto mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+								<div className="my-auto w-full text-center mx-auto mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
 
 									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-2xl">Mick Jagger</h2>
@@ -729,12 +730,15 @@ const IndexPage = () => {
 								</div>
 								<div className="xl:col-span-2 xl:pl-10">
 
-									<StaticImage
+									{/* <StaticImage
 										src="../assets/beer.png"
 										alt="Worn and Faded"
 										placeholder="none"
 										className="w-full mx-auto"
-									/>
+									/> */}
+									<video autoPlay muted loop className="w-full mx-auto">
+										<source src={DogVideo} type="video/mp4" />
+									</video>
 
 								</div>
 							</div>
