@@ -66,7 +66,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 1</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 1</div>
 							</div>
 						</div>
 					</div>
@@ -79,7 +79,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 2</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 2</div>
 							</div>
 						</div>
 					</div>
@@ -104,7 +104,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 3</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 3</div>
 							</div>
 						</div>
 					</div>
@@ -129,7 +129,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 4</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 4</div>
 							</div>
 						</div>
 					</div>
@@ -154,7 +154,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 5</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 5</div>
 							</div>
 						</div>
 					</div>
@@ -179,7 +179,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 6</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 6</div>
 							</div>
 						</div>
 					</div>
@@ -204,7 +204,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 7</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 7</div>
 							</div>
 						</div>
 					</div>
@@ -233,7 +233,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 7</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 7</div>
 							</div>
 						</div>
 					</div>
@@ -262,7 +262,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 8</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 8</div>
 							</div>
 						</div>
 					</div>
@@ -291,7 +291,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 9</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 9</div>
 							</div>
 						</div>
 					</div>
@@ -320,7 +320,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 10</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 10</div>
 							</div>
 						</div>
 					</div>
@@ -349,7 +349,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 11</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 11</div>
 							</div>
 						</div>
 					</div>
@@ -378,7 +378,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 12</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 12</div>
 							</div>
 						</div>
 					</div>
@@ -407,7 +407,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 13</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 13</div>
 							</div>
 						</div>
 					</div>
@@ -518,7 +518,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="400">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 14</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 14</div>
 							</div>
 						</div>
 					</div>
@@ -546,7 +546,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="1000">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 15</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 15</div>
 							</div>
 						</div>
 					</div>
@@ -574,7 +574,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="1000">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 16</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 16</div>
 							</div>
 						</div>
 					</div>
@@ -602,7 +602,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="1000">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 16</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 16</div>
 							</div>
 						</div>
 					</div>
@@ -615,7 +615,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 18</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 18</div>
 							</div>
 						</div>
 					</div>
@@ -665,7 +665,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 19</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 19</div>
 							</div>
 						</div>
 					</div>
@@ -678,7 +678,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 20</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 20</div>
 							</div>
 						</div>
 					</div>
@@ -789,7 +789,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 21</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 21</div>
 							</div>
 						</div>
 					</div>
@@ -802,7 +802,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 22</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 22</div>
 							</div>
 						</div>
 					</div>
@@ -852,7 +852,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 23</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 23</div>
 							</div>
 						</div>
 					</div>
@@ -873,7 +873,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 24</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 24</div>
 							</div>
 						</div>
 					</div>
@@ -944,7 +944,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 25</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 25</div>
 							</div>
 						</div>
 					</div>
@@ -958,7 +958,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 26</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 26</div>
 							</div>
 						</div>
 					</div>
@@ -980,7 +980,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 27</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 27</div>
 							</div>
 						</div>
 					</div>
@@ -1049,7 +1049,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 28</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 28</div>
 							</div>
 						</div>
 					</div>
@@ -1075,7 +1075,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 29</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 29</div>
 							</div>
 						</div>
 					</div>
@@ -1108,7 +1108,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center" data-swiper-parallax="-300">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 30</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 30</div>
 							</div>
 						</div>
 					</div>
@@ -1126,7 +1126,7 @@ const IndexPage = () => {
 							</div>
 							<div className="liner mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 31</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 31</div>
 							</div>
 						</div>
 					</div>

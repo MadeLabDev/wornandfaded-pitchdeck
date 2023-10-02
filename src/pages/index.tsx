@@ -165,7 +165,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] 3xl:mt-[15vh] 5xl:mt-[20vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 1</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 1</div>
 							</div>
 
 						</div>
@@ -180,7 +180,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 2</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 2</div>
 							</div>
 
 						</div>
@@ -211,7 +211,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 3</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 3</div>
 
 							</div>
 
@@ -244,7 +244,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 4</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 4</div>
 							</div>
 
 
@@ -276,7 +276,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 5</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 5</div>
 							</div>
 
 
@@ -308,7 +308,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 6</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 6</div>
 							</div>
 
 
@@ -333,7 +333,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 7</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 7</div>
 							</div>
 
 
@@ -363,7 +363,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 8</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 8</div>
 							</div>
 
 
@@ -393,7 +393,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 9</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 9</div>
 							</div>
 
 
@@ -423,7 +423,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 10</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 10</div>
 							</div>
 
 
@@ -453,7 +453,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 11</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 11</div>
 							</div>
 
 
@@ -483,7 +483,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 12</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 12</div>
 							</div>
 
 
@@ -512,7 +512,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 13</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 13</div>
 							</div>
 
 						</div>
@@ -549,7 +549,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 14</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 14</div>
 							</div>
 
 
@@ -575,20 +575,20 @@ const IndexPage = () => {
 									</div>
 									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-2xl">Jack White</h2>
-										<p className="font-normal font-a xl:text-xl">Guitarist, The White Stripes, Solo Artist</p>
+										<p className="font-normal font-a xl:text-xl">White Stripes and Solo Artist</p>
 									</div>
 									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-2xl">Derek Riggs</h2>
 										<p className="font-normal font-a xl:text-xl">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
 									</div>
 									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Dave Grohl</h2>
-										<p className="font-normal font-a xl:text-xl">Foo Fighters/Nirvana</p>
+										<h2 className="uppercase 6xl:text-2xl">BRIAN “PUSHEAD” SCHROADER</h2>
+										<p className="font-normal font-a xl:text-xl">Artist and creator of hundred of Metallica and Misfits shirts</p>
 									</div>
 
 									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Raymond Pettibon</h2>
-										<p className="font-normal font-a xl:text-xl">Artist and creator of the Black Flag logo</p>
+										<h2 className="uppercase 6xl:text-2xl">PERRY SHALL</h2>
+										<p className="font-normal font-a xl:text-xl">Graphic Designer and Collector</p>
 									</div>
 									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-2xl">Penelope Spheeris</h2>
@@ -598,6 +598,7 @@ const IndexPage = () => {
 										<h2 className="uppercase 6xl:text-2xl">Malcom Gladwell</h2>
 										<p className="font-normal font-a xl:text-xl">Journalist, author, podcaster, public speaker </p>
 									</div>
+
 									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-2xl">QuestLove</h2>
 										<p className="font-normal font-a xl:text-xl">Musician, record producer, DJ, filmmaker</p>
@@ -632,16 +633,16 @@ const IndexPage = () => {
 									</div>
 
 									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Brian “Pushead” Schroader</h2>
-										<p className="font-normal font-a xl:text-xl">Artist and creator of hundred of Metallica and Misfits tees</p>
+										<h2 className="uppercase 6xl:text-2xl">DAVE GROHL</h2>
+										<p className="font-normal font-a xl:text-xl">Foo Fighters/Nirvana</p>
 									</div>
 									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-2xl">Billie Eilish</h2>
 										<p className="font-normal font-a xl:text-xl">Singer & Songwriter, Fashion Icon</p>
 									</div>
 									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Nicky Panicci</h2>
-										<p className="font-normal font-a xl:text-xl">Vintage tee collector and historian</p>
+										<h2 className="uppercase 6xl:text-2xl">BLAINE HALVERSON</h2>
+										<p className="font-normal font-a xl:text-xl">Founder of Madeworn and owner of world’s largest vintage band shirt collection</p>
 									</div>
 									<div className="col-span-1">
 										<h2 className="uppercase 6xl:text-2xl">Slash</h2>
@@ -669,7 +670,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 15</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 15</div>
 							</div>
 
 						</div>
@@ -705,7 +706,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[12vh] 3xl:mt-[13vh] 5xl:mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 16</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 16</div>
 							</div>
 
 
@@ -745,7 +746,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[12vh] 3xl:mt-[13vh] 5xl:mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 17</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 17</div>
 							</div>
 
 
@@ -775,7 +776,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[12vh] 3xl:mt-[13vh] 5xl:mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 18</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 18</div>
 							</div>
 
 
@@ -793,7 +794,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 19</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 19</div>
 							</div>
 
 
@@ -848,7 +849,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 20</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 20</div>
 							</div>
 
 
@@ -866,7 +867,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 21</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 21</div>
 							</div>
 
 
@@ -982,7 +983,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 22</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 22</div>
 							</div>
 
 						</div>
@@ -999,7 +1000,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 23</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 23</div>
 							</div>
 
 
@@ -1054,7 +1055,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 24</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 24</div>
 							</div>
 
 
@@ -1082,7 +1083,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 25</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 25</div>
 							</div>
 
 
@@ -1159,7 +1160,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 26</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 26</div>
 							</div>
 
 
@@ -1178,14 +1179,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 27</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 27</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_29">
+				{/* <div className="min-h-screen slider slider_29">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1205,13 +1206,13 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[12vh] 3xl:mt-[13vh] 5xl:mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 28</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 28</div>
 							</div>
 
 
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="min-h-screen slider slider_30">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
@@ -1271,7 +1272,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 29</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 28</div>
 							</div>
 
 
@@ -1303,7 +1304,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 30</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 29</div>
 							</div>
 
 
@@ -1332,6 +1333,12 @@ const IndexPage = () => {
 										</div>
 									</div>
 									<div className="item">
+										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">FALKON </div>
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
+											Falkon is a highly focused Creative Hybrid Company, sitting at the intersection of Advertising, Entertainment & specialized in Sports, Culture & Social Impact. We work with some of today’s biggest brands, including Jordan, Nike (Basketball, Football, Sportswear, Running, SNKRS), ESPN, the NBA, Major League Baseball, Sonos and Netflix, to name a few - pioneering the concept of collapsing layers as an Ad Agency x Production Company hybrid. In Entertainment, we are a Development & Production Company with the same laser focus on meaningful storytelling - currently in production on multiple unscripted / scripted series & films. Falkon is repped by CAA.
+										</div>
+									</div>
+									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">team 713 entertainment</div>
 										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
 											In 2019, producers Tani Cohen and Bobby Rock partnered to form team 713 Entertainment, a management and production company.  They produced client Isabel Sandoval’s Shangri-la under the Miu Miu Women’s Tale series. Currently, they are in production on Waterkeeper, an environmental documentary profiling activist Diane Wilson.  As Executive Producers, they are in pre-production on Matt Fantaci’s screenplay, Scandalous! Band’s documentary history includes Hearts of Darkness and A Brief History of Time.  Cohen produced the Emmy-nominated HBO documentary Mr. Conservative: Goldwater on Goldwater.
@@ -1343,7 +1350,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 31</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 30</div>
 							</div>
 
 
@@ -1369,7 +1376,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • 32</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 31</div>
 							</div>
 
 
@@ -1380,7 +1387,7 @@ const IndexPage = () => {
 
 			<div className="liner linerhome mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] text-center">
 				<div className="liner__inner"></div>
-				<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Band Tee • <span id="setnumber"></span></div>
+				<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • <span id="setnumber"></span></div>
 			</div>
 
 		</Layout >
