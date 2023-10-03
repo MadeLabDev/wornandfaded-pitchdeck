@@ -48,7 +48,6 @@ const IndexPage = () => {
 		return (
 			<>
 				<div className="toggleDot" onClick={() => {
-					console.log(props);
 					if (props.currentSlide === 0 || props.currentSlide === 1) {
 						document.querySelector('footer')?.classList.toggle('active');
 						document.querySelector('.slick-dots')?.classList.toggle('active');
