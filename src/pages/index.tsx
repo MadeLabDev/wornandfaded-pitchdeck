@@ -25,6 +25,7 @@ import sport from "../assets/sport.png";
 import tshirt2 from "../assets/hinh5.png";
 import tshirt3 from "../assets/hinh6.png";
 import DogVideo from "../assets/vm.mp4"
+import HomeVideo from "../assets/vodeobgo.mp4"
 
 const IndexPage = () => {
 
@@ -48,12 +49,14 @@ const IndexPage = () => {
 			<>
 				<div className="toggleDot" onClick={() => {
 					console.log(props);
-					if (props.currentSlide === 0) {
+					if (props.currentSlide === 0 || props.currentSlide === 1) {
 						document.querySelector('footer')?.classList.toggle('active');
+						document.querySelector('.slick-dots')?.classList.toggle('active');
+						document.querySelector('.toggleDot')?.classList.toggle('active');
+					} else {
+						document.querySelector('.slick-dots')?.classList.toggle('active');
+						document.querySelector('.toggleDot')?.classList.toggle('active');
 					}
-					document.querySelector('.slick-dots')?.classList.toggle('active');
-					document.querySelector('.toggleDot')?.classList.toggle('active');
-
 				}}>
 					<FontAwesomeIcon icon={faBars} className="popen" />
 					<FontAwesomeIcon icon={faTimes} className="pclose" />
@@ -88,7 +91,7 @@ const IndexPage = () => {
 			if (setNumberElement) {
 				setNumberElement.innerHTML = `${index}`;
 			}
-			if (index !== 0) {
+			if (index !== 0 && index !== 1) {
 				document.querySelector('.linerhome')?.classList.add('active');
 				document.querySelector('footer')?.classList.add('active');
 			} else {
@@ -97,7 +100,7 @@ const IndexPage = () => {
 			}
 		},
 		beforeChange: function (index: any) {
-			if (index === 32 || index === 1) {
+			if (index === 32 || index === 1 || index === 2) {
 				document.querySelector('.linerhome')?.classList.remove('active');
 				// document.querySelector('footer')?.classList.remove('active');
 			}
@@ -156,6 +159,14 @@ const IndexPage = () => {
 						/>
 
 					</div>
+				</div>
+				<div className="min-h-screen slider slider_video">
+
+					{/* fullscreen video background */}
+					<video autoPlay muted loop className="w-full h-full object-cover absolute top-0 left-0 z-0">
+						<source src={HomeVideo} type="video/mp4" />
+					</video>
+
 				</div>
 				<div className="min-h-screen slider slider_2">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
@@ -1397,7 +1408,7 @@ const IndexPage = () => {
 
 			<div className="liner linerhome mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] text-center">
 				<div className="liner__inner"></div>
-				<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • <span id="setnumber"></span></div>
+				<div className="uppercase text-main-100 pt-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • <span id="setnumber"></span></div>
 			</div>
 
 		</Layout >
