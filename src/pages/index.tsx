@@ -48,11 +48,18 @@ const IndexPage = () => {
 		return (
 			<>
 				<div className="toggleDot" onClick={() => {
-					if (props.currentSlide === 0 || props.currentSlide === 1) {
+					if (props.currentSlide === 0) {
 						document.querySelector('footer')?.classList.toggle('active');
+						document.querySelector('header')?.classList.remove('active');
+						document.querySelector('.slick-dots')?.classList.toggle('active');
+						document.querySelector('.toggleDot')?.classList.toggle('active');
+					} else if (props.currentSlide === 1) {
+						document.querySelector('footer')?.classList.add('active');
+						document.querySelector('header')?.classList.add('active');
 						document.querySelector('.slick-dots')?.classList.toggle('active');
 						document.querySelector('.toggleDot')?.classList.toggle('active');
 					} else {
+						document.querySelector('header')?.classList.remove('active');
 						document.querySelector('.slick-dots')?.classList.toggle('active');
 						document.querySelector('.toggleDot')?.classList.toggle('active');
 					}
@@ -97,11 +104,24 @@ const IndexPage = () => {
 				document.querySelector('.linerhome')?.classList.remove('active');
 				document.querySelector('footer')?.classList.remove('active');
 			}
+			if (index === 1 && index !== 0) {
+				document.querySelector('header')?.classList.add('active');
+				document.querySelector('footer')?.classList.add('active');
+			} else {
+				document.querySelector('header')?.classList.remove('active');
+			}
 		},
 		beforeChange: function (index: any) {
 			if (index === 32 || index === 1 || index === 2) {
 				document.querySelector('.linerhome')?.classList.remove('active');
 				// document.querySelector('footer')?.classList.remove('active');
+			}
+			if (index === 2 && index !== 1) {
+				document.querySelector('header')?.classList.add('active');
+				document.querySelector('footer')?.classList.add('active');
+			} else {
+				document.querySelector('header')?.classList.remove('active');
+				document.querySelector('footer')?.classList.remove('active');
 			}
 		},
 		onInit: function (index: any) {
@@ -154,7 +174,7 @@ const IndexPage = () => {
 							src="../assets/logo.png"
 							alt="Worn and Faded"
 							placeholder="none"
-							className="max-w-xs w-full md:max-w-md 3xl:max-w-lg 10xl:max-w-xl 13xl:max-w-5xl mx-auto"
+							className="max-w-xs w-full md:max-w-md 3xl:max-w-xl 10xl:max-w-2xl 13xl:max-w-7xl mx-auto"
 						/>
 
 					</div>
@@ -1384,7 +1404,7 @@ const IndexPage = () => {
 
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Contact</div>
 
-								<ul className="space-y-10 text-center text-xl md:text-4xl 6xl:text-6xl 3xl:my-20">
+								<ul className="space-y-10 text-center text-xl md:text-4xl 3xl:my-20">
 
 									<li><a className="underline font-a" href="mailto:info@wornandfaded.com">info@wornandfaded.com</a></li>
 									<li><a className="underline font-a" href="https://wornandfaded.com/">https://wornandfaded.com</a></li>
