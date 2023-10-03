@@ -48,6 +48,12 @@ const IndexPage = () => {
 		return (
 			<>
 				<div className="toggleDot" onClick={() => {
+					if (props.currentSlide === 1) {
+						const video = document.getElementById('myVideo') as HTMLVideoElement;
+						if (video) {
+							video.play();
+						}
+					}
 					if (props.currentSlide === 0) {
 						document.querySelector('footer')?.classList.toggle('active');
 						document.querySelector('header')?.classList.remove('active');
@@ -110,6 +116,20 @@ const IndexPage = () => {
 			} else {
 				document.querySelector('header')?.classList.remove('active');
 			}
+			if (index === 1) {
+				// #myVideo pause video 
+				const video = document.getElementById('myVideo') as HTMLVideoElement;
+				if (video) {
+					video.play();
+				}
+			}
+			if (index !== 1) {
+				// #myVideo pause video 
+				const video = document.getElementById('myVideo') as HTMLVideoElement;
+				if (video) {
+					video.pause();
+				}
+			}
 		},
 		beforeChange: function (index: any) {
 			if (index === 32 || index === 1 || index === 2) {
@@ -122,6 +142,13 @@ const IndexPage = () => {
 			} else {
 				document.querySelector('header')?.classList.remove('active');
 				document.querySelector('footer')?.classList.remove('active');
+			}
+			if (index === 2 || index === 0) {
+				// #myVideo pause video 
+				const video = document.getElementById('myVideo') as HTMLVideoElement;
+				if (video) {
+					video.play();
+				}
 			}
 		},
 		onInit: function (index: any) {
@@ -181,8 +208,7 @@ const IndexPage = () => {
 				</div>
 				<div className="min-h-screen slider slider_video">
 
-					{/* fullscreen video background */}
-					<video autoPlay muted loop className="w-full h-full object-cover absolute top-0 left-0 z-0">
+					<video id="myVideo" autoPlay loop className="w-full h-full object-cover absolute top-0 left-0 z-0">
 						<source src={HomeVideo} type="video/mp4" />
 					</video>
 
