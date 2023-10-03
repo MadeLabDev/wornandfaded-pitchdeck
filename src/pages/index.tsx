@@ -47,8 +47,11 @@ const IndexPage = () => {
 		return (
 			<>
 				<div className="toggleDot" onClick={() => {
+					console.log(props);
+					if (props.currentSlide === 0) {
+						document.querySelector('footer')?.classList.toggle('active');
+					}
 					document.querySelector('.slick-dots')?.classList.toggle('active');
-					document.querySelector('footer')?.classList.toggle('active');
 					document.querySelector('.toggleDot')?.classList.toggle('active');
 
 				}}>
@@ -81,21 +84,28 @@ const IndexPage = () => {
 		nextArrow: <NextArrow />,
 		prevArrow: <PrevArrow />,
 		afterChange: function (index: any) {
-			// document.getElementById('setnumber').innerHTML = `${index}`;
+			const setNumberElement = document.getElementById('setnumber');
+			if (setNumberElement) {
+				setNumberElement.innerHTML = `${index}`;
+			}
 			if (index !== 0) {
 				document.querySelector('.linerhome')?.classList.add('active');
+				document.querySelector('footer')?.classList.add('active');
 			} else {
 				document.querySelector('.linerhome')?.classList.remove('active');
+				document.querySelector('footer')?.classList.remove('active');
 			}
 		},
 		beforeChange: function (index: any) {
 			if (index === 32 || index === 1) {
 				document.querySelector('.linerhome')?.classList.remove('active');
+				// document.querySelector('footer')?.classList.remove('active');
 			}
 		},
 		onInit: function (index: any) {
 			if (index === 0) {
 				document.querySelector('.linerhome')?.classList.remove('active');
+				document.querySelector('footer')?.classList.remove('active');
 			}
 		},
 		customPaging: function (i: any) {

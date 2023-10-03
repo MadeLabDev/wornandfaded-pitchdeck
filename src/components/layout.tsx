@@ -6,9 +6,9 @@ const Layout = ({ children }: any) => {
 
 	return (
 		<>
-			<Header siteTitle = {`Worn And Faded`} />
+			<Header siteTitle={`Worn And Faded`} />
 			<main>{children}</main>
-			<Footer siteTitle = {`Worn And Faded`} siteLink = {`https://www.gatsbyjs.com`} />
+			<Footer siteTitle={`Worn And Faded`} siteLink={`https://www.madelab.io`} />
 		</>
 	)
 }
