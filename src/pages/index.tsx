@@ -1391,7 +1391,7 @@ const IndexPage = () => {
 
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
 
-								<div className="mt-5 grid gap-5 grid-cols-2">
+								<div className="mt-5 grid gap-5 lg:grid-cols-2">
 
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">BENJAMIN JONES</div>
