@@ -603,106 +603,114 @@ const IndexPage = () => {
 
 								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none leading-none">Interviews</div>
 
-								<div className="my-auto w-full text-center mx-auto mt-10 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+								<div className="my-auto w-full text-center mx-auto mt-10 grid md:grid-cols-2 xl:grid-cols-4 gap-5">
 
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Mick Jagger</h2>
-										<p className="font-normal font-a xl:text-xl">The Rolling Stones</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Chuck D</h2>
-										<p className="font-normal font-a xl:text-xl">Founder of Public Enemy, author and activist</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Jack White</h2>
-										<p className="font-normal font-a xl:text-xl">White Stripes and Solo Artist</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Derek Riggs</h2>
-										<p className="font-normal font-a xl:text-xl">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">BRIAN “PUSHEAD” SCHROADER</h2>
-										<p className="font-normal font-a xl:text-xl">Artist and creator of hundred of Metallica and Misfits shirts</p>
-									</div>
-
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">PERRY SHALL</h2>
-										<p className="font-normal font-a xl:text-xl">Graphic Designer and Collector</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Penelope Spheeris</h2>
-										<p className="font-normal font-a xl:text-xl">Film director, producer, and screenwriter</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Malcom Gladwell</h2>
-										<p className="font-normal font-a xl:text-xl">Journalist, author, podcaster, public speaker </p>
+									<div className="grid gap-5">
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Mick Jagger</h2>
+											<p className="font-normal font-a xl:text-lg">The Rolling Stones</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Chuck D</h2>
+											<p className="font-normal font-a xl:text-lg">Founder of Public Enemy, author and activist</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Jack White</h2>
+											<p className="font-normal font-a xl:text-lg">White Stripes and Solo Artist</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Derek Riggs</h2>
+											<p className="font-normal font-a xl:text-lg">Artist and creator of the most famous band mascot Iron Maiden’s ‘Eddie’</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">BRIAN “PUSHEAD” SCHROADER</h2>
+											<p className="font-normal font-a xl:text-lg">Artist and creator of hundred of Metallica and Misfits shirts</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">PERRY SHALL</h2>
+											<p className="font-normal font-a xl:text-lg">Graphic Designer and Collector</p>
+										</div>
 									</div>
 
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">QuestLove</h2>
-										<p className="font-normal font-a xl:text-xl">Musician, record producer, DJ, filmmaker</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Taylor Swift</h2>
-										<p className="font-normal font-a xl:text-xl">Singer & Songwriter, Fashion Icon</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Tom Morello</h2>
-										<p className="font-normal font-a xl:text-xl">Guitarist, Rage Against the Machine</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Joan Jett</h2>
-										<p className="font-normal font-a xl:text-xl">Singer, guitarist, record producer and actress</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Henry Rollins</h2>
-										<p className="font-normal font-a xl:text-xl">Singer, Black Flag/Rollins Band</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Alex & David Graham</h2>
-										<p className="font-normal font-a xl:text-xl">Sons of Promoter Bill Graham</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Frank Vacanti</h2>
-										<p className="font-normal font-a xl:text-xl">Production Manager for Winterland Productions</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Peter Patagno</h2>
-										<p className="font-normal font-a xl:text-xl">Graphic Designer for world renowned Hipgnosis Designs</p>
+									<div className="grid gap-5">
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Penelope Spheeris</h2>
+											<p className="font-normal font-a xl:text-lg">Film director, producer, and screenwriter</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Malcom Gladwell</h2>
+											<p className="font-normal font-a xl:text-lg">Journalist, author, podcaster, public speaker </p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">QuestLove</h2>
+											<p className="font-normal font-a xl:text-lg">Musician, record producer, DJ, filmmaker</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Taylor Swift</h2>
+											<p className="font-normal font-a xl:text-lg">Singer & Songwriter, Fashion Icon</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Tom Morello</h2>
+											<p className="font-normal font-a xl:text-lg">Guitarist, Rage Against the Machine</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Joan Jett</h2>
+											<p className="font-normal font-a xl:text-lg">Singer, guitarist, record producer and actress</p>
+										</div>
 									</div>
 
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">DAVE GROHL</h2>
-										<p className="font-normal font-a xl:text-xl">Foo Fighters/Nirvana</p>
+									<div className="grid gap-5">
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Henry Rollins</h2>
+											<p className="font-normal font-a xl:text-lg">Singer, Black Flag/Rollins Band</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Alex & David Graham</h2>
+											<p className="font-normal font-a xl:text-lg">Sons of Promoter Bill Graham</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Frank Vacanti</h2>
+											<p className="font-normal font-a xl:text-lg">Production Manager for Winterland Productions</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Peter Patagno</h2>
+											<p className="font-normal font-a xl:text-lg">Graphic Designer for world renowned Hipgnosis Designs</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">DAVE GROHL</h2>
+											<p className="font-normal font-a xl:text-lg">Foo Fighters/Nirvana</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Billie Eilish</h2>
+											<p className="font-normal font-a xl:text-lg">Singer & Songwriter, Fashion Icon</p>
+										</div>
 									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Billie Eilish</h2>
-										<p className="font-normal font-a xl:text-xl">Singer & Songwriter, Fashion Icon</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">BLAINE HALVERSON</h2>
-										<p className="font-normal font-a xl:text-xl">Founder of Madeworn and owner of world’s largest vintage band shirt collection</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Slash</h2>
-										<p className="font-normal font-a xl:text-xl">Musician and guitarist, Guns N' Roses</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Avigail Collins</h2>
-										<p className="font-normal font-a xl:text-xl">Stylist to celebs  including Kim  Kardashian</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Patrick Klima</h2>
-										<p className="font-normal font-a xl:text-xl">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Dean Delray</h2>
-										<p className="font-normal font-a xl:text-xl">Comedian, podcaster and vintage tee enthusiast</p>
-									</div>
-									<div className="col-span-1">
-										<h2 className="uppercase 6xl:text-2xl">Chuck Klosterman</h2>
-										<p className="font-normal font-a xl:text-xl">Author and Social Commentator</p>
+
+									<div className="grid gap-5">
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">BLAINE HALVERSON</h2>
+											<p className="font-normal font-a xl:text-lg">Founder of Madeworn and owner of world’s largest vintage band shirt collection</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Slash</h2>
+											<p className="font-normal font-a xl:text-lg">Musician and guitarist, Guns N' Roses</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Avigail Collins</h2>
+											<p className="font-normal font-a xl:text-lg">Stylist to celebs  including Kim  Kardashian</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Patrick Klima</h2>
+											<p className="font-normal font-a xl:text-lg">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Dean Delray</h2>
+											<p className="font-normal font-a xl:text-lg">Comedian, podcaster and vintage tee enthusiast</p>
+										</div>
+										<div className="col-span-1">
+											<h2 className="uppercase 6xl:text-xl">Chuck Klosterman</h2>
+											<p className="font-normal font-a xl:text-lg">Author and Social Commentator</p>
+										</div>
 									</div>
 
 								</div>
@@ -1109,8 +1117,7 @@ const IndexPage = () => {
 
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-4xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Background articles</div>
 
-								<ul className="space-y-10 text-center mt-10 xl:mt-20 uppercase text-xl md:text-2xl 6xl:text-4xl">
-
+								<ul className="space-y-10 text-center mt-10 xl:mt-20 uppercase text-xl md:text-2xl 9xl:text-3xl 13xl:text-4xl">
 									<li><a className="underline" href="https://www.ft.com/content/8486c243-cbd9-4445-8659-fcf4f6e40763">Financial Times: Why vintage band T-shirts are still a hit</a></li>
 									<li><a className="underline" href="https://rockerteeshirts.com/blogs/rockers-blog/how-band-t-shirts-can-be-important-tools-for-individual-representati">Rocker Tee: HOW BAND T-SHIRTS CAN BE IMPORTANT TOOLS FOR INDIVIDUAL REPRESENTATION</a></li>
 									<li><a className="underline" href="https://www.thenationalstudent.com/Opinion/2017-07-28/what_the_band_t_shirt_debate_really_says_about_our_culture.html">The National Student: What the band t-shirt debate really says about our culture</a></li>
@@ -1137,7 +1144,7 @@ const IndexPage = () => {
 
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
 
-								<div className="w-full mx-auto grid md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-6 gap-10 my-10 3xl:my-20">
+								<div className="w-full mx-auto grid md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-6 gap-10 my-10 3xl:mt-20 3xl:mb-0">
 
 									<div className="xl:col-span-1">
 										<StaticImage
@@ -1358,29 +1365,29 @@ const IndexPage = () => {
 
 								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
 
-								<div className="space-y-10 mt-10 3xl:my-20">
+								<div className="mt-5 grid gap-5 grid-cols-2">
 
 									<div className="item">
-										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">BENJAMIN JONES</div>
-										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
+										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">BENJAMIN JONES</div>
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
 											I still remember how cool I felt when I slipped my first band tee over my head at age eleven. I wore that “Guns N Roses Was Here” tee until threadbare. I kept it and have collected hundreds more in the years since, captivated not only by the designs but also by their historical and cultural relevance. Having worn, pressed, and sold band tees for nearly thirty years, Tom shares this passion. Unlike the concert poster or hip-hop fashion, the band tee has never been explored on film. Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
 										</div>
 									</div>
 									<div className="item">
-										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">TOM DAVENPORT </div>
-										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
+										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">TOM DAVENPORT </div>
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
 											Co-Producer Tom Davenport is an entrepreneur in the branded apparel space. Starting in his garage over twenty years ago with the bootlegging of garage, glam, and punk band tees, he eventually legitimized his California-based operation to produce millions of units annually for bands and brands alike.
 										</div>
 									</div>
 									<div className="item">
-										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">FALKON </div>
-										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
+										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">FALKON </div>
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
 											Falkon is a highly focused Creative Hybrid Company, sitting at the intersection of Advertising, Entertainment & specialized in Sports, Culture & Social Impact. We work with some of today’s biggest brands, including Jordan, Nike (Basketball, Football, Sportswear, Running, SNKRS), ESPN, the NBA, Major League Baseball, Sonos and Netflix, to name a few - pioneering the concept of collapsing layers as an Ad Agency x Production Company hybrid. In Entertainment, we are a Development & Production Company with the same laser focus on meaningful storytelling - currently in production on multiple unscripted / scripted series & films. Falkon is repped by CAA.
 										</div>
 									</div>
 									<div className="item">
-										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 6xl:text-4xl">team 713 entertainment</div>
-										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl">
+										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">team 713 entertainment</div>
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
 											In 2019, producers Tani Cohen and Bobby Rock partnered to form team 713 Entertainment, a management and production company.  They produced client Isabel Sandoval’s Shangri-la under the Miu Miu Women’s Tale series. Currently, they are in production on Waterkeeper, an environmental documentary profiling activist Diane Wilson.  As Executive Producers, they are in pre-production on Matt Fantaci’s screenplay, Scandalous! Band’s documentary history includes Hearts of Darkness and A Brief History of Time.  Cohen produced the Emmy-nominated HBO documentary Mr. Conservative: Goldwater on Goldwater.
 										</div>
 									</div>
