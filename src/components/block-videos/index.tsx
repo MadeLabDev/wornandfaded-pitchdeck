@@ -25,7 +25,7 @@ function BlockVideo() {
 
 		<section className="relative w-full z-[9999999]">
 
-			<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10 3xl:my-20">
+			<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10 3xl:mt-15 3xl:mb-0">
 				<div className="xl:col-span-1">
 					<div className="relative cursor-pointer">
 						<LightGallery

@@ -303,7 +303,7 @@ body {
                 }
 
                 img {
-                    max-height: 70vh;
+                    max-height: calc(100vh - 22rem);
                     // width: auto;
                     margin: auto;
                     object-fit: contain !important;
