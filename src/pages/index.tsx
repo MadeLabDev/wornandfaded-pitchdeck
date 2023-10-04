@@ -208,7 +208,7 @@ const IndexPage = () => {
 				</div>
 				<div className="min-h-screen slider slider_video">
 
-					<video id="myVideo" autoPlay loop className="w-full h-full object-cover absolute top-0 left-0 z-0">
+					<video id="myVideo" autoPlay loop playsInline className="w-full h-full object-cover absolute top-0 left-0 z-0">
 						<source src={HomeVideo} type="video/mp4" />
 					</video>
 
