@@ -811,7 +811,7 @@ const IndexPage = () => {
 										placeholder="none"
 										className="w-full mx-auto"
 									/> */}
-									<video autoPlay muted loop className="w-full mx-auto">
+									<video autoPlay muted loop playsInline className="w-full mx-auto">
 										<source src={DogVideo} type="video/mp4" />
 									</video>
 
