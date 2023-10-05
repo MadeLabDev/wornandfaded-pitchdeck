@@ -208,7 +208,7 @@ const IndexPage = () => {
 				</div>
 				<div className="min-h-screen slider slider_video">
 
-					<video id="myVideo" autoPlay loop playsInline className="w-full h-full object-cover absolute top-0 left-0 z-0">
+					<video id="myVideo" autoPlay loop playsInline className="w-full h-full absolute top-0 left-0 z-0">
 						<source src={HomeVideo} type="video/mp4" />
 					</video>
 
@@ -1263,7 +1263,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Budget</div>
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Budget</div>
 								<div className="w-full mx-auto xl:grid xl:gap-10 3xl:my-20">
 
 									<div className="xl:col-span-1">
@@ -1290,7 +1290,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Timeline</div>
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Timeline</div>
 
 								<div className="w-full mx-auto my-5 xl:grid xl:gap-10 3xl:my-20">
 
@@ -1388,7 +1388,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
-								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Creator Bios</div>
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Creator Bios</div>
 
 								<div className="mt-5 grid gap-5 lg:grid-cols-2">
 
@@ -1434,7 +1434,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Contact</div>
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Contact</div>
 
 								<ul className="space-y-10 text-center text-xl md:text-4xl 3xl:my-20">
 
