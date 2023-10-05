@@ -21,8 +21,8 @@ import art from "../assets/art.png";
 import lady from "../assets/hinh4.png";
 import teen from "../assets/hinh2.png";
 import guy from "../assets/guy.png";
-import sport from "../assets/sport.png";
-import tshirt2 from "../assets/hinh5.png";
+import sport from "../assets/dmc.jpg";
+import tshirt2 from "../assets/child.png";
 import tshirt3 from "../assets/hinh6.png";
 import DogVideo from "../assets/vm.mp4"
 import HomeVideo from "../assets/vodeobgo.mp4"
@@ -220,10 +220,6 @@ const IndexPage = () => {
 
 								<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 13xl:text-7xl mt-20 mb-4">
 									This is the story of how a throw-away promotional item became an indispensable form of exposure for bands and a tool of self-expression and rebellion for generations of youth.
-								</div>
-
-
-								<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 13xl:text-7xl">
 									The band tee remains economically and culturally relevant, holding a special place in people’s hearts and wardrobes. We aim to explore and discover why.
 								</div>
 
@@ -259,7 +255,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										Wearing a shirt from a favorite band can bring back memories of concerts attended, songs that resonated with us during certain times, and the emotions tied to those experiences.
+										Wearing a shirt from a favorite artist can bring back memories of concerts attended, songs that resonated with us during certain times, and the emotions tied to those shared experiences.
 									</div>
 
 								</div>
@@ -324,7 +320,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										It says something to the world about our personal history and individuality.
+										In a world where mass production and fast fashion dominate, wearing a band tee can be seen as a statement of individuality and non-conformity for many people.
 									</div>
 
 								</div>
@@ -388,7 +384,11 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										Vivienne Westwood transformed tees into powerful statements of rebellion and individuality, leaving a lasting impact on fashion, music, and culture.
+										Shirts went beyond mere merchandise and became statements of rebellion and counter-culture, redefining what band tees could be
+									</div>
+
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
+										In the late 70’s Vivienne Westwood created what would become the punk aesthetic with her partner Malcolm Maclaren in London. She often incorporated subversive imagery and political statements into her designs for punk bands like the Sex Pistols and The Clash” leaving a lasting impact on fashion, music and culture.
 									</div>
 
 								</div>
@@ -448,7 +448,7 @@ const IndexPage = () => {
 
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										Bill Graham was a legendary concert promoter and manager in the Bay Area who worked with bands such as the Grateful Dead, Santana, and Jefferson Airplane.  He changed their perceptions about the band tee and convinced them that they were an essential tool for promotion and income. He founded the first music merchandising company Winterland Productions, in 1973.
+										Legendary San Francisco concert promoter Bill Graham worked with bands such as the Grateful Dead, Santana the the Jefferson Airplane. He was pivotal in changing band’s perceptions about the rock tee and convinced them that it was an essential tool for promotion and income. He founded the first music merchandising company Winterland Productions, in 1973.
 									</div>
 
 								</div>
@@ -478,7 +478,7 @@ const IndexPage = () => {
 
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										Fans began using the tee as a tool of self-expression as timeless designs by the likes of the Ramones, Motorhead, the Rolling Stones, and Joy Division were created. At the end of the decade, the sight of a mech table at a concert was not uncommon.
+										Fans began using the tee as a tool of self-expression as timeless designs by the likes of the Ramones, Motorhead, the Rolling Stones, and Joy Division were created. At the end of the decade, the sight of a merch table at a concert was not uncommon.
 									</div>
 
 								</div>
@@ -503,7 +503,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										In the 1980s, the band tee had become an essential tool of identity and rebellion for young people in their quest to individuate themselves.
+										In the 1980’s, the rock tee had become an essential tool of identity and community for young people in their quest to individuate themselves.
 									</div>
 
 
@@ -538,7 +538,7 @@ const IndexPage = () => {
 
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										Celebrities such as the Kardashians, Justin Bieber, and Miley Cyrus sported tees from heavy metal bands they likely had never listened to and sent prices soaring. This inspired metal-inspired designs by the likes of Chanel and Balenciaga and even appeared on catwalks in Paris and London.
+										Celebrities such as the Kardashians and Justin Bieber wore and co-opted tees by Heavy Metal bands they likely had never listened to and this sent prices soaring.  This also inspired countless high fashion imitations by the likes of Gucci and Chanel and even appeared on catwalks in Paris and London
 									</div>
 
 								</div>
@@ -563,11 +563,11 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										The “faux vintage” band tee is a common sight at H&M, Target, and other retailers nowadays.
+										Due to all time high demand, the “faux vintage” band tees are now a common sight at H&M, Target, Amazon and other retailers.
 									</div>
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										Not everyone can afford to shell out hundreds or thousands of dollars for an authentic vintage band tee. To satiate the public’s demand for these tees, which has never been higher, bands and retailers made their own vintage-style tees.
+										Not everyone can afford an original vintage band tee but affordable 'fake' vintage rock tees are now easily available for adults, children and even babies for less than $25.
 									</div>
 
 								</div>
@@ -627,7 +627,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Interviews</div>
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Interviews</div>
 
 								<div className="my-auto w-full text-center mx-auto mt-10 grid md:grid-cols-2 xl:grid-cols-4 gap-5">
 
@@ -1140,7 +1140,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
-								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-4xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Background articles</div>
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Background articles</div>
 
 								<ul className="space-y-10 text-center mt-10 xl:mt-20 uppercase text-xl md:text-2xl 9xl:text-3xl 13xl:text-4xl">
 									<li><a className="underline" href="https://www.ft.com/content/8486c243-cbd9-4445-8659-fcf4f6e40763">Financial Times: Why vintage band T-shirts are still a hit</a></li>
@@ -1167,7 +1167,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
-								<div className="text-center leading-none uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b">Comparable films</div>
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Comparable films</div>
 
 								<div className="w-full mx-auto grid md:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-6 gap-10 my-10 3xl:mt-20 3xl:mb-0">
 
@@ -1244,7 +1244,7 @@ const IndexPage = () => {
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
-								<div className="text-center uppercase text-main-100 py-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-none">Videos</div>
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Videos</div>
 
 								<BlockVideo />
 							</div>
@@ -1368,7 +1368,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-4 xl:pl-10">
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
-										I still remember how cool I felt when I slipped my first band tee over my head at age eleven. I wore that “Guns N Roses Was Here” tee until threadbare. I kept it and have collected hundreds more in the years since, captivated not only by the designs but also by their historical and cultural relevance. Having worn, pressed, and sold band tees for nearly thirty years, Tom shares this passion. Unlike the concert poster or hip-hop fashion, the band tee has never been explored on film. Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
+										I can still remember how cool I felt as I put on my first band tee at 11, a Guns N Roses shirt that I wore until it was in tatters.  Since then I’ve amassed a collection of several hundred tees and each one represents a unique moment, concert, memory, or connection in my life which I cherish. I am captivated not only by their designs but their historical and cultural relevance. Having worn, pressed, and sold band tees for almost 30 years, Tom shares this passion. Unlike the concert poster, or hip hop fashion, the rock tee has never been explored on film.  Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
 									</div>
 
 								</div>
@@ -1395,7 +1395,7 @@ const IndexPage = () => {
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">BENJAMIN JONES</div>
 										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
-											I still remember how cool I felt when I slipped my first band tee over my head at age eleven. I wore that “Guns N Roses Was Here” tee until threadbare. I kept it and have collected hundreds more in the years since, captivated not only by the designs but also by their historical and cultural relevance. Having worn, pressed, and sold band tees for nearly thirty years, Tom shares this passion. Unlike the concert poster or hip-hop fashion, the band tee has never been explored on film. Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
+											Director and Editor Benjamin Jones has been creating video content for brands and bands for the past 15 years. This has included music videos, commercials, live concerts, and documentary content for companies such as Warner Bros, Clorox, AT&T, CBS and Universal. He became a passionate collector or band shirts ever since getting his first one at age of 11.”
 										</div>
 									</div>
 									<div className="item">
