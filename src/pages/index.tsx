@@ -823,7 +823,6 @@ const IndexPage = () => {
 								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 17</div>
 							</div>
 
-
 						</div>
 					</div>
 				</div>
