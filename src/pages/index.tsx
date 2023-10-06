@@ -221,10 +221,10 @@ const IndexPage = () => {
 					<video id="myVideo" loop playsInline className="w-full h-full absolute top-0 left-0 z-2">
 						<source src={HomeVideo} type="video/mp4" />
 					</video>
-					<img src={cap} alt="" id="myVideoIMG" className="w-full my-auto mx-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]"
+					<img src={cap} alt="" id="myVideoIMG" className="w-[100%] my-auto mx-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]"
 					/>
 					{/* Play Button */}
-					<div id="play-button" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 cursor-pointer shadow" onClick={playVideo}>
+					<div id="play-button" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 cursor-pointer" onClick={playVideo}>
 						<FontAwesomeIcon icon={faPlay} className="text-white text-8xl" />
 					</div>
 
