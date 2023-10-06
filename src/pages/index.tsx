@@ -93,6 +93,19 @@ const IndexPage = () => {
 		}
 	}
 
+	function toggleVideo() {
+		const video = document.getElementById('myVideo') as HTMLVideoElement;
+		if (video) {
+			if (video.paused) {
+				video.play();
+				document.getElementById('play-button')?.classList.add('hidden');
+			} else {
+				video.pause();
+				document.getElementById('play-button')?.classList.remove('hidden');
+			}
+		}
+	}
+
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -126,20 +139,20 @@ const IndexPage = () => {
 			} else {
 				document.querySelector('header')?.classList.remove('active');
 			}
-			if (index === 1) {
-				// #myVideo pause video 
-				const video = document.getElementById('myVideo') as HTMLVideoElement;
-				if (video) {
-					// video.play();
-				}
-			}
-			if (index !== 1) {
-				// #myVideo pause video 
-				const video = document.getElementById('myVideo') as HTMLVideoElement;
-				if (video) {
-					video.pause();
-				}
-			}
+			// if (index === 1) {
+			// 	// #myVideo pause video 
+			// 	const video = document.getElementById('myVideo') as HTMLVideoElement;
+			// 	if (video) {
+			// 		// video.play();
+			// 	}
+			// }
+			// if (index !== 1) {
+			// 	// #myVideo pause video 
+			// 	const video = document.getElementById('myVideo') as HTMLVideoElement;
+			// 	if (video) {
+			// 		video.pause();
+			// 	}
+			// }
 		},
 		beforeChange: function (index: any) {
 			if (index === 32 || index === 1 || index === 2) {
@@ -153,20 +166,20 @@ const IndexPage = () => {
 				document.querySelector('header')?.classList.remove('active');
 				document.querySelector('footer')?.classList.remove('active');
 			}
-			if (index === 2) {
-				// #myVideo pause video 
-				const video = document.getElementById('myVideo') as HTMLVideoElement;
-				if (video) {
-					// video.play();
-				}
-			}
-			if (index === 0) {
-				// #myVideo pause video 
-				const video = document.getElementById('myVideo') as HTMLVideoElement;
-				if (video) {
-					video.play();
-				}
-			}
+			// if (index === 2) {
+			// 	// #myVideo pause video 
+			// 	const video = document.getElementById('myVideo') as HTMLVideoElement;
+			// 	if (video) {
+			// 		// video.play();
+			// 	}
+			// }
+			// if (index === 0) {
+			// 	// #myVideo pause video 
+			// 	const video = document.getElementById('myVideo') as HTMLVideoElement;
+			// 	if (video) {
+			// 		video.play();
+			// 	}
+			// }
 		},
 		onInit: function (index: any) {
 			if (index === 0) {
@@ -225,7 +238,7 @@ const IndexPage = () => {
 				</div>
 				<div className="min-h-screen slider slider_video">
 
-					<video id="myVideo" loop playsInline className="w-full h-full absolute top-0 left-0 z-2">
+					<video id="myVideo" loop playsInline className="w-full h-full absolute top-0 left-0 z-2" onClick={toggleVideo}>
 						<source src={HomeVideo} type="video/mp4" />
 					</video>
 					<img src={cap} alt="" id="myVideoIMG" className="w-[100%] my-auto mx-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]"
@@ -903,8 +916,8 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_21">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="my-auto w-full mx-auto xl:flex xl:gap-20">
+							<div className="flex items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+								<div className="my-auto w-auto mx-auto xl:flex xl:gap-20">
 
 									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
@@ -1113,8 +1126,8 @@ const IndexPage = () => {
 				<div className="min-h-screen slider slider_25">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
-							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="my-auto w-full mx-auto xl:flex xl:gap-10">
+							<div className="flex items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+								<div className="my-auto w-auto mx-auto xl:flex xl:gap-20">
 
 									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
