@@ -153,11 +153,18 @@ const IndexPage = () => {
 				document.querySelector('header')?.classList.remove('active');
 				document.querySelector('footer')?.classList.remove('active');
 			}
-			if (index === 2 || index === 0) {
+			if (index === 2) {
 				// #myVideo pause video 
 				const video = document.getElementById('myVideo') as HTMLVideoElement;
 				if (video) {
 					// video.play();
+				}
+			}
+			if (index === 0) {
+				// #myVideo pause video 
+				const video = document.getElementById('myVideo') as HTMLVideoElement;
+				if (video) {
+					video.play();
 				}
 			}
 		},
