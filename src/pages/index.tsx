@@ -257,8 +257,8 @@ const IndexPage = () => {
 							<div className="3xl:my-20">
 
 								<div className="text-center leading-[1.2] font-bold text-3xl lg:text-4xl 3xl:text-5xl 6xl:text-6xl 13xl:text-7xl mt-20 mb-4">
-									This is the story of how a throw-away promotional item became an indispensable form of exposure for bands and a tool of self-expression and rebellion for generations of youth.
-									The band tee remains economically and culturally relevant, holding a special place in people’s hearts and wardrobes. We aim to explore and discover why.
+									This is the story of how a throw-away promotional item became an indispensable form of exposure for rock and a tool of self-expression and rebellion for generations of youth.
+									The rock tee remains economically and culturally relevant, holding a special place in people’s hearts and wardrobes. We aim to explore and discover why.
 								</div>
 
 							</div>
@@ -326,7 +326,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										When we put on a band shirt, we want to represent the artists, the music, and the movements that have had a profound impact on our lives.
+										When we put on a rock tee, we want to represent the artists, the music, and the movements that have had a profound impact on our lives.
 									</div>
 
 								</div>
@@ -358,7 +358,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										In a world where mass production and fast fashion dominate, wearing a band tee can be seen as a statement of individuality and non-conformity for many people.
+										In a world where mass production and fast fashion dominate, wearing a rock tee can be seen as a statement of individuality and non-conformity for many people.
 									</div>
 
 								</div>
@@ -390,7 +390,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										The cultural relevance of the band tee lies in its ability to capture the essence of music, evoke nostalgia, and serve as a testament to the power of music in shaping our identities.
+										The cultural relevance of the rock tee lies in its ability to capture the essence of music, evoke nostalgia, and serve as a testament to the power of music in shaping our identities.
 									</div>
 
 								</div>
@@ -428,7 +428,7 @@ const IndexPage = () => {
 
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										For nearly 60 years, the band tee has been an essential form of self-expression for young people. This film will track not only the birth and evolution of the band tee and how it became a ubiquitous part of fashion but how and why it became the ultimate symbol of nonconformity.
+										For nearly 60 years, the rock tee has been an essential form of self-expression for young people. This film will track not only the birth and evolution of the rock tee and how it became a ubiquitous part of fashion but how and why it became the ultimate symbol of nonconformity.
 									</div>
 
 								</div>
@@ -453,7 +453,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										Initially, the band tee faced an uphill battle to gain acceptance as many bands felt that selling them was proof that they had “sold out.”
+										Initially, the rock tee faced an uphill battle to gain acceptance as many bands felt that selling them was proof that they had “sold out.”
 									</div>
 
 
@@ -483,7 +483,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										By the mid 1970s, the band shirt had become a fashion icon worn by the likes of David Bowie, Iggy Pop, and John Lennon.
+										By the mid 1970s, the rock tee had become a fashion icon worn by the likes of David Bowie, Iggy Pop, and John Lennon.
 									</div>
 
 
@@ -513,7 +513,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										Shirts went beyond mere merchandise and became statements of rebellion and counter-culture, redefining what band tees could be
+										Shirts went beyond mere merchandise and became statements of rebellion and counter-culture, redefining what rock tees could be
 									</div>
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
@@ -547,7 +547,7 @@ const IndexPage = () => {
 
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										The golden age of the band tee was ushered in with over-the-top Heavy Metal and Punk tees taking center stage in high school hallways and shopping malls everywhere.  Iconic designs by Metallica, Run DMC, Black Flag, and Iron Maiden became like uniforms to many young people.
+										The golden age of the rock tee was ushered in with over-the-top Heavy Metal and Punk tees taking center stage in high school hallways and shopping malls everywhere.  Iconic designs by Metallica, Run DMC, Black Flag, and Iron Maiden became like uniforms to many young people.
 									</div>
 
 								</div>
@@ -572,7 +572,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										As the new century dawned, vintage band shirts became some of the most desirable and collectible items in fashion.
+										As the new century dawned, vintage rock tee became some of the most desirable and collectible items in fashion.
 									</div>
 
 
@@ -602,11 +602,11 @@ const IndexPage = () => {
 								<div className="xl:col-span-1 xl:pr-10">
 
 									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										Due to all time high demand, the “faux vintage” band tees are now a common sight at H&M, Target, Amazon and other retailers.
+										Due to all time high demand, the “faux vintage” rock tees are now a common sight at H&M, Target, Amazon and other retailers.
 									</div>
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										Not everyone can afford an original vintage band tee but affordable 'fake' vintage rock tees are now easily available for adults, children and even babies for less than $25.
+										Not everyone can afford an original vintage rock tee but affordable 'fake' vintage rock tees are now easily available for adults, children and even babies for less than $25.
 									</div>
 
 								</div>
@@ -754,7 +754,7 @@ const IndexPage = () => {
 									<div className="grid gap-5">
 										<div className="col-span-1">
 											<h2 className="uppercase 6xl:text-xl">BLAINE HALVERSON</h2>
-											<p className="font-normal font-a xl:text-lg">Founder of Madeworn and owner of world’s largest vintage band shirt collection</p>
+											<p className="font-normal font-a xl:text-lg">Founder of Madeworn and owner of world’s largest vintage rock tee collection</p>
 										</div>
 										<div className="col-span-1">
 											<h2 className="uppercase 6xl:text-xl">Slash</h2>
@@ -766,7 +766,7 @@ const IndexPage = () => {
 										</div>
 										<div className="col-span-1">
 											<h2 className="uppercase 6xl:text-xl">Patrick Klima</h2>
-											<p className="font-normal font-a xl:text-lg">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage band shirts</p>
+											<p className="font-normal font-a xl:text-lg">Owner of Wyco Vintage, a Kansas City store featuring the world’s largest collections of vintage rock tees</p>
 										</div>
 										<div className="col-span-1">
 											<h2 className="uppercase 6xl:text-xl">Dean Delray</h2>
@@ -1411,7 +1411,7 @@ const IndexPage = () => {
 								<div className="xl:col-span-4 xl:pl-10">
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 font-normal font-a xl:text-lg 6xl:text-2xl 9xl:text-3xl">
-										I can still remember how cool I felt as I put on my first band tee at 11, a Guns N Roses shirt that I wore until it was in tatters.  Since then I’ve amassed a collection of several hundred tees and each one represents a unique moment, concert, memory, or connection in my life which I cherish. I am captivated not only by their designs but their historical and cultural relevance. Having worn, pressed, and sold band tees for almost 30 years, Tom shares this passion. Unlike the concert poster, or hip hop fashion, the rock tee has never been explored on film.  Anyone young or old who has ever worn a band tee will identify with the spirit of this film.
+										I can still remember how cool I felt as I put on my first rock tee at 11, a Guns N Roses shirt that I wore until it was in tatters.  Since then I’ve amassed a collection of several hundred tees and each one represents a unique moment, concert, memory, or connection in my life which I cherish. I am captivated not only by their designs but their historical and cultural relevance. Having worn, pressed, and sold rock tees for almost 30 years, Tom shares this passion. Unlike the concert poster, or hip hop fashion, the rock tee has never been explored on film.  Anyone young or old who has ever worn a rock tee will identify with the spirit of this film.
 									</div>
 
 								</div>
@@ -1437,7 +1437,7 @@ const IndexPage = () => {
 
 									<div className="item max-w-[1100px] mx-auto">
 										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
-											It is impossible to go out in public these days and not see at least one person young or old wearing a tee of a band they love.  They are ubiquitous and prove that they are relevant now more than ever,  The music merchandise global market has been estimated to be worth close to $4 billion and is growing every year.   Fans cannot get enough of band shirts right now and it was routine this past summer to see fans line up overnight for Taylor Swift “Merch Day”. A special event that happened the day before her concerts where fans could buy exclusive designs.  Videos tagged with “vintage” and “rock tee” have amassed more than 170 million views on TikTok and vintage designs by the likes of Tupac and Nirvana routinely sell for $1,000 on Ebay.  This story is begging to be told.  Pioneers like Dell Furano have  passed away recently and it is important to that these voices do no fade away.
+											It is impossible to go out in public these days and not see at least one person young or old wearing a tee of a rock they love. They are ubiquitous and prove that they are relevant now more than ever,  The music merchandise global market has been estimated to be worth close to $4 billion and is growing every year.   Fans cannot get enough of rock tees right now and it was routine this past summer to see fans line up overnight for Taylor Swift “Merch Day”. A special event that happened the day before her concerts where fans could buy exclusive designs.  Videos tagged with “vintage” and “rock tee” have amassed more than 170 million views on TikTok and vintage designs by the likes of Tupac and Nirvana routinely sell for $1,000 on Ebay.  This story is begging to be told.  Pioneers like Dell Furano have  passed away recently and it is important to that these voices do no fade away.
 										</div>
 									</div>
 
@@ -1465,13 +1465,13 @@ const IndexPage = () => {
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">BENJAMIN JONES</div>
 										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
-											Director and Editor Benjamin Jones has been creating video content for brands and bands for the past 15 years. This has included music videos, commercials, live concerts, and documentary content for companies such as Warner Bros, Clorox, AT&T, CBS and Universal. He became a passionate collector or band shirts ever since getting his first one at age of 11.”
+											Director and Editor Benjamin Jones has been creating video content for brands and bands for the past 15 years. This has included music videos, commercials, live concerts, and documentary content for companies such as Warner Bros, Clorox, AT&T, CBS and Universal. He became a passionate collector or rock tees ever since getting his first one at age of 11.”
 										</div>
 									</div>
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">TOM DAVENPORT </div>
 										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
-											Co-Producer Tom Davenport is an entrepreneur in the branded apparel space. Starting in his garage over twenty years ago with the bootlegging of garage, glam, and punk band tees, he eventually legitimized his California-based operation to produce millions of units annually for bands and brands alike.
+											Co-Producer Tom Davenport is an entrepreneur in the branded apparel space. Starting in his garage over twenty years ago with the bootlegging of garage, glam, and punk rock tees, he eventually legitimized his California-based operation to produce millions of units annually for bands and brands alike.
 										</div>
 									</div>
 									<div className="item">
