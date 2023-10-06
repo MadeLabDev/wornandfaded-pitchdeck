@@ -26,6 +26,7 @@ import tshirt2 from "../assets/child.png";
 import tshirt3 from "../assets/hinh6.png";
 import DogVideo from "../assets/vm.mp4"
 import HomeVideo from "../assets/vodeobgo.mp4"
+import cap from "../assets/cap.png"
 
 const IndexPage = () => {
 
@@ -88,6 +89,7 @@ const IndexPage = () => {
 		if (video) {
 			video.play();
 			document.getElementById('play-button')?.classList.add('hidden');
+			document.getElementById('myVideoIMG')?.setAttribute('style', 'display:none!important');
 		}
 	}
 
@@ -216,13 +218,16 @@ const IndexPage = () => {
 				</div>
 				<div className="min-h-screen slider slider_video">
 
-					<video id="myVideo" loop playsInline className="w-full h-full absolute top-0 left-0 z-0">
+					<video id="myVideo" loop playsInline className="w-full h-full absolute top-0 left-0 z-2">
 						<source src={HomeVideo} type="video/mp4" />
 					</video>
+					<img src={cap} alt="" id="myVideoIMG" className="w-[100%] my-auto mx-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]"
+					/>
 					{/* Play Button */}
-					<div id="play-button" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 cursor-pointer" onClick={playVideo}>
+					<div id="play-button" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 cursor-pointer shadow" onClick={playVideo}>
 						<FontAwesomeIcon icon={faPlay} className="text-white text-8xl" />
 					</div>
+
 
 
 				</div>
@@ -892,7 +897,7 @@ const IndexPage = () => {
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="my-auto w-full mx-auto xl:flex xl:gap-10">
+								<div className="my-auto w-full mx-auto xl:flex xl:gap-20">
 
 									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
