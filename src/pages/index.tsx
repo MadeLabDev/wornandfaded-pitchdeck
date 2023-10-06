@@ -1,7 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft, faChevronRight, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faChevronRight, faBars, faTimes, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 // import { Fade } from "react-awesome-reveal";
@@ -83,6 +83,14 @@ const IndexPage = () => {
 		);
 	}
 
+	function playVideo() {
+		const video = document.getElementById('myVideo') as HTMLVideoElement;
+		if (video) {
+			video.play();
+			document.getElementById('play-button')?.classList.add('hidden');
+		}
+	}
+
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -120,7 +128,7 @@ const IndexPage = () => {
 				// #myVideo pause video 
 				const video = document.getElementById('myVideo') as HTMLVideoElement;
 				if (video) {
-					video.play();
+					// video.play();
 				}
 			}
 			if (index !== 1) {
@@ -147,7 +155,7 @@ const IndexPage = () => {
 				// #myVideo pause video 
 				const video = document.getElementById('myVideo') as HTMLVideoElement;
 				if (video) {
-					video.play();
+					// video.play();
 				}
 			}
 		},
@@ -208,9 +216,14 @@ const IndexPage = () => {
 				</div>
 				<div className="min-h-screen slider slider_video">
 
-					<video id="myVideo" autoPlay loop playsInline className="w-full h-full absolute top-0 left-0 z-0">
+					<video id="myVideo" loop playsInline className="w-full h-full absolute top-0 left-0 z-0">
 						<source src={HomeVideo} type="video/mp4" />
 					</video>
+					{/* Play Button */}
+					<div id="play-button" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 cursor-pointer" onClick={playVideo}>
+						<FontAwesomeIcon icon={faPlay} className="text-white text-8xl" />
+					</div>
+
 
 				</div>
 				<div className="min-h-screen slider slider_2">
@@ -377,36 +390,8 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
+
 				<div className="min-h-screen slider slider_8">
-					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
-						<div className="py-2 xl:mt-10">
-							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
-								<div className="xl:col-span-1 xl:pr-10">
-
-									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
-										Shirts went beyond mere merchandise and became statements of rebellion and counter-culture, redefining what band tees could be
-									</div>
-
-									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										In the late 70’s Vivienne Westwood created what would become the punk aesthetic with her partner Malcolm Maclaren in London. She often incorporated subversive imagery and political statements into her designs for punk bands like the Sex Pistols and The Clash” leaving a lasting impact on fashion, music and culture.
-									</div>
-
-								</div>
-								<div className="xl:col-span-2 xl:pl-10">
-									<img src={lady} alt="" className="xl:min-h-[60vh]" />
-								</div>
-							</div>
-
-							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
-								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 7</div>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-				<div className="min-h-screen slider slider_9">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -436,7 +421,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_10">
+				<div className="min-h-screen slider slider_9">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -466,7 +451,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_11">
+				<div className="min-h-screen slider slider_10">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
@@ -490,6 +475,35 @@ const IndexPage = () => {
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
 								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 10</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+				<div className="min-h-screen slider slider_11">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-3">
+								<div className="xl:col-span-1 xl:pr-10">
+
+									<div className="leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
+										Shirts went beyond mere merchandise and became statements of rebellion and counter-culture, redefining what band tees could be
+									</div>
+
+									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
+										In the late 70’s Vivienne Westwood created what would become the punk aesthetic with her partner Malcolm Maclaren in London. She often incorporated subversive imagery and political statements into her designs for punk bands like the Sex Pistols and The Clash” leaving a lasting impact on fashion, music and culture.
+									</div>
+
+								</div>
+								<div className="xl:col-span-2 xl:pl-10">
+									<img src={lady} alt="" className="xl:min-h-[60vh]" />
+								</div>
+							</div>
+
+							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner__inner"></div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 7</div>
 							</div>
 
 
@@ -878,9 +892,9 @@ const IndexPage = () => {
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
+								<div className="my-auto w-full mx-auto xl:flex xl:gap-10">
 
-									<div className="mb-20 xl:mb-0 xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
 											Setup
 										</div>
@@ -892,7 +906,7 @@ const IndexPage = () => {
 											className="w-full mx-auto"
 										/>
 									</div>
-									<div className="mb-20 xl:mb-0 xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
 											Inciting Incident
 										</div>
@@ -904,7 +918,7 @@ const IndexPage = () => {
 											className="w-full mx-auto"
 										/>
 									</div>
-									<div className="mb-20 xl:mb-0 xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
 											Big Event
 										</div>
@@ -951,6 +965,10 @@ const IndexPage = () => {
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+
+								<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
+									Midpoint
+								</div>
 
 								<div className="my-auto w-full mx-auto xl:flex xl:flex-row xl:gap-10">
 									<div className="xl:w-[30%]">
@@ -1084,9 +1102,9 @@ const IndexPage = () => {
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
-								<div className="my-auto w-full mx-auto xl:grid xl:grid-cols-3 xl:gap-10">
+								<div className="my-auto w-full mx-auto xl:flex xl:gap-10">
 
-									<div className="mb-20 xl:mb-0 xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
 											Crisis
 										</div>
@@ -1098,7 +1116,7 @@ const IndexPage = () => {
 											className="w-full mx-auto"
 										/>
 									</div>
-									<div className="mb-20 xl:mb-0 xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
 											Climax
 										</div>
@@ -1110,7 +1128,7 @@ const IndexPage = () => {
 											className="w-full mx-auto"
 										/>
 									</div>
-									<div className="mb-20 xl:mb-0 xl:col-span-1">
+									<div className="mb-20 xl:mb-0 xl:w-none">
 										<div className="text-center leading-[1.2] font-bold text-2xl xl:text-3xl 3xl:text-4xl 6xl:text-5xl 13xl:text-6xl mb-5 2xl:mb-12">
 											Wrap
 										</div>
@@ -1285,7 +1303,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div> */}
-				<div className="min-h-screen slider slider_30">
+				<div className="min-h-screen slider slider_29">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1351,7 +1369,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_31">
+				<div className="min-h-screen slider slider_30">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7">
@@ -1377,6 +1395,33 @@ const IndexPage = () => {
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
 								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 29</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+				<div className="min-h-screen slider slider_31">
+					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
+						<div className="py-2 xl:mt-10">
+							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
+
+								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Why Now</div>
+
+								<div className="mt-5 grid gap-5">
+
+									<div className="item max-w-[1100px] mx-auto">
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
+											It is impossible to go out in public these days and not see at least one person young or old wearing a tee of a band they love.  They are ubiquitous and prove that they are relevant now more than ever,  The music merchandise global market has been estimated to be worth close to $4 billion and is growing every year.   Fans cannot get enough of band shirts right now and it was routine this past summer to see fans line up overnight for Taylor Swift “Merch Day”. A special event that happened the day before her concerts where fans could buy exclusive designs.  Videos tagged with “vintage” and “rock tee” have amassed more than 170 million views on TikTok and vintage designs by the likes of Tupac and Nirvana routinely sell for $1,000 on Ebay.  This story is begging to be told.  Pioneers like Dell Furano have  passed away recently and it is important to that these voices do no fade away.
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
+								<div className="liner__inner"></div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 30</div>
 							</div>
 
 
