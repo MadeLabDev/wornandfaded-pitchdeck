@@ -306,7 +306,7 @@ body {
                     }
                 }
 
-                img {
+                img:not(#myVideoIMG) {
                     max-height: calc(100vh - 22rem);
                     // width: auto;
                     margin: auto;
