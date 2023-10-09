@@ -116,7 +116,7 @@ const IndexPage = () => {
 		lazyLoad: 'ondemand',
 		speed: 1,
 		// autoplaySpeed: 5000,
-		// autoplay: true,
+		// autoplay: true, 
 		// pauseOnHover: true,
 		fade: true,
 		nextArrow: <NextArrow />,
@@ -154,6 +154,7 @@ const IndexPage = () => {
 			// 	}
 			// }
 		},
+
 		beforeChange: function (index: any) {
 			if (index === 32 || index === 1 || index === 2) {
 				document.querySelector('.linerhome')?.classList.remove('active');
