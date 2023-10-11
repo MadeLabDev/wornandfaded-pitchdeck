@@ -270,7 +270,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] 3xl:mt-[15vh] 5xl:mt-[20vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 1</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 1</div>
 							</div>
 
 						</div>
@@ -285,7 +285,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 2</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 2</div>
 							</div>
 
 						</div>
@@ -316,7 +316,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 3</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 3</div>
 
 							</div>
 
@@ -349,7 +349,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 4</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 4</div>
 							</div>
 
 
@@ -381,7 +381,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 5</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 5</div>
 							</div>
 
 
@@ -413,7 +413,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 6</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 6</div>
 							</div>
 
 
@@ -444,7 +444,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 8</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 8</div>
 							</div>
 
 
@@ -474,7 +474,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 9</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 9</div>
 							</div>
 
 
@@ -504,7 +504,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 10</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 10</div>
 							</div>
 
 
@@ -533,7 +533,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 7</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 7</div>
 							</div>
 
 
@@ -563,7 +563,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 11</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 11</div>
 							</div>
 
 
@@ -593,7 +593,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 12</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 12</div>
 							</div>
 
 
@@ -622,7 +622,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 13</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 13</div>
 							</div>
 
 						</div>
@@ -659,7 +659,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 14</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 14</div>
 							</div>
 
 
@@ -788,7 +788,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 15</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 15</div>
 							</div>
 
 						</div>
@@ -824,7 +824,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[12vh] 3xl:mt-[13vh] 5xl:mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 16</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 16</div>
 							</div>
 
 
@@ -864,7 +864,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[12vh] 3xl:mt-[13vh] 5xl:mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 17</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 17</div>
 							</div>
 
 						</div>
@@ -893,14 +893,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[12vh] 3xl:mt-[13vh] 5xl:mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 18</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 18</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_20">
+				{/* <div className="min-h-screen slider slider_20">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -911,14 +911,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 19</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 19</div>
 							</div>
 
 
 						</div>
 					</div>
-				</div>
-				<div className="min-h-screen slider slider_21">
+				</div> */}
+				<div className="min-h-screen slider slider_20">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="flex items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -966,14 +966,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 20</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 20</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_22">
+				{/* <div className="min-h-screen slider slider_22">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -984,14 +984,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 21</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 21</div>
 							</div>
 
 
 						</div>
 					</div>
-				</div>
-				<div className="min-h-screen slider slider_23">
+				</div> */}
+				<div className="min-h-screen slider slider_21">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1104,13 +1104,13 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 22</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 22</div>
 							</div>
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_24">
+				{/* <div className="min-h-screen slider slider_24">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1121,14 +1121,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 23</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 23</div>
 							</div>
 
 
 						</div>
 					</div>
-				</div>
-				<div className="min-h-screen slider slider_25">
+				</div> */}
+				<div className="min-h-screen slider slider_22">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="flex items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1176,14 +1176,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 24</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 24</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_26">
+				<div className="min-h-screen slider slider_23">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1203,14 +1203,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 25</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 25</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_27">
+				<div className="min-h-screen slider slider_24">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1280,14 +1280,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 26</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 26</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_28">
+				<div className="min-h-screen slider slider_25">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1299,7 +1299,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 27</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 27</div>
 							</div>
 
 
@@ -1326,14 +1326,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[12vh] 3xl:mt-[13vh] 5xl:mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 28</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 28</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div> */}
-				<div className="min-h-screen slider slider_29">
+				{/* <div className="min-h-screen slider slider_26">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1392,14 +1392,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 28</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 28</div>
 							</div>
 
 
 						</div>
 					</div>
-				</div>
-				<div className="min-h-screen slider slider_30">
+				</div> */}
+				<div className="min-h-screen slider slider_26">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7">
@@ -1424,14 +1424,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[15vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 29</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 29</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_31">
+				<div className="min-h-screen slider slider_27">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1451,14 +1451,14 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 30</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 30</div>
 							</div>
 
 
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_32">
+				<div className="min-h-screen slider slider_28">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1497,7 +1497,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 30</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 30</div>
 							</div>
 
 
@@ -1523,7 +1523,7 @@ const IndexPage = () => {
 
 							<div className="liner liner-inline mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] mb-20 text-center">
 								<div className="liner__inner"></div>
-								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • 31</div>
+								<div className="uppercase text-main-100 py-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • 31</div>
 							</div>
 
 
@@ -1534,7 +1534,7 @@ const IndexPage = () => {
 
 			<div className="liner linerhome mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] text-center">
 				<div className="liner__inner"></div>
-				<div className="uppercase text-main-100 pt-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold History of the Rock Tee • <span id="setnumber"></span></div>
+				<div className="uppercase text-main-100 pt-5 font-bold text-lg lg:text-xl 3xl:text-2xl 6xl:text-3xl 11xl:text-4xl">Worn & Faded: The Untold Story of the Rock Tee • <span id="setnumber"></span></div>
 			</div>
 
 		</Layout >
