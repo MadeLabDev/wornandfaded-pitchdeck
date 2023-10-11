@@ -139,20 +139,22 @@ const IndexPage = () => {
 			} else {
 				document.querySelector('header')?.classList.remove('active');
 			}
-			// if (index === 1) {
-			// 	// #myVideo pause video 
-			// 	const video = document.getElementById('myVideo') as HTMLVideoElement;
-			// 	if (video) {
-			// 		// video.play();
-			// 	}
-			// }
-			// if (index !== 1) {
-			// 	// #myVideo pause video 
-			// 	const video = document.getElementById('myVideo') as HTMLVideoElement;
-			// 	if (video) {
-			// 		video.pause();
-			// 	}
-			// }
+			if (index === 1) {
+				// #myVideo pause video 
+				const video = document.getElementById('myVideo') as HTMLVideoElement;
+				if (video) {
+					video.pause();
+					document.getElementById('play-button')?.classList.remove('hidden');
+				}
+			}
+			if (index !== 1) {
+				// #myVideo pause video 
+				const video = document.getElementById('myVideo') as HTMLVideoElement;
+				if (video) {
+					video.pause();
+					document.getElementById('play-button')?.classList.remove('hidden');
+				}
+			}
 		},
 
 		beforeChange: function (index: any) {
@@ -167,20 +169,22 @@ const IndexPage = () => {
 				document.querySelector('header')?.classList.remove('active');
 				document.querySelector('footer')?.classList.remove('active');
 			}
-			// if (index === 2) {
-			// 	// #myVideo pause video 
-			// 	const video = document.getElementById('myVideo') as HTMLVideoElement;
-			// 	if (video) {
-			// 		// video.play();
-			// 	}
-			// }
-			// if (index === 0) {
-			// 	// #myVideo pause video 
-			// 	const video = document.getElementById('myVideo') as HTMLVideoElement;
-			// 	if (video) {
-			// 		video.play();
-			// 	}
-			// }
+			if (index === 2) {
+				// #myVideo pause video 
+				const video = document.getElementById('myVideo') as HTMLVideoElement;
+				if (video) {
+					video.pause();
+					document.getElementById('play-button')?.classList.remove('hidden');
+				}
+			}
+			if (index === 0) {
+				// #myVideo pause video 
+				const video = document.getElementById('myVideo') as HTMLVideoElement;
+				if (video) {
+					video.pause();
+					document.getElementById('play-button')?.classList.remove('hidden');
+				}
+			}
 		},
 		onInit: function (index: any) {
 			if (index === 0) {
@@ -578,7 +582,7 @@ const IndexPage = () => {
 
 
 									<div className="bg-main-100 text-[#e6e5d9] p-3 text-center font-normal font-a xl:text-lg 6xl:text-2xl 13xl:text-3xl">
-										Celebrities such as the Kardashians and Justin Bieber wore and co-opted tees by Heavy Metal bands they likely had never listened to and this sent prices soaring.  This also inspired countless high fashion imitations by the likes of Gucci and Chanel and even appeared on catwalks in Paris and London
+										Celebrities such as the Kardashians and Justin Bieber wore and co-opted tees by Heavy Metal bands they likely had never listened to and this sent prices soaring.  This also inspired countless high fashion imitations by the likes of Gucci and Chanel and even appeared on catwalks in Paris and London.
 									</div>
 
 								</div>
