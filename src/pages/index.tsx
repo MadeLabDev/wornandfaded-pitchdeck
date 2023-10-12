@@ -918,7 +918,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div> */}
-				<div className="min-h-screen slider slider_20">
+				{/* <div className="min-h-screen slider slider_20">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="flex items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -972,7 +972,7 @@ const IndexPage = () => {
 
 						</div>
 					</div>
-				</div>
+				</div> */}
 				{/* <div className="min-h-screen slider slider_22">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
@@ -991,7 +991,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div> */}
-				<div className="min-h-screen slider slider_21">
+				{/* <div className="min-h-screen slider slider_21">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1109,7 +1109,7 @@ const IndexPage = () => {
 
 						</div>
 					</div>
-				</div>
+				</div> */}
 				{/* <div className="min-h-screen slider slider_24">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
@@ -1128,7 +1128,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div> */}
-				<div className="min-h-screen slider slider_22">
+				{/* <div className="min-h-screen slider slider_22">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="flex items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1182,8 +1182,8 @@ const IndexPage = () => {
 
 						</div>
 					</div>
-				</div>
-				<div className="min-h-screen slider slider_23">
+				</div> */}
+				<div className="min-h-screen slider slider_20">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1196,7 +1196,7 @@ const IndexPage = () => {
 									<li><a className="underline" href="https://www.thenationalstudent.com/Opinion/2017-07-28/what_the_band_t_shirt_debate_really_says_about_our_culture.html">The National Student: What the band t-shirt debate really says about our culture</a></li>
 									<li><a className="underline" href="https://www.theguardian.com/fashion/2017/jul/26/nirvana-nevermind-fashion-co-opted-band-t-shirt">The Guardian: Not heard Nirvana? Nevermind… How fashion co-opted the band T-shirt</a></li>
 									<li><a className="underline" href="https://www.wsj.com/articles/teens-love-rolling-stones-t-shirts-just-dont-ask-them-to-name-a-song-11663165887">WSJ: Teens Love Old Rock Band T-Shirts. Just Don’t Ask Them to Name a Song.</a></li>
-									<li><a className="underline" href="https://www.thrillist.com/news/nation/grateful-dead-1967-tshirt-auction-record">Thrillist:Someone Spent a Record $17,640 on a Grateful Dead T-Shirt from 1967</a></li>
+									<li><a className="underline" href="https://www.thrillist.com/news/nation/grateful-dead-1967-tshirt-auction-record">Thrillist: Someone Spent a Record $17,640 on a Grateful Dead T-Shirt from 1967</a></li>
 
 								</ul>
 							</div>
@@ -1210,7 +1210,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_24">
+				<div className="min-h-screen slider slider_21">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1287,7 +1287,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_25">
+				<div className="min-h-screen slider slider_22">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1399,7 +1399,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div> */}
-				<div className="min-h-screen slider slider_26">
+				<div className="min-h-screen slider slider_23">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7">
@@ -1431,7 +1431,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_27">
+				<div className="min-h-screen slider slider_24">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1440,8 +1440,8 @@ const IndexPage = () => {
 
 								<div className="mt-5 grid gap-5">
 
-									<div className="item max-w-[1100px] mx-auto">
-										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
+									<div className="item max-w-[1100px] 3xl:max-w-[1400px] mx-auto">
+										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a text-xl xl:text-2xl 3xl:text-3xl 13xl:text-4xl leading-1">
 											It is impossible to go out in public these days and not see at least one person young or old wearing a tee of a rock they love. They are ubiquitous and prove that they are relevant now more than ever,  The music merchandise global market has been estimated to be worth close to $4 billion and is growing every year.   Fans cannot get enough of rock tees right now and it was routine this past summer to see fans line up overnight for Taylor Swift “Merch Day”. A special event that happened the day before her concerts where fans could buy exclusive designs.  Videos tagged with “vintage” and “rock tee” have amassed more than 170 million views on TikTok and vintage designs by the likes of Tupac and Nirvana routinely sell for $1,000 on Ebay.  This story is begging to be told.  Pioneers like Dell Furano have  passed away recently and it is important to that these voices do no fade away.
 										</div>
 									</div>
@@ -1458,19 +1458,19 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_28">
+				<div className="min-h-screen slider slider_25">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
 
 								<div className="text-center uppercase text-main-100 pb-5 font-bold text-5xl sm:text-5xl md:text-7xl lg:text-9xl 9xl:text-11xl 13xl:text-13xl text-stroke-main font-b leading-[0.9]">Creator Bios</div>
 
-								<div className="mt-5 grid gap-5 lg:grid-cols-2">
+								<div className="mt-5 grid gap-10 lg:grid-cols-2">
 
 									<div className="item">
 										<div className="space-y-10 text-center uppercase text-xl md:text-2xl 13xl:text-4xl">BENJAMIN JONES</div>
 										<div className="text-center text-[#e6e5d9] p-3 font-normal font-a xl:text-xl 13xl:text-2xl leading-1">
-											Director and Editor Benjamin Jones has been creating video content for brands and bands for the past 15 years. This has included music videos, commercials, live concerts, and documentary content for companies such as Warner Bros, Clorox, AT&T, CBS and Universal. He became a passionate collector or rock tees ever since getting his first one at age of 11.”
+											Director and Editor Benjamin Jones has been creating video content for brands and bands for the past 15 years. This has included music videos, commercials, live concerts, and documentary content for companies such as Warner Bros, Clorox, AT&T, CBS and Universal. He became a passionate collector or rock tees ever since getting his first one at age of 11.
 										</div>
 									</div>
 									<div className="item">
