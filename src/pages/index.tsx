@@ -1210,7 +1210,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_21">
+				{/* <div className="min-h-screen slider slider_21">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1286,8 +1286,8 @@ const IndexPage = () => {
 
 						</div>
 					</div>
-				</div>
-				<div className="min-h-screen slider slider_22">
+				</div> */}
+				<div className="min-h-screen slider slider_21">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1399,7 +1399,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div> */}
-				<div className="min-h-screen slider slider_23">
+				<div className="min-h-screen slider slider_22">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh] xl:grid xl:grid-cols-7">
@@ -1431,7 +1431,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_24">
+				<div className="min-h-screen slider slider_23">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
@@ -1458,7 +1458,7 @@ const IndexPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="min-h-screen slider slider_25">
+				<div className="min-h-screen slider slider_24">
 					<div className="item my-auto px-10 sm:px-15 lg:px-20 3xl:px-30 mx-auto w-full">
 						<div className="py-2 xl:mt-10">
 							<div className="items-center my-auto w-full mx-auto mt-[7vh] 3xl:mt-[10vh] 5xl:mt-[5vh]">
